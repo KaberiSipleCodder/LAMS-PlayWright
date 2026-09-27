@@ -1,0 +1,1713 @@
+<!DOCTYPE html><html lang="en" class=" layout-navbar-fixed layout-menu-fixed layout-compact " dir="ltr" data-skin="default" data-assets-path="assets/" data-template="vertical-menu-template" data-bs-theme="light"><head>
+        <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="csrf-token" content="SJotGWDxBGSEfdY0ecF72IEGbz5znjiD76ULdjH9">
+<title>LAMS - Land Proposals</title>
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/images/flaticon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/fonts/iconify-icons.css">
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/pickr/pickr-themes.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/css/core.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/demo.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css">
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css">
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/fonts/flag-icons.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/apex-charts/apex-charts.css">
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/%40form-validation/form-validation.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/css/pages/page-auth.css">
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/spinkit/spinkit.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/ol.min.css">
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/css/pages/page-icons.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/colour.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/notyf.min.css">
+
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/js/helpers.js"></script><style type="text/css">
+.layout-menu-fixed .layout-navbar-full .layout-menu,
+.layout-menu-fixed-offcanvas .layout-navbar-full .layout-menu {
+  top: 0px !important;
+}
+.layout-page {
+  padding-top: 0px !important;
+}
+.content-wrapper {
+  padding-bottom: 0px !important;
+}</style>
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/js/config.js"></script>
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/main.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/table.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/dropzone.min.css?v=1786438483">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/select2.css">
+
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/table.css?v=1786438483">
+
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/fonts/fontawesome-pro-6/css/all.css">
+
+<link rel="stylesheet" href="https://davidstutz.github.io/bootstrap-multiselect/dist/css/bootstrap-multiselect.css" type="text/css">
+
+
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/form-design.css">
+<link rel="stylesheet" href="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/css/fund_request.css">
+
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/js/anime.min.js"></script>
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/js/jquery.min.js"></script>
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/js/custom/helper.js?v=1786438483"></script>
+
+
+
+
+
+
+
+
+
+    
+    <!-- Dropzone CSS -->
+    <style>
+/* Dropzone Container Base Styling */
+.dropzone {
+    min-height: 90px !important;
+    padding: 12px !important;
+    border: 1px dashed #b9b9b9ff !important;
+    background-color: #f8f9fa !important;
+    border-radius: 8px !important;
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    transition: all 0.25s ease-in-out;
+}
+
+.dropzone:hover {
+    border-color: #5f61e6 !important;
+    background-color: #f3f4ff !important;
+}
+
+.dropzone .dz-message {
+    margin: 10px 0 !important;
+    padding: 0;
+    color: #566a7f;
+    font-weight: 500;
+}
+
+.dropzone .dz-message i {
+    font-size: 2rem;
+    color: #696cff;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.dropzone .dz-message h3 {
+    font-size: 14px;
+    margin: 0;
+    color: #566a7f;
+}
+
+/* Dropzone Preview Card Styling */
+.dropzone .dz-preview {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px;
+    min-height: 90px;
+    border-radius: 8px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid #e7e7e8;
+    overflow: hidden;
+    padding: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.dropzone .dz-preview:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+.dropzone .dz-preview .dz-image {
+    border-radius: 6px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+.dropzone .dz-preview .dz-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dropzone .dz-preview .dz-details {
+    padding: 4px 2px;
+    font-size: 11px;
+    text-align: center;
+    color: #566a7f;
+}
+
+.dropzone .dz-preview .dz-details .dz-filename {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 110px;
+    font-weight: 600;
+}
+
+.dropzone .dz-preview .dz-details .dz-size {
+    font-size: 10px;
+    color: #8592a3;
+    margin-top: 1px;
+}
+
+/* Upload Progress Bar (Until Upload Complete) */
+.dropzone .dz-preview .dz-progress {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 28px;
+    height: 8px;
+    background: #e9ecef;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 30;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Progress bar fill indicator */
+.dropzone .dz-preview .dz-progress .dz-upload {
+    display: block;
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(45deg, #696cff 25%, #787bff 25%, #787bff 50%, #696cff 50%, #696cff 75%, #787bff 75%, #787bff);
+    background-size: 1rem 1rem;
+    animation: dz-progress-stripes 1s linear infinite;
+    border-radius: 4px;
+    transition: width 0.15s ease-in-out;
+}
+
+@keyframes dz-progress-stripes {
+    0% { background-position: 1rem 0; }
+    100% { background-position: 0 0; }
+}
+
+/* Processing Overlay (Shown until upload complete) */
+.dropzone .dz-preview.dz-processing:not(.dz-complete)::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.82);
+    z-index: 25;
+    backdrop-filter: blur(1px);
+}
+
+.dropzone .dz-preview.dz-processing:not(.dz-complete)::after {
+    content: 'Uploading...';
+    position: absolute;
+    top: 18px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: #696cff;
+    z-index: 26;
+    animation: dz-pulse-upload 1.2s infinite ease-in-out;
+}
+
+@keyframes dz-pulse-upload {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+}
+
+/* Hide progress bar and overlay once upload is complete */
+.dropzone .dz-preview.dz-complete .dz-progress {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dropzone .dz-preview.dz-complete::before,
+.dropzone .dz-preview.dz-complete::after {
+    display: none;
+}
+
+/* Success Checkmark Badge */
+.dropzone .dz-preview.dz-success .dz-success-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 35;
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+    background-color: #71dd37;
+    border-radius: 50%;
+    font-size: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.dropzone .dz-preview.dz-success .dz-success-mark svg,
+.dropzone .dz-preview.dz-success .dz-success-mark::before {
+    content: '✓';
+    font-weight: bold;
+}
+
+/* Error State Badge & Message (When File Upload Fails) */
+.dropzone .dz-preview.dz-error {
+    border: 2px solid #ff3e1d !important;
+    background-color: #fff5f5 !important;
+}
+
+.dropzone .dz-preview.dz-error .dz-error-mark {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 35;
+    width: 22px;
+    height: 22px;
+    color: #ffffff;
+    background-color: #ff3e1d;
+    border-radius: 50%;
+    font-size: 13px;
+    box-shadow: 0 2px 5px rgba(255, 62, 29, 0.3);
+}
+
+.dropzone .dz-preview.dz-error .dz-error-mark::before {
+    content: '✕';
+    font-weight: bold;
+}
+
+.dropzone .dz-preview.dz-error .dz-error-message {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 24px;
+    background: rgba(255, 245, 245, 0.96);
+    color: #ff3e1d;
+    padding: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-align: center;
+    z-index: 30;
+    border-radius: 6px 6px 0 0;
+    word-break: break-word;
+    box-shadow: inset 0 0 0 1px rgba(255, 62, 29, 0.2);
+}
+
+.dropzone .dz-preview.dz-error .dz-error-message span,
+.dropzone .dz-preview.dz-error .dz-error-message [data-dz-errormessage] {
+    display: block;
+    max-width: 100%;
+    line-height: 1.3;
+}
+
+/* Dropzone Form Validation Failure (When File is Missing / Not Uploaded) */
+.dropzone.is-invalid,
+.dropzone.error,
+.dropzone.has-error {
+    border-color: #ff3e1d !important;
+    background-color: #fff5f5 !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 62, 29, 0.15) !important;
+}
+
+.dropzone.is-invalid .dz-message,
+.dropzone.error .dz-message,
+.dropzone.has-error .dz-message {
+    color: #ff3e1d !important;
+}
+
+.dropzone.is-invalid .dz-message i,
+.dropzone.error .dz-message i,
+.dropzone.has-error .dz-message i {
+    color: #ff3e1d !important;
+}
+
+/* Error message label placement below dropzone container */
+.dropzone + .invalid-feedback,
+.dropzone + .error,
+.dropzone + span.error,
+.dropzone + div.error,
+.dropzone.is-invalid ~ .invalid-feedback,
+.dropzone.is-invalid ~ .error,
+.dropzone.error ~ .error {
+    display: block !important;
+    color: #ff3e1d !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+    margin-top: 6px !important;
+    text-align: left;
+}
+
+/* Remove Button / Link Styling */
+.dropzone .dz-preview .dz-remove {
+    display: block;
+    margin-top: 4px;
+    font-size: 11px;
+    color: #ff3e1d !important;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-align: center;
+    transition: color 0.2s ease;
+    position: relative;
+    z-index: 31;
+}
+
+.dropzone .dz-preview .dz-remove:hover {
+    color: #ce1a00 !important;
+    text-decoration: underline;
+}
+</style>
+
+    
+    <!-- Dropzone JS -->
+    <script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/js/dropzone.min.js"></script>        
+
+</head>
+
+<body>
+    <div>
+        <div id="global-loader">
+            <div class="sk-chase">
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+                <div class="sk-chase-dot"></div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="confirmModal" data-bs-backdrop="static">
+            <div class="modal-dialog modal-sm modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body modal-body-style">
+                        <form id="confirm_modal_submit_form">
+                            <div class="text-center">
+                                <span class="confirm-modal-icon">
+                                    <i class="bx bx-trash"></i>
+                                </span>
+                                <h1 class="confirm-modal-title">Are you sure ?</h1>
+                                <p>Would You like to delete this record ? </p>
+                                <div class="d-flex align-items-center gap-3 justify-content-center">
+                                    <button type="button" class="btn btn-label-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button class="btn btn-danger" form="confirm_modal_submit_form" id="confirm-modal-delete-button">Delete</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="main-parent">
+        <div class="layout-wrapper layout-content-navbar">
+            <div class="layout-container">
+                <aside data-navigate-once="" id="layout-menu" onmouseover="toggleLayoutMenuMouseOver()" onmouseout="toggleLayoutMenuMouseOut()" class="layout-menu menu-vertical menu sidebar-menu" style="background-color: #2f25b1;">
+
+    <div class="app-brand demo">
+        <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
+            <i class="icon-base bx bx-chevron-left"></i>
+        </a>
+    </div>
+
+    <div class="menu-inner-shadow"></div>
+
+
+
+    <ul class="menu-inner py-1">
+        <!-- Dashboards -->
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Dashboards">
+                <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/dashboard" class="menu-link">
+                    
+                    <i class="menu-icon icon-base bx bx-home-alt"></i>
+                    <div data-i18n="Dashboards">Dashboards</div>
+                </a>
+            </li>
+        
+        <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="GIS &amp; Spatial Data">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon icon-base bx bx-globe"></i>
+                <div data-i18n="GIS &amp; Spatial Data">GIS &amp; Spatial Data</div>
+            </a>
+            <ul class="menu-sub">
+                <!-- Map Management -->
+
+                                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Map">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/map" class="menu-link">
+                            
+                            
+                            <i class="bx bx-map me-2"></i>
+                            <div data-i18n="Map">Map</div>
+                        </a>
+                    </li>
+                
+                <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Map Upload Manager">
+                    <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/map/upload/list" class="menu-link">
+                        
+                        
+                        <i class="bx bx-upload me-2"></i>
+                        <div data-i18n="Map Upload Manager">Map Upload Manager</div>
+                    </a>
+                </li>
+
+                <!-- Map Management -->
+
+            </ul>
+        </li>
+
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Layers Management">
+                <a href="javascript:void(0)" class="menu-link menu-toggle">
+                    <i class="menu-icon icon-base bx bx-layer"></i>
+                    <div data-i18n="Layers Management">Layers Management</div>
+                </a>
+                <ul class="menu-sub">
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Layers Master">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/layers_master" class="menu-link">
+                            <i class="bx bx-layer me-2"></i>
+                            <div data-i18n="Layers Master">Layers Master</div>
+                        </a>
+                    </li>
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Layer Management">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/layers-management" class="menu-link">
+                            <i class="bx bx-grid-alt me-2"></i>
+                            <div data-i18n="Layer Management">Layer Management</div>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            
+        
+                    <li class="menu-item active open" data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Land Identification / Proposal">
+                <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks" class="menu-link">
+                    <i class="menu-icon icon-base bx bx-search-alt"></i>
+                    <div data-i18n="Land Banks">Land Identification / Proposal</div>
+                </a>
+            </li>
+        
+
+        <!-- Land/Plot/Khasra Management -->
+        <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Project &amp; Land Management">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon icon-base bx bx-map-pin"></i>
+                <div data-i18n="Land Management">Project &amp; Land Management</div>
+            </a>
+            <ul class="menu-sub">
+                                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Projects">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/projects" class="menu-link">
+                            <i class="bx bx-file me-2"></i>
+                            <div data-i18n="Projcets">Projects</div>
+                        </a>
+                    </li>
+                                                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Plot Management">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/plotmanagements" class="menu-link">
+                            <i class="bx bx-map-alt me-2"></i>
+                            <div data-i18n="Plot Management">Plots</div>
+                        </a>
+                    </li>
+                
+            </ul>
+        </li>
+
+        
+
+        
+
+        
+
+
+        
+
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Litigation Management">
+                <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/legalandlitigations" class="menu-link">
+                    <i class="menu-icon icon-base bx bx-search-alt"></i>
+                    <div data-i18n="Land Banks">Litigation Management</div>
+                </a>
+            </li>
+        
+
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Tax &amp; Compliance Management">
+                <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/taxcompliances" class="menu-link">
+                    <i class="menu-icon icon-base bx bx-receipt"></i>
+                    <div data-i18n="taxcompliances">Tax &amp; Compliance Management</div>
+                </a>
+            </li>
+        
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Encroachment Management">
+                <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/encroachments/encroachments" class="menu-link">
+                    <i class="menu-icon icon-base bx bx-error-circle"></i>
+                    <div data-i18n="encroachments">Encroachment Management</div>
+                </a>
+            </li>
+        
+        
+
+        <li class="menu-item ">
+
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon icon-base bx bx-wallet"></i>
+                <div>Financial Operations</div>
+            </a>
+
+            <ul class="menu-sub">
+
+                <li class="menu-item ">
+                    <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/aggregator-payments" class="menu-link">
+                        <i class="bx bx-credit-card me-2"></i>
+                        <div>Payment Management</div>
+                    </a>
+                </li>
+
+                <li class="menu-item ">
+                    <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/lease-sales" class="menu-link">
+                        <i class="bx bx-receipt me-2"></i>
+                        <div>Lease and Sales</div>
+                    </a>
+                </li>
+
+            </ul>
+        </li>
+
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="R &amp; R Activity Management">
+                <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/rnrs" class="menu-link">
+                    <i class="menu-icon icon-base bx bx-group"></i>
+                    <div data-i18n="rnrs">R &amp; R Activity Management</div>
+                </a>
+            </li>
+        
+                    <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Document Management">
+                <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/documentmanagements" class="menu-link">
+                    <i class="menu-icon icon-base bx bx-file"></i>
+                    <div data-i18n="documentmanagements">Document Management</div>
+                </a>
+            </li>
+        
+        <!-- Report Management -->
+        <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Reports &amp; Analytics">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon icon-base bx bx-bar-chart-alt-2"></i>
+                <div data-i18n="Reports &amp; Analytics">Reports &amp; Analytics</div>
+            </a>
+            <ul class="menu-sub">
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/reports/land-library" class="menu-link">
+                            <i class="bx bx-map me-2"></i>
+                            <div data-i18n="Land Banks">
+                                                                    Renewable Land Report
+                                                            </div>
+                        </a>
+                    </li>
+                
+                <!--                     <li class="menu-item  " data-bs-toggle="tooltip" data-bs-offset="0,6"
+                        data-bs-placement="right" data-bs-html="true" data-bs-original-title="Mutation Report">
+                        <a href="#" class="menu-link">
+                            <i class='bx bx-transfer me-2'></i>
+                            <div data-i18n="Mutation">Mutation Report</div>
+                        </a>
+                    </li>
+                 -->
+
+                
+
+                                    <li class="menu-item  " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="RNR Employment Reports">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/reports/rnr-employment" class="menu-link">
+                            <i class="bx bx-user me-2"></i>
+                            <div data-i18n="RNR Employment">RNR Employment Reports</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item  " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Acquisition Status Report">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/reports/acquisition-status" class="menu-link">
+                            <i class="bx bx-line-chart me-2"></i>
+                            <div data-i18n="Acquisition Status">Acquisition Status Report</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item  " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Project Wise Payment Report">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/reports/project-wise-payment" class="menu-link">
+                            <i class="bx bx-credit-card me-2"></i>
+                            <div data-i18n="Project Wise Payment">Project Wise Payment Report</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item  " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Plot Owner Wise Payment Report">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/reports/plot-owner-wise-payment" class="menu-link">
+                            <i class="bx bx-user-circle me-2"></i>
+                            <div data-i18n="Plot Owner Wise Payment">Plot Owner Wise Payment Report</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item  " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Plot Wise Payment Report">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/reports/plot-wise-payment" class="menu-link">
+                            <i class="bx bx-money me-2"></i>
+                            <div data-i18n="Plot Wise Payment">Plot Wise Payment Report</div>
+                        </a>
+                    </li>
+                
+                <!--                     <li class="menu-item  " data-bs-toggle="tooltip" data-bs-offset="0,6"
+                        data-bs-placement="right" data-bs-html="true" data-bs-original-title="Custom Report">
+                        <a href="#" class="menu-link">
+                             <i class='bx bx-cog me-2'></i>
+                            <div data-i18n="Projects">Custom Report</div>
+                        </a>
+                    </li>
+                 -->
+
+            </ul>
+        </li>
+
+        <!-- Master Management -->
+        <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Master Management">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon icon-base bx bx-data"></i>
+                <div data-i18n="Location Management">Master Management</div>
+            </a>
+            <ul class="menu-sub">
+
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/geo-units" class="menu-link">
+
+                            <i class="bx bx-buildings me-2"></i>
+                            <div data-i18n="Units">Units/Plants</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item  ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/states" class="menu-link">
+                            <i class="bx bx-map me-2"></i>
+                            <div data-i18n="States">States</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item  ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/districts" class="menu-link">
+                            <i class="bx bx-map-pin me-2"></i>
+                            <div data-i18n="Districts">Districts</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/talukas" class="menu-link ">
+                            <i class="bx bx-location-plus me-2"></i>
+                            <div data-i18n="Talukas">Talukas</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/villages" class="menu-link">
+                            <i class="bx bx-home-alt me-2"></i>
+                            <div data-i18n="Villages">Villages</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/plot-types" class="menu-link">
+                            <i class="bx bx-landscape me-2"></i>
+                            <div data-i18n="Land Types">Land Types</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/plotcategories" class="menu-link">
+                            <i class="bx bx-layer me-2"></i>
+                            <div data-i18n="Plot Categories">Land Categories</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/designations" class="menu-link">
+                            <i class="bx bx-id-card me-2"></i>
+                            <div data-i18n="Designation">Designation</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/departments" class="menu-link">
+                            <i class="bx bx-sitemap me-2"></i>
+                            <div data-i18n="Department">Department</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/documentTypes" class="menu-link">
+                            <i class="bx bx-file me-2"></i>
+                            <div data-i18n="Document Types">Document Types</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/documentcategories" class="menu-link">
+                            <i class="bx bx-folder me-2"></i>    
+                            <div data-i18n="Document Categories">Document Categories</div>
+                        </a>
+                    </li>
+                
+                
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/areaunitconversions" class="menu-link">
+                            <i class="bx bx-ruler me-2"></i>   
+                            <div data-i18n="Area Unit Conversions">Area Unit Conversions</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/tax-types" class="menu-link">
+                            <i class="bx bx-receipt me-2"></i>  
+                            <div data-i18n="Tax Types">Tax Types</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/taxauthorities" class="menu-link">
+                            <i class="bx bx-shield me-2"></i>  
+                            <div data-i18n="Tax Authority">Tax Authority</div>
+                        </a>
+                    </li>
+                
+
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/companies" class="menu-link">
+                            <i class="bx bx-building me-2"></i> 
+                            <div data-i18n="Company">Companies</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/substations" class="menu-link">
+                            <i class="bx bx-bolt-circle me-2"></i> 
+                            <div data-i18n="Substation">Substations</div>
+                        </a>
+                    </li>
+                
+
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/aggregators" class="menu-link">
+                            <i class="bx bx-group me-2"></i>
+                            <div data-i18n="Users">Aggregators</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/advocates" class="menu-link">
+                            <i class="bx bx-user-voice me-2"></i>
+                            <div data-i18n="Advocates">Advocates</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/services" class="menu-link">
+                            <i class="bx bx-briefcase me-2"></i>
+                            <div data-i18n="Services">Services</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/spvs" class="menu-link">
+                            <i class="bx bx-network-chart me-2"></i>
+                            <div data-i18n="Substation">Spvs</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/training-types" class="menu-link">
+                            <i class="bx bx-book-open me-2"></i>
+                            <div data-i18n="Training Types">Training Types</div>
+                        </a>
+                    </li>
+                                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/employment-types" class="menu-link">
+                            <i class="bx bx-briefcase me-2"></i>
+                            <div data-i18n="Employment Types">Employment Types</div>
+                        </a>
+                    </li>
+                                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/incident-types" class="menu-link">
+                            <i class="bx bx-error-circle me-2"></i>
+                            <div data-i18n="Incident Types">Incident Types</div>
+                        </a>
+                    </li>
+                            </ul>
+        </li>
+        <!-- Admin Management -->
+        <li class="menu-item " data-bs-toggle="tooltip" data-bs-offset="0,6" data-bs-placement="right" data-bs-html="true" data-bs-original-title="Admin Management">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+                <i class="menu-icon icon-base bx bx-user-circle"></i>
+                <div data-i18n="Admin Management">Admin Management</div>
+            </a>
+            <ul class="menu-sub">
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/users" class="menu-link">
+                            <i class="bx bx-user me-2"></i>
+                            <div data-i18n="Users">Users</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item  ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/roles" class="menu-link">
+                            <i class="bx bx-shield-quarter me-2"></i>
+                            <div data-i18n="Roles">Roles</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/actions" class="menu-link ">
+                            <i class="bx bx-cog me-2"></i>
+                            <div data-i18n="Actions">Actions</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/modules" class="menu-link">
+                            <i class="bx bx-package me-2"></i>
+                            <div data-i18n="Modules">Modules</div>
+                        </a>
+                    </li>
+                
+                                    <li class="menu-item ">
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/settings" class="menu-link">
+                            <i class="bx bx-slider me-2"></i>
+                            <div data-i18n="Settings">Settings</div>
+                        </a>
+                    </li>
+                            </ul>
+        </li>
+
+    </ul>
+
+</aside>
+
+<div class="menu-mobile-toggler d-xl-none rounded-1">
+    <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large text-bg-secondary p-2 rounded-1">
+        <i class="bx bx-menu icon-base"></i>
+        <i class="bx bx-chevron-right icon-base"></i>
+    </a>
+</div>
+                <div class="layout-page">
+                    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&amp;family=Syne:wght@400;600&amp;display=swap" rel="stylesheet">
+
+<style>
+    /* ===============================
+    LAMS ASSIST BUTTON
+    ================================= */
+
+    .lams-assist-shell {
+        position: relative;
+        display: inline-flex;
+        isolation: isolate;
+        margin-left: 0px;
+        margin-right: 8px;
+    }
+
+    .lams-assist-shell::before {
+        content: '';
+        position: absolute;
+        inset: -4px;
+        z-index: -1;
+        border-radius: 999px;
+        background: linear-gradient(90deg, rgba(0, 184, 148, .25), rgba(9, 132, 227, .22), rgba(255, 193, 7, .22));
+        filter: blur(10px);
+        opacity: .7;
+        animation: assistAura 3s ease-in-out infinite;
+        pointer-events: none;
+    }
+
+    @keyframes assistAura {
+
+        0%,
+        100% {
+            opacity: .45;
+            transform: scale(.98);
+        }
+
+        50% {
+            opacity: .9;
+            transform: scale(1.02);
+        }
+    }
+
+    .lams-assist-btn {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        min-height: 36px;
+        padding: 4px 6px 4px 6px;
+        border-radius: 999px;
+        border: none;
+        overflow: hidden;
+        color: #08315f;
+        text-decoration: none;
+        background: linear-gradient(#ffffff, #ffffff) padding-box, conic-gradient(from 140deg, #00b894, #0984e3, #f6b93b, #d63031, #00b894) border-box;
+        border: 2px solid transparent;
+        box-shadow: 0 10px 26px rgba(8, 49, 95, .12), inset 0 1px 0 rgba(255, 255, 255, .8);
+        transition: transform .22s ease, box-shadow .22s ease;
+    }
+
+    .lams-assist-btn:hover {
+        color: #05264c;
+        transform: translateY(-2px);
+        box-shadow:
+            0 14px 34px rgba(9, 132, 227, .2),
+            0 4px 14px rgba(0, 184, 148, .15);
+    }
+
+    .lams-assist-btn::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+        width: 34%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255, 255, 255, .9), transparent);
+        transform: translateX(-140%) skewX(-18deg);
+        animation: assistShine 3.4s ease-in-out infinite;
+        pointer-events: none;
+    }
+
+    @keyframes assistShine {
+
+        0%,
+        35% {
+            transform: translateX(-140%) skewX(-18deg);
+        }
+
+        100% {
+            transform: translateX(360%) skewX(-18deg);
+        }
+    }
+
+    .lams-assist-logo {
+        width: 28px;
+        height: 28px;
+        object-fit: contain;
+        flex-shrink: 0;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, .94);
+        box-shadow: 0 0 0 4px rgba(9, 132, 227, .08), 0 5px 12px rgba(8, 49, 95, .14);
+        animation: assistFloat 2.8s ease-in-out infinite;
+    }
+
+    @keyframes assistFloat {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-2px);
+        }
+    }
+
+    .lams-assist-title {
+        font-family: 'Orbitron', sans-serif;
+        font-size: 12px;
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: .04em;
+        white-space: nowrap;
+        background: linear-gradient(90deg, #0b4f9c, #00a884, #e08b00, #0b4f9c);
+        background-size: 220% auto;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: assistText 4s linear infinite;
+    }
+
+    @keyframes assistText {
+
+        0% {
+            background-position: 0 center;
+        }
+
+        100% {
+            background-position: 220% center;
+        }
+    }
+
+    .lams-assist-sparks {
+        position: absolute;
+        top: -6px;
+        right: -7px;
+        filter: drop-shadow(0 4px 8px rgba(9, 132, 227, .2));
+        animation: assistSpark 1.7s ease-in-out infinite;
+    }
+
+    @keyframes assistSpark {
+
+        0%,
+        100% {
+            opacity: .55;
+            transform: scale(.92) rotate(0deg);
+        }
+
+        50% {
+            opacity: 1;
+            transform: scale(1.08) rotate(8deg);
+        }
+    }
+
+    .navbar-logo-divider {
+        width: 1px;
+        height: 42px;
+
+        background:
+            linear-gradient(to bottom,
+                transparent,
+                rgba(148, 163, 184, 0.55),
+                transparent);
+
+        margin: 0 6px;
+
+        position: relative;
+    }
+
+    /* Optional soft glow */
+    .navbar-logo-divider::after {
+        content: "";
+
+        position: absolute;
+        top: 0;
+        left: -1px;
+
+        width: 3px;
+        height: 100%;
+
+        background:
+            linear-gradient(to bottom,
+                transparent,
+                rgba(59, 130, 246, 0.12),
+                transparent);
+
+        filter: blur(2px);
+    }
+
+    .dropdown-user .dropdown-menu {
+        min-width: 268px;
+        border: 1px solid rgba(15, 23, 42, .08);
+        border-radius: 14px;
+        box-shadow: 0 18px 46px rgba(15, 23, 42, .16);
+    }
+
+    .support-dropdown-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: .543rem 1rem;
+        border: 0;
+        color: var(--bs-dropdown-link-color);
+        background: transparent;
+        font-weight: 400;
+        text-align: left;
+        transition: color .15s ease, background-color .15s ease;
+    }
+
+    .support-dropdown-button:hover {
+        color: #073b72;
+        background: linear-gradient(90deg, rgba(9, 132, 227, .08), rgba(0, 184, 148, .08));
+    }
+
+    .support-dropdown-button:disabled {
+        cursor: wait;
+        opacity: .72;
+    }
+
+    .support-dropdown-button i {
+        width: 1.5rem;
+        margin-right: 1rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: #0aa6c2;
+    }
+
+    @media (max-width: 1199.98px) {
+        .lams-assist-btn {
+            min-height: 46px;
+            padding: 6px 12px 6px 8px;
+        }
+
+        .lams-assist-title {
+            font-size: 13px;
+        }
+
+        .lams-assist-logo {
+            width: 34px;
+            height: 34px;
+        }
+    }
+</style>
+
+<nav data-navigate-once="" class="layout-navbar container-xxl navbar-detached navbar navbar-expand-xl align-items-center bg-navbar-theme" id="layout-navbar" style="background-color: #ffffff;">
+
+    <!--    <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0 d-xl-none">-->
+    <!--        <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">-->
+    <!--            <i class="icon-base bx bx-menu icon-md"></i>-->
+    <!--        </a>-->
+    <!--    </div>-->
+
+    <div class="navbar-nav-right d-flex align-items-center justify-content-between gap-4" id="navbar-collapse">
+        <div class="app-brand demo demo-2">
+
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-4 me-xl-0   d-xl-none ">
+                <a class="nav-item nav-link px-0 me-xl-6" href="javascript:void(0)">
+                    <i class="icon-base bx bx-menu icon-md"></i>
+                </a>
+            </div>
+
+            <a class="nav-item nav-link search-toggler px-0" href="javascript:void(0);">
+                <span class="d-inline-block text-body-secondary fw-normal" id="autocomplete">
+                    <img src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/images/logo/company_logo.png" class="img-fluid" alt="Logo" style="width:130px;">
+                </span>
+            </a>
+        </div>
+
+        <!-- text -->
+        <div class="navbar-nav navbar-text align-items-center text-center">
+            <div class="nav-item navbar-search-wrapper mb-0">
+                <a class="nav-item nav-link search-toggler px-0" href="javascript:void(0);">
+                    <span class="d-inline-block text-body-secondary text-body-secondary-2 fw-normal ml3">
+                        <span class="letter" style="opacity: 1;">L</span><span class="letter" style="opacity: 1;">a</span><span class="letter" style="opacity: 1;">n</span><span class="letter" style="opacity: 1;">d</span> <span class="letter" style="opacity: 1;">A</span><span class="letter" style="opacity: 1;">c</span><span class="letter" style="opacity: 1;">q</span><span class="letter" style="opacity: 1;">u</span><span class="letter" style="opacity: 1;">i</span><span class="letter" style="opacity: 1;">s</span><span class="letter" style="opacity: 1;">i</span><span class="letter" style="opacity: 1;">t</span><span class="letter" style="opacity: 1;">i</span><span class="letter" style="opacity: 1;">o</span><span class="letter" style="opacity: 1;">n</span> <span class="letter" style="opacity: 1;">M</span><span class="letter" style="opacity: 1;">a</span><span class="letter" style="opacity: 1;">n</span><span class="letter" style="opacity: 1;">a</span><span class="letter" style="opacity: 1;">g</span><span class="letter" style="opacity: 1;">e</span><span class="letter" style="opacity: 1;">m</span><span class="letter" style="opacity: 1;">e</span><span class="letter" style="opacity: 1;">n</span><span class="letter" style="opacity: 1;">t</span> <span class="letter" style="opacity: 1;">S</span><span class="letter" style="opacity: 0.999977;">y</span><span class="letter" style="opacity: 0.965897;">s</span><span class="letter" style="opacity: 0.878112;">t</span><span class="letter" style="opacity: 0.725108;">e</span><span class="letter" style="opacity: 0.514331;">m</span>
+                    </span>
+
+                </a>
+            </div>
+        </div>
+        <!-- /text -->
+
+
+        <ul class="navbar-nav flex-row align-items-center">
+
+            <!-- Notification -->
+            
+
+
+            <div class="nav-item nav-link px-0 d-flex">
+                <div class="d-flex align-items-center gap-2">
+
+                    <!-- Existing LAMS Logo -->
+                    <img src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/images/icons/image_4.png" class="img-fluid" alt="LAMS Logo" style="width:100px;">
+
+                    <!-- New Logo -->
+                    
+
+                    <div class="navbar-logo-divider"></div>
+
+                    <div class="lams-assist-shell">
+
+                        <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/sql-agent" class="lams-assist-btn" aria-label="Open LAMS Assist">
+
+                            <!-- Logo -->
+                            <img src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/images/logo/lams-logo-v2.png" class="lams-assist-logo" alt="LAMS Assist">
+
+                            <!-- Text -->
+                            <span class="lams-assist-title">LAMS Assist</span>
+
+                            <!-- Spark -->
+                            <svg class="lams-assist-sparks" width="20" height="20" viewBox="0 0 22 22" fill="none">
+                                <path d="M6 0 L7.2 4.8 L12 6 L7.2 7.2 L6 12 L4.8 7.2 L0 6 L4.8 4.8 Z" fill="#1565c0"></path>
+
+                                <path d="M17 9 L17.8 12.2 L21 13 L17.8 13.8 L17 17 L16.2 13.8 L13 13 L16.2 12.2 Z" fill="#4caf50"></path>
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="navbar-logo-divider"></div>
+
+                            <li class="nav-item me-3">
+                    <a href="https://uat.lamsapp.com/php8_4/product/advanced/current/auth/change-business-type" class="nav-link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Industry: Renewable">
+                        <i class="icon-base bx bx-buildings fs-5"></i>
+                    </a>
+                </li>
+            
+            <li class="nav-item dropdown-notifications navbar-dropdown dropdown me-3 me-xl-2">
+
+                <a class="nav-link dropdown-toggle hide-arrow icon-container" href="javascript:void(0);" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false">
+                    <span class="position-relative">
+                        <i class="icon-base bx bx-bell icon-md bell-icon"></i>
+                        <span class="badge rounded-pill bg-danger badge-dot badge-notifications border pulse"></span>
+                    </span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end p-0">
+                    <li class="dropdown-menu-header border-bottom">
+                        <div class="dropdown-header d-flex align-items-center py-3">
+                            <h6 class="mb-0 me-auto">Notification</h6>
+                            <div class="d-flex align-items-center h6 mb-0">
+                                <span class="badge bg-label-primary me-2">0 New</span>
+                                
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown-notifications-list scrollable-container">
+                        
+                    </li>
+                    <li class="border-top">
+                        <div class="d-grid p-4">
+                            <a class="btn btn-primary btn-sm d-flex" href="https://uat.lamsapp.com/php8_4/product/advanced/current/notifications">
+                                <small class="align-middle">View all notifications</small>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <!--/ Notification -->
+            <!-- User -->
+            <li class="nav-item navbar-dropdown dropdown-user dropdown">
+                <a class="nav-link dropdown-toggle hide-arrow p-0" href="javascript:void(0);" data-bs-toggle="dropdown">
+                    <div class="avatar avatar-online">
+                        
+                        <img src="https://uat.lamsapp.com/php8_4/product/advanced/current/public/storage/229/6a69c93051d5b_6a2a895216742_profile-user-(1).png" alt="Profile Image" class="rounded-circle">
+                    </div>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <a class="dropdown-item" href="javascript:void(0);">
+                            <div class="d-flex">
+                                <div class="flex-shrink-0 me-3">
+                                    <div class="avatar avatar-online">
+                                        
+                                        <img src="https://uat.lamsapp.com/php8_4/product/advanced/current/public/storage/229/6a69c93051d5b_6a2a895216742_profile-user-(1).png" alt="Profile Image" class="w-px-40 h-auto rounded-circle">
+                                    </div>
+                                </div>
+                                <div class="flex-grow-1">
+                                    <h6 class="mb-0">Cyber Swift</h6>
+                                    <small class="text-body-secondary">Admin</small>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="dropdown-divider my-1"></div>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="https://uat.lamsapp.com/php8_4/product/advanced/current/profile"> <i class="icon-base bx bx-user icon-md me-3"></i><span>My Profile</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="https://uat.lamsapp.com/php8_4/product/advanced/current/userchangepassword"> <i class="icon-base bx bx-key icon-md me-3"></i><span>Change Password</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="#" data-url="https://uat.lamsapp.com/php8_4/product/advanced/current/support/sso/redirect" data-token="SJotGWDxBGSEfdY0ecF72IEGbz5znjiD76ULdjH9" id="support-sso-button">
+                            <i class="icon-base bx bx-support icon-md me-3"></i><span>Help &amp; Support</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <div class="dropdown-divider my-1"></div>
+                    </li>
+
+                    <li>
+                        <a class="dropdown-item" href="https://uat.lamsapp.com/php8_4/product/advanced/current/auth/logout">
+                            <i class="icon-base bx bx-power-off icon-md me-3"></i><span>Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <!--/ User -->
+
+        </ul>
+    </div>
+
+</nav>
+<script>
+    // Text Animation
+    var textWrapper = document.querySelector('.ml3');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline()
+        .add({
+            targets: '.ml3 .letter',
+            opacity: [0, 1],
+            easing: "easeInOutQuad",
+            duration: 800,
+            delay: (el, i) => 100 * (i + 1)
+        });
+
+    document.getElementById('support-sso-button')?.addEventListener('click', async function (event) {
+        event.preventDefault();
+        event.stopPropagation();
+
+        const button = this;
+        if (button.classList.contains('disabled')) {
+            return;
+        }
+
+        button.classList.add('disabled');
+
+        // Create and append a small spinner loader next to the text
+        const spinner = document.createElement('span');
+        spinner.className = 'spinner-border spinner-border-sm text-primary ms-2';
+        spinner.setAttribute('role', 'status');
+        spinner.setAttribute('aria-hidden', 'true');
+        button.appendChild(spinner);
+
+        try {
+            const response = await fetch(button.dataset.url, {
+                method: 'POST',
+                credentials: 'same-origin',
+                headers: {
+                    'Accept': 'application/json',
+                    'X-Requested-With': 'XMLHttpRequest',
+                    'X-CSRF-TOKEN': button.dataset.token,
+                },
+            });
+
+            const data = await response.json();
+
+            if (! response.ok) {
+                throw new Error(data.message || 'Support login could not be started.');
+            }
+
+            console.log(data);
+
+            const form = document.createElement('form');
+            form.method = 'POST';
+            form.action = data.login_url;
+            form.style.display = 'none';
+
+            ['request_id', 'client_id', 'encrypted_payload', 'encrypted_key', 'signature'].forEach(function (name) {
+                const input = document.createElement('input');
+                input.type = 'hidden';
+                input.name = name;
+                input.value = data[name];
+                form.appendChild(input);
+            });
+
+            document.body.appendChild(form);
+            form.submit();
+        } catch (error) {
+            button.classList.remove('disabled');
+            spinner.remove();
+            alert(error.message);
+        }
+    });
+
+    $(document).ready(function() {
+        function loadNavbarNotifications() {
+            $.ajax({
+                url: "https://uat.lamsapp.com/php8_4/product/advanced/current/notifications/navbar",
+                method: "GET",
+                success: function(res) {
+                    if (res.status) {
+                        const count = res.unread_count;
+                        const badge = $('.badge-notifications');
+                        const headerText = $('.dropdown-header .badge');
+                        
+                        if (count > 0) {
+                            badge.show().text(count).removeClass('badge-dot');
+                            headerText.text(count + ' New');
+                        } else {
+                            badge.hide().text('').addClass('badge-dot');
+                            headerText.text('0 New');
+                        }
+                        
+                        const listContainer = $('.dropdown-notifications-list');
+                        listContainer.empty();
+                        
+                        if (res.notifications.length > 0) {
+                            let html = '<ul class="list-group list-group-flush">';
+                            res.notifications.forEach(function(noti) {
+                                html += `
+                                    <li class="list-group-item list-group-item-action dropdown-notifications-item">
+                                        <a href="${noti.click_url}" class="d-flex text-decoration-none text-reset">
+                                            <div class="flex-shrink-0 me-3">
+                                                <div class="avatar">
+                                                    <span class="avatar-initial rounded-circle bg-label-warning d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+                                                        <i class="bx bx-bell"></i>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="flex-grow-1">
+                                                <h6 class="small mb-0 fw-bold">${noti.title}</h6>
+                                                <small class="mb-1 d-block text-body">${noti.message}</small>
+                                                <small class="text-body-secondary">${noti.time}</small>
+                                            </div>
+                                        </a>
+                                    </li>
+                                `;
+                            });
+                            html += '</ul>';
+                            listContainer.html(html);
+                        } else {
+                            listContainer.html('<p class="text-center text-muted my-4">No new notifications</p>');
+                        }
+                    }
+                }
+            });
+        }
+        window.loadNavbarNotifications = loadNavbarNotifications;
+        
+        // Load notifications initially
+        loadNavbarNotifications();
+
+        // Mark all as read click
+        $(document).on('click', '.dropdown-notifications-all', function(e) {
+            e.preventDefault();
+            $.ajax({
+                url: "https://uat.lamsapp.com/php8_4/product/advanced/current/notifications/mark-all-read-web",
+                method: "POST",
+                data: {
+                    _token: "SJotGWDxBGSEfdY0ecF72IEGbz5znjiD76ULdjH9"
+                },
+                success: function(res) {
+                    if (res.status) {
+                        loadNavbarNotifications();
+                    }
+                }
+            });
+        });
+    });
+</script>
+                    <div class="content-wrapper">
+                        
+    <style>
+        .nav-tabs .nav-item {
+            flex-grow: 1;
+        }
+        .nav-tabs .nav-link {
+            white-space: nowrap;
+            border-radius: 3px;
+            display: flex;
+            justify-content: flex-start;
+            padding: 22px 20px;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        .nav-tabs .nav-link span {
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #000;
+            background: #f4f6ff;
+        }
+        .nav-tabs .nav-link.active {
+            color: #172262;
+            box-shadow: none !important;
+            font-weight: 600;
+        }
+        .nav-tabs .nav-link::before {
+            content: unset;
+            position: absolute;
+            inset: 0;
+            background: #f4f6ff;
+            clip-path: polygon(0 0, calc(100% - 28px) 0, 100% 50%, calc(100% - 28px) 100%, 0 100%);
+            z-index: -1;
+        }
+        .nav-tabs .nav-link.active::before {
+           content: ""; 
+        }
+        .nav-tabs .nav-link.active span {
+            background: #172262;
+            color: #fff;
+        }
+        .nav-tabs .nav-link:hover {
+            box-shadow: none;
+        }
+        h4.approval-process {
+            font-size: 16px;
+            font-weight: 700;
+            color: #212121;
+        }
+    </style>
+    
+    
+    <div class="content-wrapper">
+        <div class="container-xxl flex-grow-1 container-p-y">
+            <h4 class="mb-1 approval-process"><i class="bx bx-bar-chart bx-rotate-90"></i>Edit New Land Proposal Details</h4>
+
+                            <div class="alert alert-success">Step 2 updated. Proceed to Step 3.</div>
+            
+            <div class="card" style="overflow: hidden;">
+                <ul class="nav nav-tabs" id="landbankTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/1964dfc3-8052-4fbe-a0b3-87103201a944/edit" role="tab">
+                            <span>1</span>
+                            Land Bank Details
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/1964dfc3-8052-4fbe-a0b3-87103201a944/edit-step2" role="tab">
+                            <span>2</span>
+                            Technical Team Details
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/1964dfc3-8052-4fbe-a0b3-87103201a944/edit-step3" role="tab">
+                            <span>3</span>
+                            BD Team Details
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-content p-0 mt-5">
+                <div class="tab-pane fade " id="tab1">
+                                    </div>
+
+                <div class="tab-pane fade " id="tab2">
+                                    </div>
+
+                <div class="tab-pane fade active show" id="tab3">
+                                            <form id="tech-bd-form" method="POST" action="https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/store-step3">
+                            <input type="hidden" name="_token" value="SJotGWDxBGSEfdY0ecF72IEGbz5znjiD76ULdjH9" autocomplete="off">                            <input type="hidden" name="land_bank_id" value="48">
+                            <div class="card p-5">
+    <div class="row">
+        <input type="hidden" name="uuid" value="a401d945-3c1a-49ba-91f1-fcfa3f57ad48">
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_land_basic_cost_sale" class="form-label">Basic Cost Sale <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_land_basic_cost_sale" name="tlbbt_land_basic_cost_sale" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="500000" placeholder="Enter Basic Cost Sale">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_land_basic_cost_lease" class="form-label">Basic Cost Lease <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_land_basic_cost_lease" name="tlbbt_land_basic_cost_lease" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="200000" placeholder="Enter Basic Cost Lease">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_stamp_duty_and_reg_charges_sale" class="form-label">Stamp Duty &amp; Reg. Charges Sale <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_stamp_duty_and_reg_charges_sale" name="tlbbt_stamp_duty_and_reg_charges_sale" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="50000" placeholder="Enter Stamp Duty &amp; Reg. Charges Sale">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_stamp_duty_and_reg_charges_lease" class="form-label">Stamp Duty &amp; Reg. Charges Lease <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_stamp_duty_and_reg_charges_lease" name="tlbbt_stamp_duty_and_reg_charges_lease" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="20000" placeholder="Enter Stamp Duty &amp; Reg. Charges Lease">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_other_stat_charges" class="form-label">Other Statutory Charges <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_other_stat_charges" name="tlbbt_other_stat_charges" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="10000" placeholder="Enter Other Statutory Charges">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_service_fee_sale" class="form-label">Service Fee Sale <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_service_fee_sale" name="tlbbt_service_fee_sale" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="25000" placeholder="Enter Service Fee Sale">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_service_fee_lease" class="form-label">Service Fee Lease <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_service_fee_lease" name="tlbbt_service_fee_lease" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="15000" placeholder="Enter Service Fee Lease">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_lease_tenure_years" class="form-label">Lease Tenure (Years) <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_lease_tenure_years" name="tlbbt_lease_tenure_years" class="form-control " oninput="this.value = this.value.replace(/[^0-9]/g, ''); if (parseInt(this.value) > 255) this.value = 255;" value="30" placeholder="Enter Lease Tenure (Years)">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_lease_escalation_rate" class="form-label">Lease Escalation Rate (%) <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_lease_escalation_rate" name="tlbbt_lease_escalation_rate" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1'); if (parseFloat(this.value) > 100) this.value = 100;" value="5" placeholder="Enter Lease Escalation Rate (%)">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_lease_escalation_frequency_years" class="form-label">Lease Escalation Frequency (Years) <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_lease_escalation_frequency_years" name="tlbbt_lease_escalation_frequency_years" class="form-control " oninput="this.value = this.value.replace(/[^0-9]/g, ''); if (parseInt(this.value) > 255) this.value = 255;" value="2" placeholder="Enter Lease Escalation Frequency (Years)">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_total_land_cost" class="form-label">Total Land Cost to be considered for BD <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_total_land_cost" name="tlbbt_total_land_cost" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="760000" placeholder="Enter Total Land Cost">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_service_fee" class="form-label">Service Fee <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_service_fee" name="tlbbt_service_fee" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="40000" placeholder="Enter Service Fee">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_commercial_negotiation" class="form-label">Commercial Negotiation <small class="text-danger">*</small></label>
+            <select class="form-select select2_search " id="tlbbt_commercial_negotiation" name="tlbbt_commercial_negotiation">
+                <option value="">Select</option>
+                <option value="1" selected="">Completed</option>
+                <option value="2">Pending</option>
+            </select>
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_land_cost_to_be_considered_for_bd" class="form-label">Land Cost to be considered for BD <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_land_cost_to_be_considered_for_bd" name="tlbbt_land_cost_to_be_considered_for_bd" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="760000" placeholder="Enter Land Cost to be considered for BD">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_land_being_considered_for" class="form-label">Land being considered for <small class="text-danger">*</small> </label>
+            <input type="text" class="form-control " id="tlbbt_land_being_considered_for" name="tlbbt_land_being_considered_for" value="Lease" placeholder="Enter Land being considered for">
+                    </div>
+        <div class="col-md-4 mb-3">
+            <label for="tlbbt_tariff_due_to_this_land" class="form-label">Tariff due to this land <small class="text-danger">*</small> </label>
+            <input type="text" id="tlbbt_tariff_due_to_this_land" name="tlbbt_tariff_due_to_this_land" class="form-control " oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1').replace(/^(\d+(\.\d{0,4})?).*$/, '$1');" value="4" placeholder="Enter Tariff due to this land">
+                    </div>
+    </div>
+</div>
+
+<div class="col-12 text-end mt-3">
+    <button type="submit" class="btn btn-primary">Save</button>
+</div>
+                        </form>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                        <footer class="content-footer footer bg-footer-theme">
+    <div class="container-xxl">
+        <div class="footer-container d-flex align-items-center justify-content-between py-4 flex-md-row flex-column">
+            <div class="mb-2 mb-md-0">
+                © 2025, made by <a href="javascript:void(0)" class="footer-link">CyberSwift LAMS</a>
+            </div>
+            <div class="d-none d-lg-inline-block">
+
+                <a href="javascript:void(0)" target="_blank" class="footer-link me-4">User manual</a>
+
+
+                <a href="javascript:void(0)" target="_blank" class="footer-link d-none d-sm-inline-block">Support</a>
+            </div>
+        </div>
+    </div>
+</footer>                        <div class="content-backdrop fade"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="layout-overlay layout-menu-toggle"></div>
+            <div class="drag-target"></div>
+        </div>
+    </div>
+
+        <script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js?v=1790270357"></script>
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/js/menu.js?v=1790270357"></script>
+
+
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/%40form-validation/popular.js?v=1790270357"></script>
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/%40form-validation/bootstrap5.js?v=1790270357"></script>
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/%40form-validation/auto-focus.js?v=1790270357"></script>
+
+
+<script src="https://uat.lamsapp.com/php8_4/product/advanced/current/assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js?v=1790270357"></script></div></body></html>

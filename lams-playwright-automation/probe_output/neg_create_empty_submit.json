@@ -1,0 +1,448 @@
+{
+  "alerts": [],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process",
+      "text": "Add New Land Proposal Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Land Bank Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Land Co-ordinates"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Sub-Station Co-ordinates"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Additional Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Document Section"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.btn green submit new-row btn-danger",
+      "text": "+"
+    },
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Create Land Bank"
+    }
+  ],
+  "activeStep": [
+    {
+      "sel": "A.nav-link active",
+      "text": "1\nLand Bank Details"
+    },
+    {
+      "sel": "DIV.tab-pane fade show active",
+      "text": "Land Bank Details\nProposal Name *\nPlease enter proposal name\nCompany * \nSelect Company\nGeoSpatial Surveyors Ltd.\nTerra Mapping Solutions Pvt. Ltd\nEastCoast Land Consultants\nHeritage Builders pvt.ltd\nGreenfield Developers Pvt. Ltd.\nEcoHaven Projects LLP\nBrickWorks Infrastructure\nBluebrick Estates\nSelect Company\nPlease select company\nProject Type * \nSelect Project Type\nSolar\nWind\nHybrid\nSelect Project Type\nPlease select project type\nLand Type * \nSelect Land Type\nResidential\nCommercial\nPublic Utility\nGreen Belt\nWasteland\nIndustrial\nAgricultural\nInstitutional\nNon Agricultural\nSelect Land Type\nPlease select land type\nState * \nSelect State\nAndaman & Nicobar Islands\nAndhra Pradesh\nArunachal Pradesh\nAssam\nBihar\nChandigarh\nChhattisgarh\nDadra & Nagar Haveli\nDaman & Diu\nDelhi\nGoa\nGujarat\nHaryana\nHimachal Pradesh\njammu\nJammu & Kashmir\nJharkhand\nKarnataka\nKerala\nLakshadweep\nMadhya Pradesh\nMaharashtra\nManipur\nMeghalaya\nMizoram\nNagaland\nOdisha\nPuducherry\nPunjab\nRajasthan\nSikkim\nTamil Nadu\nTelangana\nTripura\nUttarakhand\nUttar Pradesh\nWest Bengal\nSelect State\nPlease select state\nDistrict * \nSelect District\nSelect District\nPlease select district\nTaluka * \nSelect Taluka\nSelect Taluka\nPlease select taluka\nVillage * \nSelect Village\nSelect Village\nPlease select village\nLand Co-ordinates\nLatitude Degree *\nPlease enter latitude degree\nLatitude Minutes *\nPlease enter latitude minutes\nLatitude Seconds *\nPlease enter latitude seconds\nLatitude Direction \nSelect Direction\nNorth\nSouth\nNorth\nDecimal Latitude\nLongititude Degree *\nPlease enter longitude degree\nLongititude Minutes *\nPlease enter longitude minutes\nLongititude Seconds *\nPlease enter longitude seconds\nLongitude Direction \nSelect Direction\nEast\nWest\nEast\nDecimal Longitude\nSubstation * \nSelect Substation\nKharagpur Substation\nSantaldih Substation\nKolaghat Substation\nHowrah Substation\nHaldia Substation\nDurgapur Substation\nDigha Substation\nSelect Substation\nPlease select substation\nCTU/STU * \nSelect Type\nCTU\nSTU\nSelect Type\nPlease select CTU/STU\nSub-Station Co-ordinates\nLatitude Degree *\nPlease enter latitude degree\nLatitude Minutes *\nPlease enter latitude minutes\nLatitude Seconds *\nPlease enter latitude seconds\nLatitude Direction \nSelect Direction\nNorth\nSouth\nNorth\nDecimal Latitude\nLongititude Degree *\nPlease enter longitude degree\nLongititude Minutes *\nPlease enter longitude minutes\nLongititude Seconds *\nPlease enter longitude seconds\nLongititude Direction \nSelect Direction\nEast\nWest\nEast\nDecimal Longitude\nAdditional Details\nTL Distance (km) *\nPlease enter TL distance\nSS Evacuation Capacity (MW) *\nPlease enter evacuation capacity\nVoltage Level (kV) *\nPlease enter voltage level\nSS Readiness * \nSelect Readiness\nReady\nNot Ready\nIn Progress\nSelect Readiness\nPlease select SS readiness\nLand Quantum Offered (Lease) *\nPlease enter lease value\nLand Quantum Offered (Purchase) *\nPlease enter purchase value\nLand Quantum Offered (Total) *\nConnectivity Status * \nSelect Status\nConnected\nNot Connected\nIn Progress\nSelect Status\nPlease select connectivity status\nQuantum of Connectivity *\nPlease enter connectivity quantum\nRemarks *\nPlease enter remarks\nDocument Section\n\nDocument Type *\n\nDocument Variant *\n\nPhysical File Location *\n\nTitle *\n\nDocument *\n\nSelect State First\nSelect State First\nPlease select document type\nSelect Document Variant\nOriginal\nCertified True Copy\nPlease select document variant\nPlease enter physical location\nPlease enter document title\nClick or drop file\nPlease upload document\n+\nCreate Land Bank"
+    }
+  ],
+  "invalid": [
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter proposal name"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Company\nGeoSpatial Surveyors Ltd.\nTerra Mapping Solutions Pvt. Ltd\nEastCoast Land Consultants\nHeritage Builders pvt.ltd\nGreenfield Developers Pvt. Ltd.\nEcoHaven Projects LLP\nBrickWorks Infrastructure\nBluebrick Estates"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Company"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select company"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Project Type\nSolar\nWind\nHybrid"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Project Type"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select project type"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Land Type\nResidential\nCommercial\nPublic Utility\nGreen Belt\nWasteland\nIndustrial\nAgricultural\nInstitutional\nNon Agricultural"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Land Type"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select land type"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select State\nAndaman & Nicobar Islands\nAndhra Pradesh\nArunachal Pradesh\nAssam\nBihar\nChandigarh\nChhattisgarh\nDadra & Nagar Haveli\nDaman & Diu\nDelhi\nGoa\nGujarat\nHaryana\nHimachal Pradesh\njammu\nJammu & Kashmir\nJharkhand\nKarnataka\nKerala\nLakshadweep\nMadhya Pradesh\nMaharashtra\nManipur\nMeghalaya\nMizoram\nNagaland\nOdisha\nPuducherry\nPunjab\nRajasthan\nSikkim\nTamil Nadu\nTelangana\nTripura\nUttarakhand\nUttar Pradesh\nWest Bengal"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select State"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select state"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select District"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select District"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select district"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Taluka"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Taluka"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select taluka"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Village"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Village"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select village"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter latitude degree"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter latitude minutes"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter latitude seconds"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter longitude degree"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter longitude minutes"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter longitude seconds"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Substation\nKharagpur Substation\nSantaldih Substation\nKolaghat Substation\nHowrah Substation\nHaldia Substation\nDurgapur Substation\nDigha Substation"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Substation"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select substation"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Type\nCTU\nSTU"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Type"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select CTU/STU"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter latitude degree"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter latitude minutes"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter latitude seconds"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter longitude degree"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter longitude minutes"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter longitude seconds"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter TL distance"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter evacuation capacity"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter voltage level"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Readiness\nReady\nNot Ready\nIn Progress"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Readiness"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select SS readiness"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter lease value"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter purchase value"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-control select2_search select2-hidden-accessible is-invalid",
+      "text": "Select Status\nConnected\nNot Connected\nIn Progress"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select Status"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select connectivity status"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter connectivity quantum"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter remarks"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.document-type-select form-select required_value select2_search select2-hidden-accessible is-invalid",
+      "text": "Select State First"
+    },
+    {
+      "sel": "SPAN.select2-selection select2-selection--single is-invalid",
+      "text": "Select State First"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select document type"
+    },
+    {
+      "sel": "SELECT.form-select required_value is-invalid",
+      "text": "Select Document Variant\nOriginal\nCertified True Copy"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select document variant"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter physical location"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter document title"
+    },
+    {
+      "sel": "DIV.m-dropzone dropzone required_value dropzone-plot-document dz-clickable is-invalid",
+      "text": "Click or drop file"
+    },
+    {
+      "sel": "DIV.dz-error-message text-danger",
+      "text": "Please upload document"
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/create/1"
+}

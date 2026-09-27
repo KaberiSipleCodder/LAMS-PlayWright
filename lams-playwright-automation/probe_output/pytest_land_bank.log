@@ -1,0 +1,38 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-8.3.3, pluggy-1.6.0
+rootdir: C:\Users\User-362-PC\Downloads\lams-playwright-automation\lams-playwright-automation
+configfile: pytest.ini
+plugins: base-url-2.1.0, html-4.2.0, metadata-3.1.1, playwright-0.5.2
+collected 3 items
+
+tests\land_bank\test_land_bank_negative.py .
+  TC16   PASSED   test_TC16_cleared_latitude_degree_is_rejected   (14.0s)
+
+tests\land_bank\test_land_bank_negative.py .
+  TC17   PASSED   test_TC17_negative_tl_distance_cannot_be_typed   (7.9s)
+
+tests\land_bank\test_land_bank_positive.py .
+  TC15   PASSED   test_TC15_valid_land_bank_details_are_accepted   (13.2s)
+                                                                         [100%]
+
+==============================================================================
+ LAMS TEST EXECUTION SUMMARY
+==============================================================================
+ Total Tests    : 3
+ Passed         : 3
+ Failed         : 0
+ Skipped        : 0
+ Execution Time : 1m 26s
+------------------------------------------------------------------------------
+ TC ID  RESULT   TEST CASE
+------------------------------------------------------------------------------
+TC16   PASSED   test_TC16_cleared_latitude_degree_is_rejected
+TC17   PASSED   test_TC17_negative_tl_distance_cannot_be_typed
+TC15   PASSED   test_TC15_valid_land_bank_details_are_accepted
+------------------------------------------------------------------------------
+ No failures - no screenshots were taken.
+------------------------------------------------------------------------------
+ HTML report   : reports/report.html
+==============================================================================
+- Generated html report: file:///C:/Users/User-362-PC/Downloads/lams-playwright-automation/lams-playwright-automation/reports/report.html -
+======================== 3 passed in 86.36s (0:01:26) =========================

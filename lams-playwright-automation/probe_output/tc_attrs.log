@@ -1,0 +1,43 @@
+﻿
+[baseline] 52 entries in the list
+python : Traceback (most recent call last):
+At line:1 char:34
++ ... utomation'; python scripts/probe_tc_matrix.py --attrs-only 2>&1 | Out ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteExcep 
+   tion
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\lams-playwright-automation\scripts\pro
+be_tc_matrix.py", line 593, in <module>
+    main()
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\lams-playwright-automation\scripts\pro
+be_tc_matrix.py", line 552, in main
+    add.wait_for_step3()
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\lams-playwright-automation\pages\add_l
+and_proposal_page.py", line 679, in wait_for_step3
+    first_field.wait_for(state="visible", timeout=timeout)
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\.venv\Lib\site-packages\playwright\syn
+c_api\_generated.py", line 17430, in wait_for
+    self._sync(self._impl_obj.wait_for(timeout=timeout, state=state))
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\.venv\Lib\site-packages\playwright\_im
+pl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\.venv\Lib\site-packages\playwright\_im
+pl\_locator.py", line 670, in wait_for
+    await self._frame.wait_for_selector(
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\.venv\Lib\site-packages\playwright\_im
+pl\_frame.py", line 323, in wait_for_selector
+    await self._channel.send("waitForSelector", locals_to_params(locals()))
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\.venv\Lib\site-packages\playwright\_im
+pl\_connection.py", line 59, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User-362-PC\Downloads\lams-playwright-automation\.venv\Lib\site-packages\playwright\_im
+pl\_connection.py", line 514, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Locator.wait_for: Timeout 15000ms exceeded.
+Call log:
+waiting for locator("[name=\"tlbbt_land_basic_cost_sale\"]") to be visible
+

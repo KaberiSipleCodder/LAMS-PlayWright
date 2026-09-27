@@ -1,0 +1,4125 @@
+{
+  "controls": [
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_proposal_name",
+      "id": "tlb_proposal_name",
+      "placeholder": "Enter Proposal Name",
+      "label": "Proposal Name *",
+      "required": true,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "New Wind Project"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_company_id",
+      "id": "",
+      "placeholder": "",
+      "label": "Company *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Company",
+          "value": ""
+        },
+        {
+          "text": "GeoSpatial Surveyors Ltd.",
+          "value": "6"
+        },
+        {
+          "text": "Terra Mapping Solutions Pvt. Ltd",
+          "value": "8"
+        },
+        {
+          "text": "EastCoast Land Consultants",
+          "value": "7"
+        },
+        {
+          "text": "Heritage Builders pvt.ltd",
+          "value": "2"
+        },
+        {
+          "text": "Greenfield Developers Pvt. Ltd.",
+          "value": "1"
+        },
+        {
+          "text": "EcoHaven Projects LLP",
+          "value": "3"
+        },
+        {
+          "text": "BrickWorks Infrastructure",
+          "value": "4"
+        },
+        {
+          "text": "Bluebrick Estates",
+          "value": "5"
+        }
+      ],
+      "value": "2"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_land_type_id",
+      "id": "",
+      "placeholder": "",
+      "label": "Land Type *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Land Type",
+          "value": ""
+        },
+        {
+          "text": "Residential",
+          "value": "1"
+        },
+        {
+          "text": "Commercial",
+          "value": "2"
+        },
+        {
+          "text": "Public Utility",
+          "value": "7"
+        },
+        {
+          "text": "Green Belt",
+          "value": "9"
+        },
+        {
+          "text": "Wasteland",
+          "value": "10"
+        },
+        {
+          "text": "Industrial",
+          "value": "4"
+        },
+        {
+          "text": "Agricultural",
+          "value": "3"
+        },
+        {
+          "text": "Institutional",
+          "value": "5"
+        },
+        {
+          "text": "Non Agricultural",
+          "value": "11"
+        }
+      ],
+      "value": "2"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_project_type",
+      "id": "",
+      "placeholder": "",
+      "label": "Project Type *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Project Type",
+          "value": ""
+        },
+        {
+          "text": "Solar",
+          "value": "1"
+        },
+        {
+          "text": "Wind",
+          "value": "2"
+        },
+        {
+          "text": "Hybrid",
+          "value": "3"
+        }
+      ],
+      "value": "2"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_state_id",
+      "id": "",
+      "placeholder": "",
+      "label": "State *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select State",
+          "value": ""
+        },
+        {
+          "text": "Andaman & Nicobar Islands",
+          "value": "1"
+        },
+        {
+          "text": "Andhra Pradesh",
+          "value": "2"
+        },
+        {
+          "text": "Arunachal Pradesh",
+          "value": "3"
+        },
+        {
+          "text": "Assam",
+          "value": "4"
+        },
+        {
+          "text": "Bihar",
+          "value": "5"
+        },
+        {
+          "text": "Chandigarh",
+          "value": "6"
+        },
+        {
+          "text": "Chhattisgarh",
+          "value": "7"
+        },
+        {
+          "text": "Dadra & Nagar Haveli",
+          "value": "8"
+        },
+        {
+          "text": "Daman & Diu",
+          "value": "9"
+        },
+        {
+          "text": "Delhi",
+          "value": "10"
+        },
+        {
+          "text": "Goa",
+          "value": "11"
+        },
+        {
+          "text": "Gujarat",
+          "value": "12"
+        },
+        {
+          "text": "Haryana",
+          "value": "13"
+        },
+        {
+          "text": "Himachal Pradesh",
+          "value": "14"
+        },
+        {
+          "text": "jammu",
+          "value": "37"
+        },
+        {
+          "text": "Jammu & Kashmir",
+          "value": "15"
+        },
+        {
+          "text": "Jharkhand",
+          "value": "16"
+        },
+        {
+          "text": "Karnataka",
+          "value": "17"
+        },
+        {
+          "text": "Kerala",
+          "value": "18"
+        },
+        {
+          "text": "Lakshadweep",
+          "value": "19"
+        },
+        {
+          "text": "Madhya Pradesh",
+          "value": "20"
+        },
+        {
+          "text": "Maharashtra",
+          "value": "21"
+        },
+        {
+          "text": "Manipur",
+          "value": "22"
+        },
+        {
+          "text": "Meghalaya",
+          "value": "23"
+        },
+        {
+          "text": "Mizoram",
+          "value": "24"
+        },
+        {
+          "text": "Nagaland",
+          "value": "25"
+        },
+        {
+          "text": "Odisha",
+          "value": "26"
+        },
+        {
+          "text": "Puducherry",
+          "value": "27"
+        },
+        {
+          "text": "Punjab",
+          "value": "28"
+        },
+        {
+          "text": "Rajasthan",
+          "value": "29"
+        },
+        {
+          "text": "Sikkim",
+          "value": "30"
+        },
+        {
+          "text": "Tamil Nadu",
+          "value": "32"
+        },
+        {
+          "text": "Telangana",
+          "value": "31"
+        },
+        {
+          "text": "Tripura",
+          "value": "33"
+        },
+        {
+          "text": "Uttarakhand",
+          "value": "35"
+        },
+        {
+          "text": "Uttar Pradesh",
+          "value": "34"
+        },
+        {
+          "text": "West Bengal",
+          "value": "36"
+        }
+      ],
+      "value": "5"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_district_id",
+      "id": "district-select",
+      "placeholder": "",
+      "label": "District *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select District",
+          "value": ""
+        },
+        {
+          "text": "Adilabad",
+          "value": "536"
+        },
+        {
+          "text": "Agar Malwa",
+          "value": "286"
+        },
+        {
+          "text": "Agra",
+          "value": "572"
+        },
+        {
+          "text": "Ahmedabad",
+          "value": "146"
+        },
+        {
+          "text": "Ahmednagar",
+          "value": "335"
+        },
+        {
+          "text": "Aizawl",
+          "value": "397"
+        },
+        {
+          "text": "Ajmer",
+          "value": "468"
+        },
+        {
+          "text": "Akola",
+          "value": "336"
+        },
+        {
+          "text": "Alappuzha (Alleppey)",
+          "value": "271"
+        },
+        {
+          "text": "Aligarh",
+          "value": "573"
+        },
+        {
+          "text": "Alipurduar",
+          "value": "655"
+        },
+        {
+          "text": "Alirajpur",
+          "value": "287"
+        },
+        {
+          "text": "Almora",
+          "value": "642"
+        },
+        {
+          "text": "Alwar",
+          "value": "469"
+        },
+        {
+          "text": "Ambala",
+          "value": "169"
+        },
+        {
+          "text": "Ambedkarnagar (Akbarpur)",
+          "value": "574"
+        },
+        {
+          "text": "Amethi (Gauriganj)",
+          "value": "575"
+        },
+        {
+          "text": "Amravati",
+          "value": "337"
+        },
+        {
+          "text": "Amritsar",
+          "value": "449"
+        },
+        {
+          "text": "Amroha (J.P. Nagar)",
+          "value": "576"
+        },
+        {
+          "text": "Anantapur",
+          "value": "4"
+        },
+        {
+          "text": "Anantnag",
+          "value": "200"
+        },
+        {
+          "text": "Angul",
+          "value": "415"
+        },
+        {
+          "text": "Anjaw",
+          "value": "16"
+        },
+        {
+          "text": "Anuppur",
+          "value": "288"
+        },
+        {
+          "text": "Araria",
+          "value": "69"
+        },
+        {
+          "text": "Ariyalur",
+          "value": "505"
+        },
+        {
+          "text": "Arwal",
+          "value": "70"
+        },
+        {
+          "text": "Ashoknagar",
+          "value": "289"
+        },
+        {
+          "text": "Auraiya",
+          "value": "577"
+        },
+        {
+          "text": "Aurangabad",
+          "value": "338"
+        },
+        {
+          "text": "Aurangabad",
+          "value": "71"
+        },
+        {
+          "text": "Azamgarh",
+          "value": "578"
+        },
+        {
+          "text": "Bagalkote",
+          "value": "242"
+        },
+        {
+          "text": "Bageshwar",
+          "value": "643"
+        },
+        {
+          "text": "Baghpat",
+          "value": "579"
+        },
+        {
+          "text": "Bahraich",
+          "value": "580"
+        },
+        {
+          "text": "Baksa",
+          "value": "37"
+        },
+        {
+          "text": "Balaghat",
+          "value": "290"
+        },
+        {
+          "text": "Balangir",
+          "value": "416"
+        },
+        {
+          "text": "Balasore",
+          "value": "417"
+        },
+        {
+          "text": "Ballari (Bellary)",
+          "value": "243"
+        },
+        {
+          "text": "Ballia",
+          "value": "581"
+        },
+        {
+          "text": "Balod",
+          "value": "108"
+        },
+        {
+          "text": "Baloda Bazar",
+          "value": "109"
+        },
+        {
+          "text": "Balrampur",
+          "value": "110"
+        },
+        {
+          "text": "Balrampur (Tulsipur)",
+          "value": "582"
+        },
+        {
+          "text": "Banda",
+          "value": "583"
+        },
+        {
+          "text": "Bandipora",
+          "value": "201"
+        },
+        {
+          "text": "Banka",
+          "value": "72"
+        },
+        {
+          "text": "Bankura",
+          "value": "656"
+        },
+        {
+          "text": "Banswara",
+          "value": "470"
+        },
+        {
+          "text": "Barabanki",
+          "value": "584"
+        },
+        {
+          "text": "Baramulla",
+          "value": "202"
+        },
+        {
+          "text": "Baran",
+          "value": "471"
+        },
+        {
+          "text": "Bareilly",
+          "value": "585"
+        },
+        {
+          "text": "Bargarh",
+          "value": "418"
+        },
+        {
+          "text": "Barmer",
+          "value": "472"
+        },
+        {
+          "text": "Barnala",
+          "value": "450"
+        },
+        {
+          "text": "Barpeta",
+          "value": "38"
+        },
+        {
+          "text": "Barwani",
+          "value": "291"
+        },
+        {
+          "text": "Bastar",
+          "value": "111"
+        },
+        {
+          "text": "Basti",
+          "value": "586"
+        },
+        {
+          "text": "Bathinda",
+          "value": "451"
+        },
+        {
+          "text": "Beed (Bid)",
+          "value": "339"
+        },
+        {
+          "text": "Begusarai",
+          "value": "73"
+        },
+        {
+          "text": "Belagavi (Belgaum)",
+          "value": "244"
+        },
+        {
+          "text": "Bemetara",
+          "value": "112"
+        },
+        {
+          "text": "Bengaluru Rural",
+          "value": "245"
+        },
+        {
+          "text": "Bengaluru Urban",
+          "value": "246"
+        },
+        {
+          "text": "Betul",
+          "value": "292"
+        },
+        {
+          "text": "Bhadrak",
+          "value": "419"
+        },
+        {
+          "text": "Bhagalpur",
+          "value": "74"
+        },
+        {
+          "text": "Bhandara",
+          "value": "340"
+        },
+        {
+          "text": "Bharatpur",
+          "value": "473"
+        },
+        {
+          "text": "Bhilwara",
+          "value": "474"
+        },
+        {
+          "text": "Bhind",
+          "value": "293"
+        },
+        {
+          "text": "Bhiwani",
+          "value": "170"
+        },
+        {
+          "text": "Bhojpur",
+          "value": "75"
+        },
+        {
+          "text": "Bhopal",
+          "value": "294"
+        },
+        {
+          "text": "Bidar",
+          "value": "247"
+        },
+        {
+          "text": "Bijapur",
+          "value": "113"
+        },
+        {
+          "text": "Bijnor",
+          "value": "587"
+        },
+        {
+          "text": "Bikaner",
+          "value": "475"
+        },
+        {
+          "text": "Bilaspur",
+          "value": "188"
+        },
+        {
+          "text": "Bilaspur",
+          "value": "114"
+        },
+        {
+          "text": "Birbhum",
+          "value": "657"
+        },
+        {
+          "text": "Bishnupur",
+          "value": "371"
+        },
+        {
+          "text": "Biswanath",
+          "value": "39"
+        },
+        {
+          "text": "Bokaro",
+          "value": "219"
+        },
+        {
+          "text": "Bongaigaon",
+          "value": "40"
+        },
+        {
+          "text": "Boudh",
+          "value": "420"
+        },
+        {
+          "text": "Budaun",
+          "value": "588"
+        },
+        {
+          "text": "Bulandshahr",
+          "value": "589"
+        },
+        {
+          "text": "Buldhana",
+          "value": "341"
+        },
+        {
+          "text": "Bundi",
+          "value": "476"
+        },
+        {
+          "text": "Burdwan (Bardhaman)",
+          "value": "658"
+        },
+        {
+          "text": "Burhanpur",
+          "value": "295"
+        },
+        {
+          "text": "Buxar",
+          "value": "76"
+        },
+        {
+          "text": "Cachar",
+          "value": "41"
+        },
+        {
+          "text": "Central Delhi",
+          "value": "134"
+        },
+        {
+          "text": "Chamarajanagara (Chamarajanagar)",
+          "value": "248"
+        },
+        {
+          "text": "Chamba",
+          "value": "189"
+        },
+        {
+          "text": "Chamoli",
+          "value": "644"
+        },
+        {
+          "text": "Champawat",
+          "value": "645"
+        },
+        {
+          "text": "Champhai",
+          "value": "398"
+        },
+        {
+          "text": "Chandauli",
+          "value": "590"
+        },
+        {
+          "text": "Chandel",
+          "value": "372"
+        },
+        {
+          "text": "Chandigarh",
+          "value": "107"
+        },
+        {
+          "text": "Chandrapur",
+          "value": "342"
+        },
+        {
+          "text": "Changlang",
+          "value": "17"
+        },
+        {
+          "text": "Charaideo",
+          "value": "42"
+        },
+        {
+          "text": "Charkhi Dadri",
+          "value": "171"
+        },
+        {
+          "text": "Chatra",
+          "value": "220"
+        },
+        {
+          "text": "Chengalpattu",
+          "value": "506"
+        },
+        {
+          "text": "Chennai",
+          "value": "507"
+        },
+        {
+          "text": "Chhatarpur",
+          "value": "296"
+        },
+        {
+          "text": "Chhindwara",
+          "value": "297"
+        },
+        {
+          "text": "Chikkamagaluru (Chikamagaluru)",
+          "value": "249"
+        },
+        {
+          "text": "Chirang",
+          "value": "43"
+        },
+        {
+          "text": "Chitradurga",
+          "value": "250"
+        },
+        {
+          "text": "Chitrakoot",
+          "value": "591"
+        },
+        {
+          "text": "Chittoor",
+          "value": "5"
+        },
+        {
+          "text": "Chittorgarh",
+          "value": "477"
+        },
+        {
+          "text": "Churachandpur",
+          "value": "373"
+        },
+        {
+          "text": "Churu",
+          "value": "478"
+        },
+        {
+          "text": "Coimbatore",
+          "value": "508"
+        },
+        {
+          "text": "Cooch Behar",
+          "value": "659"
+        },
+        {
+          "text": "Cuddalore",
+          "value": "509"
+        },
+        {
+          "text": "Cuttack",
+          "value": "421"
+        },
+        {
+          "text": "Dadra & Nagar Haveli",
+          "value": "131"
+        },
+        {
+          "text": "Dahod",
+          "value": "147"
+        },
+        {
+          "text": "Dakshina Kannada",
+          "value": "251"
+        },
+        {
+          "text": "Dakshin Dinajpur (South Dinajpur)",
+          "value": "660"
+        },
+        {
+          "text": "Daman",
+          "value": "132"
+        },
+        {
+          "text": "Damoh",
+          "value": "298"
+        },
+        {
+          "text": "Dantewada (South Bastar)",
+          "value": "115"
+        },
+        {
+          "text": "Darbhanga",
+          "value": "77"
+        },
+        {
+          "text": "Darjeeling",
+          "value": "661"
+        },
+        {
+          "text": "Darrang",
+          "value": "44"
+        },
+        {
+          "text": "Datia",
+          "value": "299"
+        },
+        {
+          "text": "Dausa",
+          "value": "479"
+        },
+        {
+          "text": "Davangere",
+          "value": "252"
+        },
+        {
+          "text": "Dehradun",
+          "value": "646"
+        },
+        {
+          "text": "Deogarh",
+          "value": "422"
+        },
+        {
+          "text": "Deoghar",
+          "value": "221"
+        },
+        {
+          "text": "Deoria",
+          "value": "592"
+        },
+        {
+          "text": "Dewas",
+          "value": "300"
+        },
+        {
+          "text": "Dhalai (Ambassa)",
+          "value": "564"
+        },
+        {
+          "text": "Dhamtari",
+          "value": "116"
+        },
+        {
+          "text": "Dhanbad",
+          "value": "222"
+        },
+        {
+          "text": "Dhar",
+          "value": "301"
+        },
+        {
+          "text": "Dharmapuri",
+          "value": "510"
+        },
+        {
+          "text": "Dharwad",
+          "value": "253"
+        },
+        {
+          "text": "Dhemaji",
+          "value": "45"
+        },
+        {
+          "text": "Dhenkanal",
+          "value": "423"
+        },
+        {
+          "text": "Dholpur",
+          "value": "480"
+        },
+        {
+          "text": "Dhubri",
+          "value": "46"
+        },
+        {
+          "text": "Dhule",
+          "value": "343"
+        },
+        {
+          "text": "Dibrugarh",
+          "value": "47"
+        },
+        {
+          "text": "Dima Hasao",
+          "value": "48"
+        },
+        {
+          "text": "Dimapur",
+          "value": "405"
+        },
+        {
+          "text": "Dindigul",
+          "value": "511"
+        },
+        {
+          "text": "Dindori",
+          "value": "302"
+        },
+        {
+          "text": "Diu",
+          "value": "133"
+        },
+        {
+          "text": "Doda",
+          "value": "203"
+        },
+        {
+          "text": "Dumka",
+          "value": "223"
+        },
+        {
+          "text": "Dungarpur",
+          "value": "481"
+        },
+        {
+          "text": "Durg",
+          "value": "117"
+        },
+        {
+          "text": "East Champaran",
+          "value": "78"
+        },
+        {
+          "text": "East Delhi",
+          "value": "135"
+        },
+        {
+          "text": "East Garo Hills (Williamnagar)",
+          "value": "386"
+        },
+        {
+          "text": "East Godavari",
+          "value": "6"
+        },
+        {
+          "text": "East Jaintia Hills (Khliehriat)",
+          "value": "387"
+        },
+        {
+          "text": "East Kameng",
+          "value": "18"
+        },
+        {
+          "text": "East Khasi Hills (Shillong)",
+          "value": "388"
+        },
+        {
+          "text": "East Siang",
+          "value": "19"
+        },
+        {
+          "text": "East Sikkim (Gangtok)",
+          "value": "501"
+        },
+        {
+          "text": "East Singhbhum (Jamshedpur)",
+          "value": "224"
+        },
+        {
+          "text": "Ernakulam",
+          "value": "272"
+        },
+        {
+          "text": "Erode",
+          "value": "512"
+        },
+        {
+          "text": "Etah",
+          "value": "593"
+        },
+        {
+          "text": "Etawah",
+          "value": "594"
+        },
+        {
+          "text": "Faizabad (Ayodhya)",
+          "value": "595"
+        },
+        {
+          "text": "Faridabad",
+          "value": "172"
+        },
+        {
+          "text": "Faridkot",
+          "value": "452"
+        },
+        {
+          "text": "Farrukhabad (Fatehgarh)",
+          "value": "596"
+        },
+        {
+          "text": "Fatehabad",
+          "value": "173"
+        },
+        {
+          "text": "Fatehgarh Sahib (Sirhind)",
+          "value": "453"
+        },
+        {
+          "text": "Fatehpur",
+          "value": "597"
+        },
+        {
+          "text": "Fazilka",
+          "value": "454"
+        },
+        {
+          "text": "Firozabad",
+          "value": "598"
+        },
+        {
+          "text": "Gadag",
+          "value": "254"
+        },
+        {
+          "text": "Gadchiroli",
+          "value": "344"
+        },
+        {
+          "text": "Gajapati",
+          "value": "424"
+        },
+        {
+          "text": "Ganderbal",
+          "value": "204"
+        },
+        {
+          "text": "Gandhinagar",
+          "value": "148"
+        },
+        {
+          "text": "Ganganagar",
+          "value": "482"
+        },
+        {
+          "text": "Ganjam",
+          "value": "425"
+        },
+        {
+          "text": "Garhwa",
+          "value": "225"
+        },
+        {
+          "text": "Gariaband",
+          "value": "118"
+        },
+        {
+          "text": "Gautam Buddha Nagar (Noida)",
+          "value": "599"
+        },
+        {
+          "text": "Gaya",
+          "value": "79"
+        },
+        {
+          "text": "Ghaziabad",
+          "value": "600"
+        },
+        {
+          "text": "Ghazipur",
+          "value": "601"
+        },
+        {
+          "text": "Giridih",
+          "value": "226"
+        },
+        {
+          "text": "Gir Somnath",
+          "value": "149"
+        },
+        {
+          "text": "Goalpara",
+          "value": "49"
+        },
+        {
+          "text": "Godda",
+          "value": "227"
+        },
+        {
+          "text": "Golaghat",
+          "value": "50"
+        },
+        {
+          "text": "Gomati (Udaipur)",
+          "value": "565"
+        },
+        {
+          "text": "Gonda",
+          "value": "602"
+        },
+        {
+          "text": "Gondia (Gundia)",
+          "value": "345"
+        },
+        {
+          "text": "Gopalganj",
+          "value": "80"
+        },
+        {
+          "text": "Gorakhpur",
+          "value": "603"
+        },
+        {
+          "text": "Gumla",
+          "value": "228"
+        },
+        {
+          "text": "Guna",
+          "value": "303"
+        },
+        {
+          "text": "Guntur",
+          "value": "7"
+        },
+        {
+          "text": "Gurdaspur",
+          "value": "455"
+        },
+        {
+          "text": "Gurugram (Gurgaon)",
+          "value": "174"
+        },
+        {
+          "text": "Gwalior",
+          "value": "304"
+        },
+        {
+          "text": "Hailakandi",
+          "value": "51"
+        },
+        {
+          "text": "Hamirpur",
+          "value": "190"
+        },
+        {
+          "text": "Hamirpur (Mahoba)",
+          "value": "604"
+        },
+        {
+          "text": "Hanumangarh",
+          "value": "483"
+        },
+        {
+          "text": "Hapur (Panchsheel Nagar)",
+          "value": "605"
+        },
+        {
+          "text": "Harda",
+          "value": "305"
+        },
+        {
+          "text": "Hardoi",
+          "value": "606"
+        },
+        {
+          "text": "Haridwar",
+          "value": "647"
+        },
+        {
+          "text": "Hassan",
+          "value": "255"
+        },
+        {
+          "text": "Hathras (Mahamaya Nagar)",
+          "value": "607"
+        },
+        {
+          "text": "Haveri",
+          "value": "256"
+        },
+        {
+          "text": "Hazaribagh",
+          "value": "229"
+        },
+        {
+          "text": "Hingoli",
+          "value": "346"
+        },
+        {
+          "text": "Hisar",
+          "value": "175"
+        },
+        {
+          "text": "Hojai",
+          "value": "52"
+        },
+        {
+          "text": "Hooghly (Hugli)",
+          "value": "662"
+        },
+        {
+          "text": "Hoshangabad (Narmadapuram)",
+          "value": "306"
+        },
+        {
+          "text": "Hoshiarpur",
+          "value": "456"
+        },
+        {
+          "text": "Howrah",
+          "value": "663"
+        },
+        {
+          "text": "Hyderabad",
+          "value": "537"
+        },
+        {
+          "text": "Idukki",
+          "value": "273"
+        },
+        {
+          "text": "Imphal East",
+          "value": "374"
+        },
+        {
+          "text": "Imphal West",
+          "value": "375"
+        },
+        {
+          "text": "Indore",
+          "value": "307"
+        },
+        {
+          "text": "Jabalpur",
+          "value": "308"
+        },
+        {
+          "text": "Jagatsinghapur",
+          "value": "426"
+        },
+        {
+          "text": "Jagtial",
+          "value": "538"
+        },
+        {
+          "text": "Jaipur",
+          "value": "484"
+        },
+        {
+          "text": "Jaisalmer",
+          "value": "485"
+        },
+        {
+          "text": "Jajpur",
+          "value": "427"
+        },
+        {
+          "text": "Jalandhar",
+          "value": "457"
+        },
+        {
+          "text": "Jalaun",
+          "value": "608"
+        },
+        {
+          "text": "Jalgaon",
+          "value": "347"
+        },
+        {
+          "text": "Jalna",
+          "value": "348"
+        },
+        {
+          "text": "Jalore (Jalor)",
+          "value": "486"
+        },
+        {
+          "text": "Jalpaiguri",
+          "value": "664"
+        },
+        {
+          "text": "Jammu",
+          "value": "205"
+        },
+        {
+          "text": "Jamnagar",
+          "value": "150"
+        },
+        {
+          "text": "Jamtara",
+          "value": "230"
+        },
+        {
+          "text": "Jamui",
+          "value": "81"
+        },
+        {
+          "text": "Jangaon",
+          "value": "539"
+        },
+        {
+          "text": "Janjgir-Champa",
+          "value": "119"
+        },
+        {
+          "text": "Jashpur",
+          "value": "120"
+        },
+        {
+          "text": "Jaunpur",
+          "value": "609"
+        },
+        {
+          "text": "Jayashankar Bhupalpally",
+          "value": "540"
+        },
+        {
+          "text": "Jehanabad",
+          "value": "82"
+        },
+        {
+          "text": "Jhabua",
+          "value": "309"
+        },
+        {
+          "text": "Jhajjar",
+          "value": "176"
+        },
+        {
+          "text": "Jhalawar",
+          "value": "487"
+        },
+        {
+          "text": "Jhansi",
+          "value": "610"
+        },
+        {
+          "text": "Jhargram (Jhargram)",
+          "value": "665"
+        },
+        {
+          "text": "Jharsuguda",
+          "value": "428"
+        },
+        {
+          "text": "Jhunjhunu",
+          "value": "488"
+        },
+        {
+          "text": "Jind",
+          "value": "177"
+        },
+        {
+          "text": "Jiribam",
+          "value": "376"
+        },
+        {
+          "text": "Jodhpur",
+          "value": "489"
+        },
+        {
+          "text": "Jogulamba Gadwal",
+          "value": "541"
+        },
+        {
+          "text": "Jorhat",
+          "value": "53"
+        },
+        {
+          "text": "Junagadh",
+          "value": "151"
+        },
+        {
+          "text": "Kabirdham (Kawardha)",
+          "value": "121"
+        },
+        {
+          "text": "Kaimur (Bhabua)",
+          "value": "83"
+        },
+        {
+          "text": "Kaithal",
+          "value": "178"
+        },
+        {
+          "text": "Kakching",
+          "value": "377"
+        },
+        {
+          "text": "Kalaburagi (Gulbarga)",
+          "value": "257"
+        },
+        {
+          "text": "Kalahandi",
+          "value": "429"
+        },
+        {
+          "text": "Kalimpong",
+          "value": "666"
+        },
+        {
+          "text": "Kallakurichi",
+          "value": "513"
+        },
+        {
+          "text": "Kamareddy",
+          "value": "542"
+        },
+        {
+          "text": "Kamjong",
+          "value": "378"
+        },
+        {
+          "text": "Kamle",
+          "value": "20"
+        },
+        {
+          "text": "Kamrup",
+          "value": "55"
+        },
+        {
+          "text": "Kamrup Metropolitan",
+          "value": "54"
+        },
+        {
+          "text": "Kancheepuram (Kanchipuram)",
+          "value": "514"
+        },
+        {
+          "text": "Kandhamal",
+          "value": "430"
+        },
+        {
+          "text": "Kangpokpi",
+          "value": "379"
+        },
+        {
+          "text": "Kangra",
+          "value": "191"
+        },
+        {
+          "text": "Kanker (North Bastar)",
+          "value": "122"
+        },
+        {
+          "text": "Kannauj",
+          "value": "611"
+        },
+        {
+          "text": "Kanniyakumari (Kanyakumari)",
+          "value": "515"
+        },
+        {
+          "text": "Kannur",
+          "value": "274"
+        },
+        {
+          "text": "Kanpur",
+          "value": "612"
+        },
+        {
+          "text": "Kapurthala",
+          "value": "458"
+        },
+        {
+          "text": "Karaikal",
+          "value": "445"
+        },
+        {
+          "text": "Karauli (Karauli)",
+          "value": "490"
+        },
+        {
+          "text": "Karbi Anglong",
+          "value": "56"
+        },
+        {
+          "text": "Karimganj",
+          "value": "57"
+        },
+        {
+          "text": "Karimnagar",
+          "value": "543"
+        },
+        {
+          "text": "Karnal",
+          "value": "179"
+        },
+        {
+          "text": "Karur",
+          "value": "516"
+        },
+        {
+          "text": "Kasaragod",
+          "value": "275"
+        },
+        {
+          "text": "Kasganj",
+          "value": "613"
+        },
+        {
+          "text": "Kathua",
+          "value": "206"
+        },
+        {
+          "text": "Katihar",
+          "value": "84"
+        },
+        {
+          "text": "Katni (Murwara)",
+          "value": "310"
+        },
+        {
+          "text": "Kaushambi",
+          "value": "614"
+        },
+        {
+          "text": "Kendrapara",
+          "value": "431"
+        },
+        {
+          "text": "Kendujhar (Keonjhar)",
+          "value": "432"
+        },
+        {
+          "text": "Khagaria",
+          "value": "85"
+        },
+        {
+          "text": "Khammam",
+          "value": "544"
+        },
+        {
+          "text": "Kheda (Nadiad)",
+          "value": "153"
+        },
+        {
+          "text": "Kheri",
+          "value": "615"
+        },
+        {
+          "text": "Khowai (Khowai)",
+          "value": "566"
+        },
+        {
+          "text": "Khunti",
+          "value": "231"
+        },
+        {
+          "text": "Khurda (Khorda)",
+          "value": "433"
+        },
+        {
+          "text": "Kinnaur",
+          "value": "192"
+        },
+        {
+          "text": "Kiphire",
+          "value": "406"
+        },
+        {
+          "text": "Kishanganj",
+          "value": "86"
+        },
+        {
+          "text": "Kishtwar",
+          "value": "207"
+        },
+        {
+          "text": "Kodagu (Coorg)",
+          "value": "258"
+        },
+        {
+          "text": "Koderma",
+          "value": "232"
+        },
+        {
+          "text": "Kokrajhar",
+          "value": "58"
+        },
+        {
+          "text": "Kolar",
+          "value": "259"
+        },
+        {
+          "text": "Kolasib",
+          "value": "399"
+        },
+        {
+          "text": "Kolhapur",
+          "value": "349"
+        },
+        {
+          "text": "Kolkata (Calcutta)",
+          "value": "667"
+        },
+        {
+          "text": "Kollam (Quilon)",
+          "value": "276"
+        },
+        {
+          "text": "Komaram Bheem Asifabad (Kumuram Bheem)",
+          "value": "545"
+        },
+        {
+          "text": "Koppal",
+          "value": "260"
+        },
+        {
+          "text": "Koraput",
+          "value": "434"
+        },
+        {
+          "text": "Korba",
+          "value": "123"
+        },
+        {
+          "text": "Koriya (Korea)",
+          "value": "124"
+        },
+        {
+          "text": "Kota",
+          "value": "491"
+        },
+        {
+          "text": "Kottayam",
+          "value": "277"
+        },
+        {
+          "text": "Kozhikode (Calicut)",
+          "value": "278"
+        },
+        {
+          "text": "Krishna",
+          "value": "8"
+        },
+        {
+          "text": "Krishnagiri",
+          "value": "517"
+        },
+        {
+          "text": "Kulgam",
+          "value": "208"
+        },
+        {
+          "text": "Kullu",
+          "value": "193"
+        },
+        {
+          "text": "Kupwara",
+          "value": "209"
+        },
+        {
+          "text": "Kurnool",
+          "value": "9"
+        },
+        {
+          "text": "Kurukshetra",
+          "value": "180"
+        },
+        {
+          "text": "Kurung Kumey",
+          "value": "21"
+        },
+        {
+          "text": "Kushinagar",
+          "value": "616"
+        },
+        {
+          "text": "Kutch",
+          "value": "152"
+        },
+        {
+          "text": "Lahaul & Spiti",
+          "value": "194"
+        },
+        {
+          "text": "Lakhimpur",
+          "value": "59"
+        },
+        {
+          "text": "Lakhimpur",
+          "value": "617"
+        },
+        {
+          "text": "Lakhisarai",
+          "value": "87"
+        },
+        {
+          "text": "Lakshadweep",
+          "value": "285"
+        },
+        {
+          "text": "Lalitpur",
+          "value": "618"
+        },
+        {
+          "text": "Latehar",
+          "value": "233"
+        },
+        {
+          "text": "Latur",
+          "value": "350"
+        },
+        {
+          "text": "Lawngtlai",
+          "value": "400"
+        },
+        {
+          "text": "Leh",
+          "value": "210"
+        },
+        {
+          "text": "Lepa Rada",
+          "value": "22"
+        },
+        {
+          "text": "Lohardaga",
+          "value": "234"
+        },
+        {
+          "text": "Lohit",
+          "value": "23"
+        },
+        {
+          "text": "Longding",
+          "value": "24"
+        },
+        {
+          "text": "Longleng",
+          "value": "407"
+        },
+        {
+          "text": "Lower Dibang Valley",
+          "value": "25"
+        },
+        {
+          "text": "Lower Subansiri",
+          "value": "26"
+        },
+        {
+          "text": "Lucknow",
+          "value": "619"
+        },
+        {
+          "text": "Ludhiana",
+          "value": "459"
+        },
+        {
+          "text": "Lunglei",
+          "value": "401"
+        },
+        {
+          "text": "Madhepura",
+          "value": "88"
+        },
+        {
+          "text": "Madhubani",
+          "value": "89"
+        },
+        {
+          "text": "Madurai",
+          "value": "518"
+        },
+        {
+          "text": "Mahabubabad",
+          "value": "546"
+        },
+        {
+          "text": "Mahabubnagar (Rangareddy)",
+          "value": "547"
+        },
+        {
+          "text": "Maharajganj",
+          "value": "620"
+        },
+        {
+          "text": "Mahasamund",
+          "value": "125"
+        },
+        {
+          "text": "Mahe",
+          "value": "446"
+        },
+        {
+          "text": "Mahendragarh (Narnaul)",
+          "value": "181"
+        },
+        {
+          "text": "Mahisagar (Godhra)",
+          "value": "154"
+        },
+        {
+          "text": "Mahoba",
+          "value": "621"
+        },
+        {
+          "text": "Mainpuri",
+          "value": "622"
+        },
+        {
+          "text": "Majuli",
+          "value": "60"
+        },
+        {
+          "text": "Malappuram",
+          "value": "279"
+        },
+        {
+          "text": "Malda",
+          "value": "668"
+        },
+        {
+          "text": "Malkangiri",
+          "value": "435"
+        },
+        {
+          "text": "Mamit",
+          "value": "402"
+        },
+        {
+          "text": "Mancherial",
+          "value": "548"
+        },
+        {
+          "text": "Mandi",
+          "value": "195"
+        },
+        {
+          "text": "Mandla",
+          "value": "311"
+        },
+        {
+          "text": "Mandsaur",
+          "value": "312"
+        },
+        {
+          "text": "Mandya",
+          "value": "261"
+        },
+        {
+          "text": "Mansa",
+          "value": "460"
+        },
+        {
+          "text": "Mathura",
+          "value": "623"
+        },
+        {
+          "text": "Mau",
+          "value": "624"
+        },
+        {
+          "text": "Mayiladuthurai (Mayiladuthurai)",
+          "value": "519"
+        },
+        {
+          "text": "Mayurbhanj",
+          "value": "436"
+        },
+        {
+          "text": "Medak",
+          "value": "549"
+        },
+        {
+          "text": "Medchal",
+          "value": "550"
+        },
+        {
+          "text": "Meerut",
+          "value": "625"
+        },
+        {
+          "text": "Mehsana (Mahesana)",
+          "value": "155"
+        },
+        {
+          "text": "Mewat (Nuh)",
+          "value": "182"
+        },
+        {
+          "text": "Mirzapur (Miranpur Katra)",
+          "value": "626"
+        },
+        {
+          "text": "Moga",
+          "value": "461"
+        },
+        {
+          "text": "Mokokchung",
+          "value": "408"
+        },
+        {
+          "text": "Mon",
+          "value": "409"
+        },
+        {
+          "text": "Moradabad",
+          "value": "627"
+        },
+        {
+          "text": "Morbi",
+          "value": "156"
+        },
+        {
+          "text": "Morena",
+          "value": "313"
+        },
+        {
+          "text": "Morigaon",
+          "value": "61"
+        },
+        {
+          "text": "Muktsar (Malout)",
+          "value": "462"
+        },
+        {
+          "text": "Mumbai City",
+          "value": "351"
+        },
+        {
+          "text": "Mumbai Suburban",
+          "value": "352"
+        },
+        {
+          "text": "Mungeli",
+          "value": "126"
+        },
+        {
+          "text": "Munger (Monghyr)",
+          "value": "90"
+        },
+        {
+          "text": "Murshidabad (Mursidabad)",
+          "value": "669"
+        },
+        {
+          "text": "Muzaffarnagar",
+          "value": "628"
+        },
+        {
+          "text": "Muzaffarpur",
+          "value": "91"
+        },
+        {
+          "text": "Mysuru (Mysore)",
+          "value": "262"
+        },
+        {
+          "text": "Nabarangpur (Nabarangapur)",
+          "value": "437"
+        },
+        {
+          "text": "Nadia (Krishnanagar)",
+          "value": "670"
+        },
+        {
+          "text": "Nagaon",
+          "value": "62"
+        },
+        {
+          "text": "Nagapattinam (Nagapattinam)",
+          "value": "520"
+        },
+        {
+          "text": "Nagaur",
+          "value": "492"
+        },
+        {
+          "text": "Nagpur",
+          "value": "353"
+        },
+        {
+          "text": "Nainital (Haldwani)",
+          "value": "648"
+        },
+        {
+          "text": "Nalanda",
+          "value": "92"
+        },
+        {
+          "text": "Nalbari",
+          "value": "63"
+        },
+        {
+          "text": "Nalgonda",
+          "value": "551"
+        },
+        {
+          "text": "Namsai",
+          "value": "27"
+        },
+        {
+          "text": "Nanded",
+          "value": "354"
+        },
+        {
+          "text": "Nandurbar",
+          "value": "355"
+        },
+        {
+          "text": "Narayanpur",
+          "value": "127"
+        },
+        {
+          "text": "Narmada (Rajpipla)",
+          "value": "157"
+        },
+        {
+          "text": "Narsinghpur",
+          "value": "314"
+        },
+        {
+          "text": "Nasik (Nashik)",
+          "value": "356"
+        },
+        {
+          "text": "Navsari",
+          "value": "158"
+        },
+        {
+          "text": "Nawada",
+          "value": "93"
+        },
+        {
+          "text": "Nawanshahr (Shahid Bhagat Singh Nagar)",
+          "value": "463"
+        },
+        {
+          "text": "Nayagarh (Nayagarh)",
+          "value": "438"
+        },
+        {
+          "text": "Neemuch",
+          "value": "315"
+        },
+        {
+          "text": "New Delhi",
+          "value": "136"
+        },
+        {
+          "text": "Nicobars",
+          "value": "1"
+        },
+        {
+          "text": "Nilgiris",
+          "value": "521"
+        },
+        {
+          "text": "Nirmal",
+          "value": "552"
+        },
+        {
+          "text": "Nizamabad",
+          "value": "553"
+        },
+        {
+          "text": "Noney",
+          "value": "380"
+        },
+        {
+          "text": "North and Middle Andaman",
+          "value": "2"
+        },
+        {
+          "text": "North Delhi",
+          "value": "137"
+        },
+        {
+          "text": "North East Delhi",
+          "value": "138"
+        },
+        {
+          "text": "North Garo Hills (Resubelpara)",
+          "value": "389"
+        },
+        {
+          "text": "North Goa",
+          "value": "144"
+        },
+        {
+          "text": "North Sikkim (Mangan)",
+          "value": "502"
+        },
+        {
+          "text": "North Tripura (Dharmanagar)",
+          "value": "567"
+        },
+        {
+          "text": "North Twenty Four Parganas (Barasat)",
+          "value": "671"
+        },
+        {
+          "text": "North West Delhi",
+          "value": "139"
+        },
+        {
+          "text": "Nuapada",
+          "value": "439"
+        },
+        {
+          "text": "Osmanabad (Osmangabad)",
+          "value": "357"
+        },
+        {
+          "text": "Pakur",
+          "value": "235"
+        },
+        {
+          "text": "pakyong",
+          "value": "677"
+        },
+        {
+          "text": "Palakkad (Palghat)",
+          "value": "280"
+        },
+        {
+          "text": "Palamu (Daltonganj)",
+          "value": "236"
+        },
+        {
+          "text": "Palghar",
+          "value": "358"
+        },
+        {
+          "text": "Pali",
+          "value": "493"
+        },
+        {
+          "text": "Palwal",
+          "value": "183"
+        },
+        {
+          "text": "Panchkula",
+          "value": "184"
+        },
+        {
+          "text": "Panchmahal (Godhra)",
+          "value": "159"
+        },
+        {
+          "text": "Panipat",
+          "value": "185"
+        },
+        {
+          "text": "Panna",
+          "value": "316"
+        },
+        {
+          "text": "Papum Pare",
+          "value": "28"
+        },
+        {
+          "text": "Parbhani",
+          "value": "359"
+        },
+        {
+          "text": "Paschim Medinipur (West Medinipur)",
+          "value": "672"
+        },
+        {
+          "text": "Patan",
+          "value": "160"
+        },
+        {
+          "text": "Pathanamthitta",
+          "value": "281"
+        },
+        {
+          "text": "Pathankot",
+          "value": "464"
+        },
+        {
+          "text": "Patiala",
+          "value": "465"
+        },
+        {
+          "text": "Patna",
+          "value": "94"
+        },
+        {
+          "text": "Pauri Garhwal (Pauri)",
+          "value": "649"
+        },
+        {
+          "text": "Peddapalli",
+          "value": "554"
+        },
+        {
+          "text": "Perambalur",
+          "value": "522"
+        },
+        {
+          "text": "Peren",
+          "value": "410"
+        },
+        {
+          "text": "Phek",
+          "value": "411"
+        },
+        {
+          "text": "Pherzawl",
+          "value": "381"
+        },
+        {
+          "text": "Pilibhit",
+          "value": "629"
+        },
+        {
+          "text": "Pithoragarh",
+          "value": "650"
+        },
+        {
+          "text": "Pondicherry",
+          "value": "447"
+        },
+        {
+          "text": "Porbandar",
+          "value": "161"
+        },
+        {
+          "text": "Prakasam",
+          "value": "10"
+        },
+        {
+          "text": "Pratapgarh",
+          "value": "494"
+        },
+        {
+          "text": "Pratapgarh (Bhadohi)",
+          "value": "630"
+        },
+        {
+          "text": "Pudukkottai",
+          "value": "523"
+        },
+        {
+          "text": "Pulwama",
+          "value": "211"
+        },
+        {
+          "text": "Pune",
+          "value": "360"
+        },
+        {
+          "text": "Purba Medinipur (East Medinipur)",
+          "value": "673"
+        },
+        {
+          "text": "Puri",
+          "value": "440"
+        },
+        {
+          "text": "Purnea",
+          "value": "95"
+        },
+        {
+          "text": "Purulia",
+          "value": "674"
+        },
+        {
+          "text": "Rae Bareli (Raebareli)",
+          "value": "631"
+        },
+        {
+          "text": "Raichur",
+          "value": "263"
+        },
+        {
+          "text": "Raigad",
+          "value": "361"
+        },
+        {
+          "text": "Raigarh",
+          "value": "128"
+        },
+        {
+          "text": "Raipur",
+          "value": "129"
+        },
+        {
+          "text": "Raisen",
+          "value": "317"
+        },
+        {
+          "text": "Rajanna Sircilla",
+          "value": "555"
+        },
+        {
+          "text": "Rajgarh (Biaora)",
+          "value": "318"
+        },
+        {
+          "text": "Rajkot",
+          "value": "162"
+        },
+        {
+          "text": "Rajnandgaon",
+          "value": "130"
+        },
+        {
+          "text": "Rajouri",
+          "value": "212"
+        },
+        {
+          "text": "Rajsamand (Rampura)",
+          "value": "495"
+        },
+        {
+          "text": "Ramanagara (Ramanagaram)",
+          "value": "264"
+        },
+        {
+          "text": "Ramanathapuram",
+          "value": "524"
+        },
+        {
+          "text": "Ramban",
+          "value": "213"
+        },
+        {
+          "text": "Ramgarh",
+          "value": "237"
+        },
+        {
+          "text": "Rampur",
+          "value": "632"
+        },
+        {
+          "text": "Ranchi",
+          "value": "238"
+        },
+        {
+          "text": "Rangareddy",
+          "value": "556"
+        },
+        {
+          "text": "Ratlam",
+          "value": "319"
+        },
+        {
+          "text": "Ratnagiri",
+          "value": "362"
+        },
+        {
+          "text": "Rayagada (Raiagada)",
+          "value": "441"
+        },
+        {
+          "text": "Reasi",
+          "value": "214"
+        },
+        {
+          "text": "Rewa",
+          "value": "320"
+        },
+        {
+          "text": "Rewari",
+          "value": "186"
+        },
+        {
+          "text": "Ri Bhoi",
+          "value": "390"
+        },
+        {
+          "text": "Rohtak",
+          "value": "187"
+        },
+        {
+          "text": "Rohtas",
+          "value": "96"
+        },
+        {
+          "text": "Rudraprayag",
+          "value": "651"
+        },
+        {
+          "text": "Rupnagar (Ropar)",
+          "value": "466"
+        },
+        {
+          "text": "Sabarkantha (Himmatnagar)",
+          "value": "163"
+        },
+        {
+          "text": "Sagar",
+          "value": "321"
+        },
+        {
+          "text": "Saharanpur",
+          "value": "633"
+        },
+        {
+          "text": "Saharsa",
+          "value": "97"
+        },
+        {
+          "text": "Sahibganj",
+          "value": "239"
+        },
+        {
+          "text": "Saiha (Chhimtuipui)",
+          "value": "403"
+        },
+        {
+          "text": "Salem",
+          "value": "525"
+        },
+        {
+          "text": "Samastipur",
+          "value": "98"
+        },
+        {
+          "text": "Samba",
+          "value": "215"
+        },
+        {
+          "text": "Sambalpur",
+          "value": "442"
+        },
+        {
+          "text": "Sambhal (Bhim Nagar)",
+          "value": "634"
+        },
+        {
+          "text": "Sangareddy",
+          "value": "557"
+        },
+        {
+          "text": "Sangli",
+          "value": "363"
+        },
+        {
+          "text": "Sangrur",
+          "value": "467"
+        },
+        {
+          "text": "Sant Kabir Nagar (Khalilabad)",
+          "value": "635"
+        },
+        {
+          "text": "Saran",
+          "value": "99"
+        },
+        {
+          "text": "Satara",
+          "value": "364"
+        },
+        {
+          "text": "Satna",
+          "value": "322"
+        },
+        {
+          "text": "Sawai Madhopur",
+          "value": "496"
+        },
+        {
+          "text": "Sehore",
+          "value": "323"
+        },
+        {
+          "text": "Senapati",
+          "value": "382"
+        },
+        {
+          "text": "Seoni",
+          "value": "324"
+        },
+        {
+          "text": "Sepahijala (Sonamura)",
+          "value": "568"
+        },
+        {
+          "text": "Seraikela-Kharsawan",
+          "value": "240"
+        },
+        {
+          "text": "Serchhip",
+          "value": "404"
+        },
+        {
+          "text": "Shahdara",
+          "value": "140"
+        },
+        {
+          "text": "Shahdol",
+          "value": "325"
+        },
+        {
+          "text": "Shahjahanpur",
+          "value": "636"
+        },
+        {
+          "text": "Shajapur",
+          "value": "326"
+        },
+        {
+          "text": "Shamli",
+          "value": "637"
+        },
+        {
+          "text": "Sheikhpura",
+          "value": "100"
+        },
+        {
+          "text": "Sheohar",
+          "value": "101"
+        },
+        {
+          "text": "Sheopur",
+          "value": "327"
+        },
+        {
+          "text": "Shimla",
+          "value": "196"
+        },
+        {
+          "text": "Shivamogga (Shimoga)",
+          "value": "265"
+        },
+        {
+          "text": "Shivpuri",
+          "value": "328"
+        },
+        {
+          "text": "Shi Yomi",
+          "value": "29"
+        },
+        {
+          "text": "Shopian",
+          "value": "216"
+        },
+        {
+          "text": "Shrawasti",
+          "value": "638"
+        },
+        {
+          "text": "Siang",
+          "value": "30"
+        },
+        {
+          "text": "Siddipet",
+          "value": "558"
+        },
+        {
+          "text": "Sidhi",
+          "value": "329"
+        },
+        {
+          "text": "Sikar",
+          "value": "497"
+        },
+        {
+          "text": "Simdega",
+          "value": "241"
+        },
+        {
+          "text": "Sindhudurg (Sindhudurg)",
+          "value": "365"
+        },
+        {
+          "text": "Singrauli (Waidhan)",
+          "value": "330"
+        },
+        {
+          "text": "Sirmaur (Sirmour)",
+          "value": "197"
+        },
+        {
+          "text": "Sirohi",
+          "value": "498"
+        },
+        {
+          "text": "Sitamarhi",
+          "value": "102"
+        },
+        {
+          "text": "Sivaganga",
+          "value": "526"
+        },
+        {
+          "text": "Sivasagar",
+          "value": "64"
+        },
+        {
+          "text": "Siwan",
+          "value": "103"
+        },
+        {
+          "text": "Solan",
+          "value": "198"
+        },
+        {
+          "text": "Solapur (Sholapur)",
+          "value": "366"
+        },
+        {
+          "text": "Sonitpur",
+          "value": "65"
+        },
+        {
+          "text": "South Andaman",
+          "value": "3"
+        },
+        {
+          "text": "South Delhi",
+          "value": "141"
+        },
+        {
+          "text": "South East Delhi",
+          "value": "142"
+        },
+        {
+          "text": "South Garo Hills (Cherrapunji)",
+          "value": "391"
+        },
+        {
+          "text": "South Goa",
+          "value": "145"
+        },
+        {
+          "text": "South Salmara-Mankachar",
+          "value": "66"
+        },
+        {
+          "text": "South Sikkim (Namchi)",
+          "value": "503"
+        },
+        {
+          "text": "South Tripura (Belonia)",
+          "value": "569"
+        },
+        {
+          "text": "South Twenty Four Parganas (Diamond Harbour)",
+          "value": "675"
+        },
+        {
+          "text": "South West Delhi",
+          "value": "143"
+        },
+        {
+          "text": "South West Garo Hills (Bishnupur)",
+          "value": "392"
+        },
+        {
+          "text": "South West Khasi Hills (Mairang)",
+          "value": "393"
+        },
+        {
+          "text": "Srikakulam",
+          "value": "11"
+        },
+        {
+          "text": "Srinagar",
+          "value": "217"
+        },
+        {
+          "text": "Subarnapur (Sonepur)",
+          "value": "443"
+        },
+        {
+          "text": "Sultanpur",
+          "value": "639"
+        },
+        {
+          "text": "Sundargarh (Sundergarh)",
+          "value": "444"
+        },
+        {
+          "text": "Supaul",
+          "value": "104"
+        },
+        {
+          "text": "Surat",
+          "value": "164"
+        },
+        {
+          "text": "Surendranagar",
+          "value": "165"
+        },
+        {
+          "text": "Suryapet",
+          "value": "559"
+        },
+        {
+          "text": "Tamenglong",
+          "value": "383"
+        },
+        {
+          "text": "Tapi (Vyara)",
+          "value": "166"
+        },
+        {
+          "text": "Tawang",
+          "value": "31"
+        },
+        {
+          "text": "Tehri Garhwal (Tehri)",
+          "value": "652"
+        },
+        {
+          "text": "Tengnoupal",
+          "value": "384"
+        },
+        {
+          "text": "Thane",
+          "value": "367"
+        },
+        {
+          "text": "Thanjavur",
+          "value": "527"
+        },
+        {
+          "text": "Theni",
+          "value": "528"
+        },
+        {
+          "text": "Thiruvananthapuram",
+          "value": "282"
+        },
+        {
+          "text": "Thoothukudi (Tuticorin)",
+          "value": "529"
+        },
+        {
+          "text": "Thoubal",
+          "value": "385"
+        },
+        {
+          "text": "Thrissur (Trichur)",
+          "value": "283"
+        },
+        {
+          "text": "Tikamgarh (Tehri)",
+          "value": "331"
+        },
+        {
+          "text": "Tinsukia",
+          "value": "67"
+        },
+        {
+          "text": "Tirap",
+          "value": "32"
+        },
+        {
+          "text": "Tiruchirappalli",
+          "value": "530"
+        },
+        {
+          "text": "Tirunelveli",
+          "value": "531"
+        },
+        {
+          "text": "Tonk",
+          "value": "499"
+        },
+        {
+          "text": "Trichy",
+          "value": "532"
+        },
+        {
+          "text": "Tuensang",
+          "value": "412"
+        },
+        {
+          "text": "Tumakuru (Tumkur)",
+          "value": "266"
+        },
+        {
+          "text": "Udaipur",
+          "value": "500"
+        },
+        {
+          "text": "Udalguri",
+          "value": "68"
+        },
+        {
+          "text": "Udhampur",
+          "value": "218"
+        },
+        {
+          "text": "Udham Singh Nagar (Kichha)",
+          "value": "653"
+        },
+        {
+          "text": "Udupi",
+          "value": "267"
+        },
+        {
+          "text": "Ujjain",
+          "value": "332"
+        },
+        {
+          "text": "Umaria",
+          "value": "333"
+        },
+        {
+          "text": "Una",
+          "value": "199"
+        },
+        {
+          "text": "Unakoti (Kailashahar)",
+          "value": "570"
+        },
+        {
+          "text": "Unnao",
+          "value": "640"
+        },
+        {
+          "text": "Upper Siang",
+          "value": "33"
+        },
+        {
+          "text": "Upper Subansiri",
+          "value": "34"
+        },
+        {
+          "text": "Uttara Kannada (Karwar)",
+          "value": "268"
+        },
+        {
+          "text": "Uttar Dinajpur (North Dinajpur)",
+          "value": "676"
+        },
+        {
+          "text": "Uttarkashi (Uttar Kashi)",
+          "value": "654"
+        },
+        {
+          "text": "Vadodara",
+          "value": "167"
+        },
+        {
+          "text": "Vaishali",
+          "value": "105"
+        },
+        {
+          "text": "Valsad",
+          "value": "168"
+        },
+        {
+          "text": "Varanasi",
+          "value": "641"
+        },
+        {
+          "text": "Vellore",
+          "value": "533"
+        },
+        {
+          "text": "Vidisha",
+          "value": "334"
+        },
+        {
+          "text": "Vijayapura (Bijapur)",
+          "value": "269"
+        },
+        {
+          "text": "Vikarabad",
+          "value": "560"
+        },
+        {
+          "text": "Viluppuram",
+          "value": "534"
+        },
+        {
+          "text": "Virudhunagar",
+          "value": "535"
+        },
+        {
+          "text": "Visakhapatnam",
+          "value": "12"
+        },
+        {
+          "text": "Vizianagaram",
+          "value": "13"
+        },
+        {
+          "text": "Wanaparthy",
+          "value": "561"
+        },
+        {
+          "text": "Warangal Rural (Warangal)",
+          "value": "562"
+        },
+        {
+          "text": "Warangal Urban (Hanamkonda)",
+          "value": "563"
+        },
+        {
+          "text": "Wardha",
+          "value": "368"
+        },
+        {
+          "text": "Washim",
+          "value": "369"
+        },
+        {
+          "text": "Wayanad",
+          "value": "284"
+        },
+        {
+          "text": "West Champaran",
+          "value": "106"
+        },
+        {
+          "text": "West Garo Hills (Tura)",
+          "value": "394"
+        },
+        {
+          "text": "West Godavari",
+          "value": "14"
+        },
+        {
+          "text": "West Jaintia Hills (Nongpoh)",
+          "value": "395"
+        },
+        {
+          "text": "West Kameng",
+          "value": "35"
+        },
+        {
+          "text": "West Khasi Hills (Mariani)",
+          "value": "396"
+        },
+        {
+          "text": "West Siang",
+          "value": "36"
+        },
+        {
+          "text": "West Sikkim (Gyalshing)",
+          "value": "504"
+        },
+        {
+          "text": "West Tripura (Khowai)",
+          "value": "571"
+        },
+        {
+          "text": "Wokha",
+          "value": "413"
+        },
+        {
+          "text": "Yadgir",
+          "value": "270"
+        },
+        {
+          "text": "Yanam",
+          "value": "448"
+        },
+        {
+          "text": "Yavatmal (Yeotmal)",
+          "value": "370"
+        },
+        {
+          "text": "YSR Kadapa",
+          "value": "15"
+        },
+        {
+          "text": "Zunheboto",
+          "value": "414"
+        }
+      ],
+      "value": "71"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_taluka_id",
+      "id": "taluka-select",
+      "placeholder": "",
+      "label": "Taluka *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Taluka",
+          "value": ""
+        },
+        {
+          "text": "Achalpur",
+          "value": "23"
+        },
+        {
+          "text": "Agar",
+          "value": "58"
+        },
+        {
+          "text": "Aheri",
+          "value": "48"
+        },
+        {
+          "text": "Akola",
+          "value": "15"
+        },
+        {
+          "text": "Akole",
+          "value": "1"
+        },
+        {
+          "text": "Akot",
+          "value": "16"
+        },
+        {
+          "text": "Amravati",
+          "value": "22"
+        },
+        {
+          "text": "Anjangaon Surji",
+          "value": "29"
+        },
+        {
+          "text": "Armori",
+          "value": "49"
+        },
+        {
+          "text": "Aurangabad",
+          "value": "36"
+        },
+        {
+          "text": "Balapur",
+          "value": "17"
+        },
+        {
+          "text": "Barshitakli",
+          "value": "20"
+        },
+        {
+          "text": "Bhadravati",
+          "value": "43"
+        },
+        {
+          "text": "Bhamragad",
+          "value": "57"
+        },
+        {
+          "text": "Bhandara",
+          "value": "38"
+        },
+        {
+          "text": "Bhatkuli",
+          "value": "33"
+        },
+        {
+          "text": "Buldhana",
+          "value": "40"
+        },
+        {
+          "text": "Chamorshi",
+          "value": "46"
+        },
+        {
+          "text": "Chandrapur",
+          "value": "42"
+        },
+        {
+          "text": "Chandurbazar",
+          "value": "25"
+        },
+        {
+          "text": "Chandur Railway",
+          "value": "35"
+        },
+        {
+          "text": "Chikahli",
+          "value": "41"
+        },
+        {
+          "text": "Chikhaldara",
+          "value": "32"
+        },
+        {
+          "text": "Daryapur",
+          "value": "28"
+        },
+        {
+          "text": "Desaiganj (Vadasa)",
+          "value": "51"
+        },
+        {
+          "text": "Dhamangaon Railway",
+          "value": "30"
+        },
+        {
+          "text": "Dhanora",
+          "value": "52"
+        },
+        {
+          "text": "Dharni",
+          "value": "26"
+        },
+        {
+          "text": "Dhule",
+          "value": "44"
+        },
+        {
+          "text": "Etapalli",
+          "value": "53"
+        },
+        {
+          "text": "Gadchiroli",
+          "value": "47"
+        },
+        {
+          "text": "Jamkhed",
+          "value": "2"
+        },
+        {
+          "text": "Karjat",
+          "value": "3"
+        },
+        {
+          "text": "Kopargaon",
+          "value": "4"
+        },
+        {
+          "text": "Korchi",
+          "value": "56"
+        },
+        {
+          "text": "Kurkheda",
+          "value": "50"
+        },
+        {
+          "text": "Morshi",
+          "value": "27"
+        },
+        {
+          "text": "Mulchera",
+          "value": "55"
+        },
+        {
+          "text": "Murtijapur",
+          "value": "18"
+        },
+        {
+          "text": "Nagar",
+          "value": "5"
+        },
+        {
+          "text": "Nandgaon Khandeshwar",
+          "value": "31"
+        },
+        {
+          "text": "Nevasa",
+          "value": "6"
+        },
+        {
+          "text": "Parner",
+          "value": "7"
+        },
+        {
+          "text": "Pathardi",
+          "value": "8"
+        },
+        {
+          "text": "Patur",
+          "value": "21"
+        },
+        {
+          "text": "Rahata",
+          "value": "9"
+        },
+        {
+          "text": "Rahuri",
+          "value": "10"
+        },
+        {
+          "text": "Sakri",
+          "value": "45"
+        },
+        {
+          "text": "Sangamner",
+          "value": "11"
+        },
+        {
+          "text": "Shevgaon",
+          "value": "12"
+        },
+        {
+          "text": "Shrigonda",
+          "value": "13"
+        },
+        {
+          "text": "Shrirampur",
+          "value": "14"
+        },
+        {
+          "text": "Sillod",
+          "value": "37"
+        },
+        {
+          "text": "Sironcha",
+          "value": "54"
+        },
+        {
+          "text": "Telhara",
+          "value": "19"
+        },
+        {
+          "text": "Teosa",
+          "value": "34"
+        },
+        {
+          "text": "Tumsar",
+          "value": "39"
+        },
+        {
+          "text": "Warud",
+          "value": "24"
+        }
+      ],
+      "value": "36"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_village_id",
+      "id": "villege-select",
+      "placeholder": "",
+      "label": "Village *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Village",
+          "value": ""
+        },
+        {
+          "text": "Abanpalli M",
+          "value": "1"
+        },
+        {
+          "text": "Adange",
+          "value": "2"
+        },
+        {
+          "text": "Aldandi",
+          "value": "3"
+        },
+        {
+          "text": "Alenga",
+          "value": "4"
+        },
+        {
+          "text": "Alenga M",
+          "value": "5"
+        },
+        {
+          "text": "Asawandi",
+          "value": "6"
+        },
+        {
+          "text": "Bande",
+          "value": "7"
+        },
+        {
+          "text": "Barsewada",
+          "value": "8"
+        },
+        {
+          "text": "Bater",
+          "value": "9"
+        },
+        {
+          "text": "Besewada",
+          "value": "10"
+        },
+        {
+          "text": "Chandanweli",
+          "value": "11"
+        },
+        {
+          "text": "Channabodi",
+          "value": "12"
+        },
+        {
+          "text": "Chokhewada",
+          "value": "13"
+        },
+        {
+          "text": "Deopadi",
+          "value": "14"
+        },
+        {
+          "text": "Hedri",
+          "value": "15"
+        },
+        {
+          "text": "Italnar",
+          "value": "16"
+        },
+        {
+          "text": "Jajawandi",
+          "value": "17"
+        },
+        {
+          "text": "Kachler",
+          "value": "18"
+        },
+        {
+          "text": "Kandli",
+          "value": "19"
+        },
+        {
+          "text": "Kandoli",
+          "value": "20"
+        },
+        {
+          "text": "Jairampur",
+          "value": "21"
+        },
+        {
+          "text": "Aranda",
+          "value": "22"
+        },
+        {
+          "text": "Achuki",
+          "value": "23"
+        },
+        {
+          "text": "Agar",
+          "value": "24"
+        },
+        {
+          "text": "Kadakola",
+          "value": "25"
+        }
+      ],
+      "value": "22"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_dms_lat_degree",
+      "id": "tlb_land_dms_lat_degree",
+      "placeholder": "Enter Latitude Degree",
+      "label": "Latitude Degree *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "22"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_dms_lat_minutes",
+      "id": "tlb_land_dms_lat_minutes",
+      "placeholder": "Enter Latitude Minutes",
+      "label": "Latitude Minutes *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "34"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_dms_lat_seconds",
+      "id": "tlb_land_dms_lat_seconds",
+      "placeholder": "Enter Latitude Seconds",
+      "label": "Latitude Seconds *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "10"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_land_dms_lat_direction_id",
+      "id": "tlb_land_dms_lat_direction_id",
+      "placeholder": "",
+      "label": "Latitude Direction",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Direction",
+          "value": ""
+        },
+        {
+          "text": "North",
+          "value": "1"
+        },
+        {
+          "text": "South",
+          "value": "2"
+        }
+      ],
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_decimal_lat",
+      "id": "tlb_land_decimal_lat",
+      "placeholder": "Enter Decimal Latitude",
+      "label": "Decimal Latitude",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "22.569444"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_dms_long_degree",
+      "id": "tlb_land_dms_long_degree",
+      "placeholder": "Enter Longtitude Degree",
+      "label": "Longititude Degree *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "88"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_dms_long_minutes",
+      "id": "tlb_land_dms_long_minutes",
+      "placeholder": "Enter Longtitude Minutes",
+      "label": "Longititude Minutes *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "12"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_dms_long_seconds",
+      "id": "tlb_land_dms_long_seconds",
+      "placeholder": "Enter Longtitude Seconds",
+      "label": "Longititude Seconds *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "15"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_land_dms_long_direction_id",
+      "id": "tlb_land_dms_long_direction_id",
+      "placeholder": "",
+      "label": "Longitude Direction *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Direction",
+          "value": ""
+        },
+        {
+          "text": "East",
+          "value": "1"
+        },
+        {
+          "text": "West",
+          "value": "2"
+        }
+      ],
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_decimal_long",
+      "id": "tlb_land_decimal_long",
+      "placeholder": "Enter Decimal Latitude",
+      "label": "Decimal Longitude *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "88.204167"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_substation_id",
+      "id": "tlb_substation_id",
+      "placeholder": "",
+      "label": "Substation *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Substation",
+          "value": ""
+        },
+        {
+          "text": "Kharagpur Substation",
+          "value": "1"
+        },
+        {
+          "text": "Santaldih Substation",
+          "value": "2"
+        },
+        {
+          "text": "Kolaghat Substation",
+          "value": "4"
+        },
+        {
+          "text": "Howrah Substation",
+          "value": "5"
+        },
+        {
+          "text": "Haldia Substation",
+          "value": "6"
+        },
+        {
+          "text": "Durgapur Substation",
+          "value": "3"
+        },
+        {
+          "text": "Digha Substation",
+          "value": "9"
+        }
+      ],
+      "value": "3"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_ctu_stu",
+      "id": "tlb_ctu_stu",
+      "placeholder": "",
+      "label": "CTU/STU *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Type",
+          "value": ""
+        },
+        {
+          "text": "CTU",
+          "value": "1"
+        },
+        {
+          "text": "STU",
+          "value": "2"
+        }
+      ],
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_dms_lat_degree",
+      "id": "tlb_substation_dms_lat_degree",
+      "placeholder": "Enter Latitude Degree",
+      "label": "Latitude Degree *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "22"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_dms_lat_minutes",
+      "id": "tlb_substation_dms_lat_minutes",
+      "placeholder": "Enter Latitude Minutes",
+      "label": "Latitude Minutes *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "34"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_dms_lat_seconds",
+      "id": "tlb_substation_dms_lat_seconds",
+      "placeholder": "Enter Latitude Seconds",
+      "label": "Latitude Seconds *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "10"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_substation_dms_lat_direction_id",
+      "id": "tlb_substation_dms_lat_direction_id",
+      "placeholder": "",
+      "label": "Latitude Direction *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Direction",
+          "value": ""
+        },
+        {
+          "text": "North",
+          "value": "1"
+        },
+        {
+          "text": "South",
+          "value": "2"
+        }
+      ],
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_decimal_lat",
+      "id": "tlb_substation_decimal_lat",
+      "placeholder": "Enter Decimal Latitude",
+      "label": "Decimal Latitude *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "22.569444"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_long_degree",
+      "id": "tlb_substation_long_degree",
+      "placeholder": "Enter Longtitude Degree",
+      "label": "Longititude Degree *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "88"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_long_minutes",
+      "id": "tlb_substation_long_minutes",
+      "placeholder": "Enter Longtitude Minutes",
+      "label": "Longititude Minutes *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "22"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_long_seconds",
+      "id": "tlb_substation_long_seconds",
+      "placeholder": "Enter Longtitude Seconds",
+      "label": "Longititude Seconds *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "15"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_substation_long_direction_id",
+      "id": "tlb_substation_long_direction_id",
+      "placeholder": "",
+      "label": "Longititude Direction *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Direction",
+          "value": ""
+        },
+        {
+          "text": "East",
+          "value": "1"
+        },
+        {
+          "text": "West",
+          "value": "2"
+        }
+      ],
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_substation_decimal_long",
+      "id": "tlb_substation_decimal_long",
+      "placeholder": "Enter Decimal Latitude",
+      "label": "Decimal Longitude *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "88.370833"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_tl_distance",
+      "id": "tlb_tl_distance",
+      "placeholder": "Enter TL Distance",
+      "label": "TL Distance (km) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "45"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_ss_evacuation_capacity",
+      "id": "tlb_ss_evacuation_capacity",
+      "placeholder": "Enter SS Evacuation Capacity",
+      "label": "SS Evacuation Capacity (MW) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "100"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_voltage_level",
+      "id": "tlb_voltage_level",
+      "placeholder": "Enter Voltage Level",
+      "label": "Voltage Level (kV) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "132"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_ss_readiness",
+      "id": "tlb_ss_readiness",
+      "placeholder": "",
+      "label": "SS Readiness *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Readiness",
+          "value": ""
+        },
+        {
+          "text": "Ready",
+          "value": "1"
+        },
+        {
+          "text": "Not Ready",
+          "value": "2"
+        },
+        {
+          "text": "In Progress",
+          "value": "3"
+        }
+      ],
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_quantum_offered_lease",
+      "id": "tlb_land_quantum_offered_lease",
+      "placeholder": "Enter Quantum Offered (Lease)",
+      "label": "Land Quantum Offered (Lease) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "50"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_quantum_offered_purchase",
+      "id": "tlb_land_quantum_offered_purchase",
+      "placeholder": "Enter Quantum Offered (Purchase)",
+      "label": "Land Quantum Offered (Purchase) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "30"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_land_quantum_offered_total",
+      "id": "tlb_land_quantum_offered_total",
+      "placeholder": "Enter Total Quantum Offered",
+      "label": "Land Quantum Offered (Total) *",
+      "required": false,
+      "disabled": false,
+      "readonly": true,
+      "classes": "form-control ",
+      "options": null,
+      "value": "80"
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlb_connectivity_status",
+      "id": "tlb_connectivity_status",
+      "placeholder": "",
+      "label": "Connectivity Status *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Status",
+          "value": ""
+        },
+        {
+          "text": "Connected",
+          "value": "1"
+        },
+        {
+          "text": "Not Connected",
+          "value": "2"
+        },
+        {
+          "text": "In Progress",
+          "value": "3"
+        }
+      ],
+      "value": "1"
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlb_quantum_of_connectivity",
+      "id": "tlb_quantum_of_connectivity",
+      "placeholder": "Enter Quantum of Connectivity",
+      "label": "Quantum of Connectivity *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "50"
+    },
+    {
+      "tag": "textarea",
+      "type": "textarea",
+      "name": "tcom_remarks",
+      "id": "tcom_remarks",
+      "placeholder": "Enter Remarks",
+      "label": "Remarks *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": "Land and substation connectivity available."
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "document_type[0]",
+      "id": "document_type_0",
+      "placeholder": "",
+      "label": "",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "document-type-select form-select required_value select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Document Type",
+          "value": ""
+        },
+        {
+          "text": "Agreement Document",
+          "value": "1"
+        },
+        {
+          "text": "Affidavit",
+          "value": "2"
+        },
+        {
+          "text": "Application Document",
+          "value": "24"
+        },
+        {
+          "text": "Mutation Certificate",
+          "value": "5"
+        },
+        {
+          "text": "Tax Receipt",
+          "value": "6"
+        }
+      ],
+      "value": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "document_variant[0]",
+      "id": "document_variant_0",
+      "placeholder": "",
+      "label": "",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-select required_value",
+      "options": [
+        {
+          "text": "Select Document Variant",
+          "value": ""
+        },
+        {
+          "text": "Original",
+          "value": "1"
+        },
+        {
+          "text": "Certified True Copy",
+          "value": "2"
+        }
+      ],
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "physical_document_location[0]",
+      "id": "physical_document_location_0",
+      "placeholder": "Enter physical location",
+      "label": "",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control required_value",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "document_label[0]",
+      "id": "document_label_0",
+      "placeholder": "Enter label",
+      "label": "",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control required_value",
+      "options": null,
+      "value": ""
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Preview",
+      "classes": "btn btn-sm btn-info"
+    },
+    {
+      "text": "Download",
+      "classes": "btn btn-sm btn-primary ms-2"
+    },
+    {
+      "text": "+",
+      "classes": "btn green submit new-row btn-danger"
+    },
+    {
+      "text": "Next",
+      "classes": "btn btn-primary"
+    },
+    {
+      "text": "Update Land Bank",
+      "classes": "btn btn-primary"
+    }
+  ],
+  "headings": [
+    "Edit New Land Proposal Details",
+    "Land Bank Details *",
+    "Land Co-ordinates *",
+    "Sub-Station Co-ordinates",
+    "Additional Details",
+    "Uploaded Documents",
+    "Uploaded Documents"
+  ],
+  "stepper": []
+}

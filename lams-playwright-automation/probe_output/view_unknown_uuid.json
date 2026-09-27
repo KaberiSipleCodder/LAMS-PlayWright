@@ -1,0 +1,46 @@
+{
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/00000000-0000-0000-0000-000000000000",
+  "title": "LAMS - Renewable",
+  "headings": [
+    "404",
+    "Page Not Found ⚠️"
+  ],
+  "details": [],
+  "controls": [],
+  "buttons": [
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "Close",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "Delete",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "a",
+      "type": "",
+      "attrType": "",
+      "text": "Back to home",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/dashboard",
+      "visible": true
+    }
+  ],
+  "forms": [
+    {
+      "action": "",
+      "method": "get"
+    }
+  ],
+  "submitControls": 0,
+  "tabs": [],
+  "tables": [],
+  "bodyText": "404 Page Not Found ⚠️ We couldn't find the page you are looking for. Back to home"
+}

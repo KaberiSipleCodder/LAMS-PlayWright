@@ -1,0 +1,26 @@
+﻿[step 3] 19 control(s) dumped
+
+[step 2] plant size typed '-5' -> '5'
+[step 2] banner: 'Step 2 updated. Proceed to Step 3.'
+[step 2] alerts after save: ['Step 2 updated. Proceed to Step 3.']
+[step 2] errors: ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*', '*']
+  nav 'javascript:void(0)' cls='nav-item nav-link px-0 me-xl-6'         ''
+  nav 'javascript:void(0);' cls='nav-item nav-link search-toggler px-0'  ''
+  nav 'javascript:void(0);' cls='nav-item nav-link search-toggler px-0'  'Land Acquisition Management System'
+  nav 'https://uat.lamsapp.com/php8_4/product/advanced/current/auth/change-business-type' cls='nav-link'                               ''
+  nav 'javascript:void(0);' cls='nav-link dropdown-toggle hide-arrow icon-container' ''
+  nav 'javascript:void(0);' cls='nav-link dropdown-toggle hide-arrow p-0' ''
+  nav 'https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit' cls='nav-link '                              '1 Land Bank Details'
+  nav 'https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step2' cls='nav-link '                              '2 Technical Team Details'
+  nav 'https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step3' cls='nav-link active'                        '3 BD Team Details'
+  pane 'tab1'       'tab-pane fade '
+  pane 'tab2'       'tab-pane fade '
+  pane 'tab3'       'tab-pane fade active show'
+
+[step1 lat] cleared -> ''
+[step1 lat] errors: ['Please enter latitude degree']
+[step1 lat] success banner: False
+[step1 lat] url: https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit
+[step1 lat] stored before='22' after reload='22'
+
+Evidence written to C:\Users\User-362-PC\Downloads\lams-playwright-automation\lams-playwright-automation\probe_output

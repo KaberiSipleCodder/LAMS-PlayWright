@@ -1,0 +1,43 @@
+{
+  "alerts": [
+    {
+      "sel": "DIV.alert alert-success alert-dismissible fade show",
+      "text": "Land Bank created successfully"
+    }
+  ],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process aos-init aos-animate",
+      "text": "Land Proposals List"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.gfb-apply",
+      "text": "Apply Filter"
+    },
+    {
+      "sel": "BUTTON.gfb-clear",
+      "text": "Reset"
+    },
+    {
+      "sel": "BUTTON.btn buttons-collection btn-label-secondary dropdown-toggle export-dropdown-toggle",
+      "text": "Export"
+    },
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Add New Land Proposal"
+    },
+    {
+      "sel": "BUTTON.page-link",
+      "text": "1"
+    },
+    {
+      "sel": "BUTTON.page-link",
+      "text": "2"
+    }
+  ],
+  "activeStep": [],
+  "invalid": [],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks"
+}

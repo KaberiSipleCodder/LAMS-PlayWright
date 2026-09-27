@@ -1,0 +1,436 @@
+{
+  "step1_banner": "Step 1 updated. Proceed to Step 2.",
+  "plant_size_after_typing_negative": "5",
+  "plant_size_before_save": "50",
+  "step2_banner": "Step 2 updated. Proceed to Step 3.",
+  "after_save": {
+    "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step3",
+    "navs": [
+      {
+        "text": "",
+        "href": "javascript:void(0)",
+        "cls": "nav-item nav-link px-0 me-xl-6"
+      },
+      {
+        "text": "",
+        "href": "javascript:void(0);",
+        "cls": "nav-item nav-link search-toggler px-0"
+      },
+      {
+        "text": "Land Acquisition Management System",
+        "href": "javascript:void(0);",
+        "cls": "nav-item nav-link search-toggler px-0"
+      },
+      {
+        "text": "",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/auth/change-business-type",
+        "cls": "nav-link"
+      },
+      {
+        "text": "",
+        "href": "javascript:void(0);",
+        "cls": "nav-link dropdown-toggle hide-arrow icon-container"
+      },
+      {
+        "text": "",
+        "href": "javascript:void(0);",
+        "cls": "nav-link dropdown-toggle hide-arrow p-0"
+      },
+      {
+        "text": "1 Land Bank Details",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit",
+        "cls": "nav-link "
+      },
+      {
+        "text": "2 Technical Team Details",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step2",
+        "cls": "nav-link "
+      },
+      {
+        "text": "3 BD Team Details",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step3",
+        "cls": "nav-link active"
+      }
+    ],
+    "panes": [
+      {
+        "id": "tab1",
+        "cls": "tab-pane fade "
+      },
+      {
+        "id": "tab2",
+        "cls": "tab-pane fade "
+      },
+      {
+        "id": "tab3",
+        "cls": "tab-pane fade active show"
+      }
+    ],
+    "cf_field": {
+      "exists": true,
+      "visible": true,
+      "pane_id": "tab3"
+    },
+    "errors": [
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*"
+    ],
+    "alerts": [
+      "Step 2 updated. Proceed to Step 3."
+    ]
+  },
+  "reveal_attempts": [],
+  "final_state": {
+    "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step3",
+    "navs": [
+      {
+        "text": "",
+        "href": "javascript:void(0)",
+        "cls": "nav-item nav-link px-0 me-xl-6"
+      },
+      {
+        "text": "",
+        "href": "javascript:void(0);",
+        "cls": "nav-item nav-link search-toggler px-0"
+      },
+      {
+        "text": "Land Acquisition Management System",
+        "href": "javascript:void(0);",
+        "cls": "nav-item nav-link search-toggler px-0"
+      },
+      {
+        "text": "",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/auth/change-business-type",
+        "cls": "nav-link"
+      },
+      {
+        "text": "",
+        "href": "javascript:void(0);",
+        "cls": "nav-link dropdown-toggle hide-arrow icon-container"
+      },
+      {
+        "text": "",
+        "href": "javascript:void(0);",
+        "cls": "nav-link dropdown-toggle hide-arrow p-0"
+      },
+      {
+        "text": "1 Land Bank Details",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit",
+        "cls": "nav-link "
+      },
+      {
+        "text": "2 Technical Team Details",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step2",
+        "cls": "nav-link "
+      },
+      {
+        "text": "3 BD Team Details",
+        "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652/edit-step3",
+        "cls": "nav-link active"
+      }
+    ],
+    "panes": [
+      {
+        "id": "tab1",
+        "cls": "tab-pane fade "
+      },
+      {
+        "id": "tab2",
+        "cls": "tab-pane fade "
+      },
+      {
+        "id": "tab3",
+        "cls": "tab-pane fade active show"
+      }
+    ],
+    "cf_field": {
+      "exists": true,
+      "visible": true,
+      "pane_id": "tab3"
+    },
+    "errors": [
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*",
+      "*"
+    ],
+    "alerts": [
+      "Step 2 updated. Proceed to Step 3."
+    ]
+  },
+  "step3_fields": [
+    {
+      "name": "_token",
+      "tag": "input",
+      "type": "hidden",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "land_bank_id",
+      "tag": "input",
+      "type": "hidden",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "uuid",
+      "tag": "input",
+      "type": "hidden",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_land_basic_cost_sale",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_land_basic_cost_lease",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_stamp_duty_and_reg_charges_sale",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_stamp_duty_and_reg_charges_lease",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_other_stat_charges",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_service_fee_sale",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_service_fee_lease",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_lease_tenure_years",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_lease_escalation_rate",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_lease_escalation_frequency_years",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_total_land_cost",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_service_fee",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_commercial_negotiation",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_land_cost_to_be_considered_for_bd",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_land_being_considered_for",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlbbt_tariff_due_to_this_land",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    }
+  ]
+}

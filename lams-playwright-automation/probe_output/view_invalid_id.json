@@ -1,0 +1,174 @@
+{
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/not-a-uuid",
+  "title": "Laravel",
+  "headings": [
+    "Illuminate\\Database\\QueryException",
+    "Exception trace",
+    "Queries",
+    "Headers",
+    "Body",
+    "Routing",
+    "Routing parameters"
+  ],
+  "details": [],
+  "controls": [],
+  "buttons": [
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "Copy as Markdown",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "1",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "",
+      "href": "",
+      "visible": false
+    }
+  ],
+  "forms": [],
+  "submitControls": 0,
+  "tabs": [],
+  "tables": [],
+  "bodyText": "Internal Server Error Copy as Markdown Illuminate\\Database\\QueryException vendor/laravel/framework/src/Illuminate/Database/Connection.php:838 SQLSTATE[22P02]: Invalid text representation: 7 ERROR: invalid input syntax for type uuid: \"not-a-uuid\" CONTEXT: unnamed portal parameter $1 = '...' (Connection: pgsql, Host: 127.0.0.1, Port: 5432, Database: LAMS_PRODUCT_ADVANCED, SQL: select * from \"t_land_bank_details\" where \"uuid\" = not-a-uuid and \"t_land_bank_details\".\"tlb_deleted_at\" is null limit 1) LARAVEL 12.64.0 PHP 8.4.24 UNHANDLED CODE 22P02 500 GET https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/not-a-uuid Exception trace 11 vendor frames Illuminate\\Database\\Eloquent\\Builder->firstOrFail() app/Modules/LandBanks/app/Http/Controllers/LandBanksController.php:382 377 { 378 $module = $this->getData('module'); 379 380 $landBank = LandBankDetail::with(['state', 'district', 'taluka', 'village', 'landType', 'getTechnicalInfo', 'getBusinessInfo']) 381 ->byUuid($id) 382 ->firstOrFail(); 383 384 return view('landbanks::show', compact('module', 'landBank')); 385 } 386 387 /** 388 * Show the form for editing the specified resource. 389 */ 390 public function edit($id) 391 { 392 $module = $this->getData('module'); 393 394 6 vendor frames Illuminate\\Pipeline\\Pipeline->{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():178}() app/Http/Middleware/ModulePermissionMiddleware.php:73 3 vendor frames Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}() app/Http/Middleware/Authenticate.php:37 3 vendor frames Illuminate\\Support\\Facades\\Facade::__callStatic() app/Http/Middleware/Authenticate.php:21 23 vendor frames Illuminate\\Pipeline\\Pipeline->{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():194}:195}() app/Http/Middleware/SecurityHeaders.php:12 23 vendor frames Illuminate\\Foundation\\Application->handleRequest() index.php:19 Queries 1-4 of 4 pgsql select * from \"users\" where \"id\" = 1 limit 1 3.29ms pgsql select * from \"users\" where \"id\" = 1 and \"users\".\"deleted_at\" is null limit 1 1.07ms pgsql SET LOCAL lams.current_user_id = '1' 0.57ms pgsql select \"roles\".*, \"model_has_roles\".\"model_id\" as \"pivot_model_id\", \"model_has_roles\".\"role_id\" as \"pivot_role_id\", \"model_has_roles\".\"model_type\" as \"pivot_model_type\" from \"roles\" inner join \"model_has_roles\" on \"roles\".\"id\" = \"model_has_roles\".\"role_id\" where \"model_has_roles\".\"model_id\" in (1) and \"model_has_roles\".\"model_type\" = 'App\\Models\\User' 3.12ms Headers COOKIE XSRF-TOKEN=eyJpdiI6IksxVFJkNUcrNlVrVS9sK0JZQzM0WlE9PSIsInZhbHVlIjoidFl0NCs5VXcxRW1YT245U2hKaktNaVRvRDlnNHRMM25qVldHOEdWYUxPZEY3Q1RCWVg4OW9pMDByMldTNjJkWTk5WmNQRHhpRFNyVkpsQll2ZkkyQld6eUh5RUVzQzNOdEw3ZE54WWIvYi9TQ24rRkpuZzB0M0dleTdmRnBGQnIiLCJtYWMiOiIzYzZmNWJjOTZkZTc2ZTgwNWVlOTAzMGQ2NTM3NWU1M2RkMDJkNmE4NDYzYWQ1ZTQ4YjgxN2FlMzU0ZTEzNGYzIiwidGFnIjoiIn0%3D; laravel_session=eyJpdiI6IlYyOXFhYVdoODFxWGpGREpyYktzbVE9PSIsInZhbHVlIjoiL2pRZHdXenUzSWx1c0JxZ2RPZExHTm45L3RmVHRNMjZvbmZLeklRNUQrbFR3TVNDQWxHay9YUkwyNm1Ba2tnTkVNZmNLMXV6czFudXFsdzRxSEoveVFYZ1E1blpxWmpTSm5PL1dKeXIweW56bzBteEVaVWhsU0Nqa0JUeUJJOVkiLCJtYWMiOiI3OGE2YjRjOGM2NDZjN2RjZDBjNmM1NTY3M2EyM2I3ZDMzZWU0NTk4NjNkMzJhMzVhMzg4NTM3NTBhZTU4YWI2IiwidGFnIjoiIn0%3D PRIORITY u=0, i ACCEPT-ENCODING gzip, deflate, br, zstd SEC-FETCH-DEST document SEC-FETCH-USER ?1 SEC-FETCH-MODE navigate SEC-FETCH-SITE none ACCEPT text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7 USER-AGENT Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/129.0.6668.29 Safari/537.36 UPGRADE-INSECURE-REQUESTS 1 SEC-CH-UA-PLATFORM \"Windows\" SEC-CH-UA-MOBILE ?0 SEC-CH-UA \"HeadlessChrome\";v=\"129\", \"Not=A?Brand\";v=\"8\", \"Chromium\";v=\"129\" HOST uat.lamsapp.com CONNECTION upgrade X-FORWARDED-PROTO https X-FORWARDED-FOR 122.176.64.212 X-REAL-IP 122.176.64.212 Body // NO REQUEST BODY Routing CONTROLLER Modules\\LandBanks\\Http\\Controllers\\Land"
+}

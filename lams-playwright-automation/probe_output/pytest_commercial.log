@@ -1,0 +1,38 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-8.3.3, pluggy-1.6.0
+rootdir: C:\Users\User-362-PC\Downloads\lams-playwright-automation\lams-playwright-automation
+configfile: pytest.ini
+plugins: base-url-2.1.0, html-4.2.0, metadata-3.1.1, playwright-0.5.2
+collected 3 items
+
+tests\commercial_financial\test_commercial_financial_negative.py .
+  TC22   PASSED   test_TC22_non_numeric_basic_cost_sale_is_rejected   (22.8s)
+
+tests\commercial_financial\test_commercial_financial_negative.py .
+  TC23   PASSED   test_TC23_non_numeric_tariff_is_rejected   (23.9s)
+
+tests\commercial_financial\test_commercial_financial_positive.py .
+  TC21   PASSED   test_TC21_valid_commercial_financial_details_complete_the_record   (19.5s)
+                                                                         [100%]
+
+==============================================================================
+ LAMS TEST EXECUTION SUMMARY
+==============================================================================
+ Total Tests    : 3
+ Passed         : 3
+ Failed         : 0
+ Skipped        : 0
+ Execution Time : 1m 54s
+------------------------------------------------------------------------------
+ TC ID  RESULT   TEST CASE
+------------------------------------------------------------------------------
+TC22   PASSED   test_TC22_non_numeric_basic_cost_sale_is_rejected
+TC23   PASSED   test_TC23_non_numeric_tariff_is_rejected
+TC21   PASSED   test_TC21_valid_commercial_financial_details_complete_the_record
+------------------------------------------------------------------------------
+ No failures - no screenshots were taken.
+------------------------------------------------------------------------------
+ HTML report   : reports/report.html
+==============================================================================
+- Generated html report: file:///C:/Users/User-362-PC/Downloads/lams-playwright-automation/lams-playwright-automation/reports/report.html -
+======================== 3 passed in 114.22s (0:01:54) ========================

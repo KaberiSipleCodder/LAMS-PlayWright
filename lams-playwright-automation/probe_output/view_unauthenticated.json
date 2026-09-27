@@ -1,0 +1,129 @@
+{
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/auth/login",
+  "title": "LAMS - Sign In",
+  "headings": [
+    "Empowering Governance,Empowering You",
+    "Welcome to LAMS 👋"
+  ],
+  "details": [],
+  "controls": [
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "_token",
+      "id": "",
+      "value": "Xa3qQk9CXLuJ1EGeDozFpIeBVpTTlKHuQ1teWOAa",
+      "readonly": false,
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "login_type",
+      "id": "",
+      "value": "normal",
+      "readonly": false,
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "tag": "input",
+      "type": "hidden",
+      "name": "sso_token",
+      "id": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "visible": false
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "email",
+      "id": "email",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "tag": "input",
+      "type": "password",
+      "name": "password",
+      "id": "password",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "captcha",
+      "id": "",
+      "value": "",
+      "readonly": false,
+      "disabled": false,
+      "visible": true
+    },
+    {
+      "tag": "input",
+      "type": "checkbox",
+      "name": "remember",
+      "id": "remember-me",
+      "value": "on",
+      "readonly": false,
+      "disabled": false,
+      "visible": true
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "Close",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "Delete",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "",
+      "href": "",
+      "visible": true
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "submit",
+      "text": "Sign In",
+      "href": "",
+      "visible": true
+    }
+  ],
+  "forms": [
+    {
+      "action": "",
+      "method": "get"
+    },
+    {
+      "action": "",
+      "method": "get"
+    }
+  ],
+  "submitControls": 1,
+  "tabs": [],
+  "tables": [],
+  "bodyText": "Empowering Governance, Empowering You Welcome to LAMS 👋 Please sign in to your account and continue Email or Username Password Enter the code shown below Remember Me Forgot Password? Sign In OR Sign in with Microsoft Secured Connection Privacy Policy © 2026 CyberSWIFT. All rights reserved."
+}

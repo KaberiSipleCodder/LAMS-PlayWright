@@ -1,0 +1,97 @@
+{
+  "alerts": [
+    {
+      "sel": "DIV.alert alert-success",
+      "text": "Step 2 saved. Proceed to Step 3."
+    }
+  ],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process",
+      "text": "Add New Land Proposal Details"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Save"
+    }
+  ],
+  "activeStep": [
+    {
+      "sel": "A.nav-link active",
+      "text": "3\nCommercial/Financial Details"
+    },
+    {
+      "sel": "DIV.tab-pane fade show active",
+      "text": "Basic Cost Sale *\nBasic Cost Lease *\nStamp Duty & Reg. Charges Sale *\nStamp Duty & Reg. Charges Lease *\nOther Statutory Charges *\nService Fee Sale *\nService Fee Lease *\nLease Tenure (Years) *\nLease Escalation Rate (%) *\nLease Escalation Frequency (Years) *\nTotal Land Cost to be considered for BD *\nService Fee *\nCommercial Negotiation * \nSelect\nCompleted\nPending\nSelect\nLand Cost to be considered for BD *\nLand being considered for *\nTariff due to this land *\nSave"
+    }
+  ],
+  "invalid": [
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/create/3"
+}

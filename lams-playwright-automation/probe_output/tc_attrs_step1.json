@@ -1,0 +1,778 @@
+{
+  "fields": [
+    {
+      "name": "_token",
+      "tag": "input",
+      "type": "hidden",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_proposal_name",
+      "tag": "input",
+      "type": "text",
+      "required": true,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_company_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_project_type",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_type_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_state_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_district_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_taluka_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_village_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_lat_degree",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_lat_minutes",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_lat_seconds",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_lat_direction_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_decimal_lat",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_long_degree",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_long_minutes",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_long_seconds",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_dms_long_direction_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_decimal_long",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_ctu_stu",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_dms_lat_degree",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_dms_lat_minutes",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_dms_lat_seconds",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_dms_lat_direction_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_decimal_lat",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_long_degree",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_long_minutes",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_long_seconds",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_long_direction_id",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_substation_decimal_long",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_tl_distance",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_ss_evacuation_capacity",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_voltage_level",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_ss_readiness",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_quantum_offered_lease",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_quantum_offered_purchase",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_land_quantum_offered_total",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": true,
+      "disabled": false
+    },
+    {
+      "name": "tlb_connectivity_status",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tlb_quantum_of_connectivity",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "tcom_remarks",
+      "tag": "textarea",
+      "type": "textarea",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "document_type[0]",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "document_variant[0]",
+      "tag": "select",
+      "type": "select-one",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "physical_document_location[0]",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "document_label[0]",
+      "tag": "input",
+      "type": "text",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    },
+    {
+      "name": "counter",
+      "tag": "input",
+      "type": "hidden",
+      "required": false,
+      "min": null,
+      "max": null,
+      "step": null,
+      "maxlength": null,
+      "pattern": null,
+      "readonly": false,
+      "disabled": false
+    }
+  ],
+  "actions": [
+    {
+      "tag": "a",
+      "text": "",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Dashboards",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/dashboard",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "GIS & Spatial Data",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Layers Management",
+      "href": "javascript:void(0)",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Land Identification / Proposal",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Project & Land Management",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Litigation Management",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/legalandlitigations",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Tax & Compliance Management",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/taxcompliances",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Encroachment Management",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/encroachments/encroachments",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Financial Operations",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "R & R Activity Management",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/rnrs",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Document Management",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/documentmanagements",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Reports & Analytics",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Master Management",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Admin Management",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Land Acquisition Management System",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "LAMS Assist",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/sql-agent",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/auth/change-business-type",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "",
+      "href": "javascript:void(0);",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "1\nLand Bank Details",
+      "href": "#tab1",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "2\nTechnical Team",
+      "href": "javascript:void(0)",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "3\nCommercial/Financial Details",
+      "href": "javascript:void(0)",
+      "type": ""
+    },
+    {
+      "tag": "button",
+      "text": "+",
+      "href": "",
+      "type": "button"
+    },
+    {
+      "tag": "button",
+      "text": "Create Land Bank",
+      "href": "",
+      "type": "submit"
+    },
+    {
+      "tag": "a",
+      "text": "CyberSwift LAMS",
+      "href": "javascript:void(0)",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "User manual",
+      "href": "javascript:void(0)",
+      "type": ""
+    },
+    {
+      "tag": "a",
+      "text": "Support",
+      "href": "javascript:void(0)",
+      "type": ""
+    }
+  ]
+}

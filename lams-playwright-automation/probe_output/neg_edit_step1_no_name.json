@@ -1,0 +1,232 @@
+{
+  "alerts": [],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process",
+      "text": "Edit New Land Proposal Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Land Bank Details\n*"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Land Co-ordinates\n*"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Sub-Station Co-ordinates"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Additional Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Uploaded Documents"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Uploaded Documents"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.btn btn-sm btn-info",
+      "text": "Preview"
+    },
+    {
+      "sel": "A.btn btn-sm btn-primary ms-2",
+      "text": "Download"
+    },
+    {
+      "sel": "BUTTON.btn green submit new-row btn-danger",
+      "text": "+"
+    },
+    {
+      "sel": "A.btn btn-primary",
+      "text": "Next"
+    },
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Update Land Bank"
+    }
+  ],
+  "activeStep": [
+    {
+      "sel": "A.nav-link active",
+      "text": "1\nLand Bank Details"
+    },
+    {
+      "sel": "DIV.tab-pane fade active show",
+      "text": "Land Bank Details\n*\nProposal Name *\nPlease enter proposal name\nCompany * \nSelect Company\nGeoSpatial Surveyors Ltd.\nTerra Mapping Solutions Pvt. Ltd\nEastCoast Land Consultants\nHeritage Builders pvt.ltd\nGreenfield Developers Pvt. Ltd.\nEcoHaven Projects LLP\nBrickWorks Infrastructure\nBluebrick Estates\nHeritage Builders pvt.ltd\nLand Type * \nSelect Land Type\nResidential\nCommercial\nPublic Utility\nGreen Belt\nWasteland\nIndustrial\nAgricultural\nInstitutional\nNon Agricultural\nCommercial\nProject Type * \nSelect Project Type\nSolar\nWind\nHybrid\nWind\nState * \nSelect State\nAndaman & Nicobar Islands\nAndhra Pradesh\nArunachal Pradesh\nAssam\nBihar\nChandigarh\nChhattisgarh\nDadra & Nagar Haveli\nDaman & Diu\nDelhi\nGoa\nGujarat\nHaryana\nHimachal Pradesh\njammu\nJammu & Kashmir\nJharkhand\nKarnataka\nKerala\nLakshadweep\nMadhya Pradesh\nMaharashtra\nManipur\nMeghalaya\nMizoram\nNagaland\nOdisha\nPuducherry\nPunjab\nRajasthan\nSikkim\nTamil Nadu\nTelangana\nTripura\nUttarakhand\nUttar Pradesh\nWest Bengal\nBihar\nDistrict * \nSelect District\nAdilabad\nAgar Malwa\nAgra\nAhmedabad\nAhmednagar\nAizawl\nAjmer\nAkola\nAlappuzha (Alleppey)\nAligarh\nAlipurduar\nAlirajpur\nAlmora\nAlwar\nAmbala\nAmbedkarnagar (Akbarpur)\nAmethi (Gauriganj)\nAmravati\nAmritsar\nAmroha (J.P. Nagar)\nAnantapur\nAnantnag\nAngul\nAnjaw\nAnuppur\nAraria\nAriyalur\nArwal\nAshoknagar\nAuraiya\nAurangabad\nAurangabad\nAzamgarh\nBagalkote\nBageshwar\nBaghpat\nBahraich\nBaksa\nBalaghat\nBalangir\nBalasore\nBallari (Bellary)\nBallia\nBalod\nBaloda Bazar\nBalrampur\nBalrampur (Tulsipur)\nBanda\nBandipora\nBanka\nBankura\nBanswara\nBarabanki\nBaramulla\nBaran\nBareilly\nBargarh\nBarmer\nBarnala\nBarpeta\nBarwani\nBastar\nBasti\nBathinda\nBeed (Bid)\nBegusarai\nBelagavi (Belgaum)\nBemetara\nBengaluru Rural\nBengaluru Urban\nBetul\nBhadrak\nBhagalpur\nBhandara\nBharatpur\nBhilwara\nBhind\nBhiwani\nBhojpur\nBhopal\nBidar\nBijapur\nBijnor\nBikaner\nBilaspur\nBilaspur\nBirbhum\nBishnupur\nBiswanath\nBokaro\nBongaigaon\nBoudh\nBudaun\nBulandshahr\nBuldhana\nBundi\nBurdwan (Bardhaman)\nBurhanpur\nBuxar\nCachar\nCentral Delhi\nChamarajanagara (Chamarajanagar)\nChamba\nChamoli\nChampawat\nChamphai\nChandauli\nChandel\nChandigarh\nChandrapur\nChanglang\nCharaideo\nCharkhi Dadri\nChatra\nChengalpattu\nChennai\nChhatarpur\nChhindwara\nChikkamagaluru (Chikamagaluru)\nChirang\nChitradurga\nChitrakoot\nChittoor\nChittorgarh\nChurachandpur\nChuru\nCoimbatore\nCooch Behar\nCuddalore\nCuttack\nDadra & Nagar Haveli\nDahod\nDakshina Kannada\nDakshin Dinajpur (South Dinajpur)\nDaman\nDamoh\nDantewada (South Bastar)\nDarbhanga\nDarjeeling\nDarrang\nDatia\nDausa\nDavangere\nDehradun\nDeogarh\nDeoghar\nDeoria\nDewas\nDhalai (Ambassa)\nDhamtari\nDhanbad\nDhar\nDharmapuri\nDharwad\nDhemaji\nDhenkanal\nDholpur\nDhubri\nDhule\nDibrugarh\nDima Hasao\nDimapur\nDindigul\nDindori\nDiu\nDoda\nDumka\nDungarpur\nDurg\nEast Champaran\nEast Delhi\nEast Garo Hills (Williamnagar)\nEast Godavari\nEast Jaintia Hills (Khliehriat)\nEast Kameng\nEast Khasi Hills (Shillong)\nEast Siang\nEast Sikkim (Gangtok)\nEast Singhbhum (Jamshedpur)\nErnakulam\nErode\nEtah\nEtawah\nFaizabad (Ayodhya)\nFaridabad\nFaridkot\nFarrukhabad (Fatehgarh)\nFatehabad\nFatehgarh Sahib (Sirhind)\nFatehpur\nFazilka\nFirozabad\nGadag\nGadchiroli\nGajapati\nGanderbal\nGandhinagar\nGanganagar\nGanjam\nGarhwa\nGariaband\nGautam Buddha Nagar (Noida)\nGaya\nGhaziabad\nGhazipur\nGiridih\nGir Somnath\nGoalpara\nGodda\nGolaghat\nGomati (Udaipur)\nGonda\nGondia (Gundia)\nGopalganj\nGorakhpur\nGumla\nGuna\nGuntur\nGurdaspur\nGurugram (Gurgaon)\nGwalior\nHailakandi\nHamirpur\nHamirpur (Mahoba)\nHanumangarh\nHapur (Panchsheel Nagar)\nHarda\nHardoi\nHaridwar\nHassan\nHathras (Mahamaya Nagar)\nHaveri\nHazaribagh\nHingoli\nHisar\nHojai\nHooghly (Hugli)\nHoshangabad (Narmadapuram)\nHoshiarpur\nHowrah\nHyderabad\nIdukki\nImphal East\nImphal West\nIndore\nJabalpur\nJagatsinghapur\nJagtial\nJaipur\nJaisalmer\nJajpur\nJalandhar\nJalaun\nJalgaon\nJalna\nJalore (Jalor)\nJalpaiguri\nJammu\nJamnagar\nJamtara\nJamui\nJangaon\nJanjgir-Champa\nJashpur\nJaunpur\nJayashankar Bhupalpally\nJehanabad\nJhabua\nJhajjar\nJhalawar\nJhansi\nJhargram (Jhargram)\nJharsuguda\nJhunjhunu\nJind\nJiribam\nJodhpur\nJogulamba Gadwal\nJorhat\nJunagadh\nKabirdham (Kawardha)\nKaimur (Bhabua)\nKaithal\nKakching\nKalaburagi (Gulbarga)\nKalahandi\nKalimpong\nKallakurichi\nKamareddy\nKamjong\nKamle\nKamrup\nKamrup Metropolitan\nKancheepuram (Kanchipuram)\nKandhamal\nKangpokpi\nKangra\nKanker (North Bastar)\nKannauj\nKanniyakumari (Kanyakumari)\nKannur\nKanpur\nKapurthala\nKaraikal\nKarauli (Karauli)\nKarbi Anglong\nKarimganj\nKarimnagar\nKarnal\nKarur\nKasaragod\nKasganj\nKathua\nKatihar\nKatni (Murwara)\nKaushambi\nKendrapara\nKendujhar (Keonjhar)\nKhagaria\nKhammam\nKheda (Nadiad)\nKheri\nKhowai (Khowai)\nKhunti\nKhurda (Khorda)\nKinnaur\nKiphire\nKishanganj\nKishtwar\nKodagu (Coorg)\nKoderma\nKokrajhar\nKolar\nKolasib\nKolhapur\nKolkata (Calcutta)\nKollam (Quilon)\nKomaram Bheem Asifabad (Kumuram Bheem)\nKoppal\nKoraput\nKorba\nKoriya (Korea)\nKota\nKottayam\nKozhikode (Calicut)\nKrishna\nKrishnagiri\nKulgam\nKullu\nKupwara\nKurnool\nKurukshetra\nKurung Kumey\nKushinagar\nKutch\nLahaul & Spiti\nLakhimpur\nLakhimpur\nLakhisarai\nLakshadweep\nLalitpur\nLatehar\nLatur\nLawngtlai\nLeh\nLepa Rada\nLohardaga\nLohit\nLongding\nLongleng\nLower Dibang Valley\nLower Subansiri\nLucknow\nLudhiana\nLunglei\nMadhepura\nMadhubani\nMadurai\nMahabubabad\nMahabubnagar (Rangareddy)\nMaharajganj\nMahasamund\nMahe\nMahendragarh (Narnaul)\nMahisagar (Godhra)\nMahoba\nMainpuri\nMajuli\nMalappuram\nMalda\nMalkangiri\nMamit\nMancherial\nMandi\nMandla\nMandsaur\nMandya\nMansa\nMathura\nMau\nMayiladuthurai (Mayiladuthurai)\nMayurbhanj\nMedak\nMedchal\nMeerut\nMehsana (Mahesana)\nMewat (Nuh)\nMirzapur (Miranpur Katra)\nMoga\nMokokchung\nMon\nMoradabad\nMorbi\nMorena\nMorigaon\nMuktsar (Malout)\nMumbai City\nMumbai Suburban\nMungeli\nMunger (Monghyr)\nMurshidabad (Mursidabad)\nMuzaffarnagar\nMuzaffarpur\nMysuru (Mysore)\nNabarangpur (Nabarangapur)\nNadia (Krishnanagar)\nNagaon\nNagapattinam (Nagapattinam)\nNagaur\nNagpur\nNainital (Haldwani)\nNalanda\nNalbari\nNalgonda\nNamsai\nNanded\nNandurbar\nNarayanpur\nNarmada (Rajpipla)\nNarsinghpur\nNasik (Nashik)\nNavsari\nNawada\nNawanshahr (Shahid Bhagat Singh Nagar)\nNayagarh (Nayagarh)\nNeemuch\nNew Delhi\nNicobars\nNilgiris\nNirmal\nNizamabad\nNoney\nNorth and Middle Andaman\nNorth Delhi\nNorth East Delhi\nNorth Garo Hills (Resubelpara)\nNorth Goa\nNorth Sikkim (Mangan)\nNorth Tripura (Dharmanagar)\nNorth Twenty Four Parganas (Barasat)\nNorth West Delhi\nNuapada\nOsmanabad (Osmangabad)\nPakur\npakyong\nPalakkad (Palghat)\nPalamu (Daltonganj)\nPalghar\nPali\nPalwal\nPanchkula\nPanchmahal (Godhra)\nPanipat\nPanna\nPapum Pare\nParbhani\nPaschim Medinipur (West Medinipur)\nPatan\nPathanamthitta\nPathankot\nPatiala\nPatna\nPauri Garhwal (Pauri)\nPeddapalli\nPerambalur\nPeren\nPhek\nPherzawl\nPilibhit\nPithoragarh\nPondicherry\nPorbandar\nPrakasam\nPratapgarh\nPratapgarh (Bhadohi)\nPudukkottai\nPulwama\nPune\nPurba Medinipur (East Medinipur)\nPuri\nPurnea\nPurulia\nRae Bareli (Raebareli)\nRaichur\nRaigad\nRaigarh\nRaipur\nRaisen\nRajanna Sircilla\nRajgarh (Biaora)\nRajkot\nRajnandgaon\nRajouri\nRajsamand (Rampura)\nRamanagara (Ramanagaram)\nRamanathapuram\nRamban\nRamgarh\nRampur\nRanchi\nRangareddy\nRatlam\nRatnagiri\nRayagada (Raiagada)\nReasi\nRewa\nRewari\nRi Bhoi\nRohtak\nRohtas\nRudraprayag\nRupnagar (Ropar)\nSabarkantha (Himmatnagar)\nSagar\nSaharanpur\nSaharsa\nSahibganj\nSaiha (Chhimtuipui)\nSalem\nSamastipur\nSamba\nSambalpur\nSambhal (Bhim Nagar)\nSangareddy\nSangli\nSangrur\nSant Kabir Nagar (Khalilabad)\nSaran\nSatara\nSatna\nSawai Madhopur\nSehore\nSenapati\nSeoni\nSepahijala (Sonamura)\nSeraikela-Kharsawan\nSerchhip\nShahdara\nShahdol\nShahjahanpur\nShajapur\nShamli\nSheikhpura\nSheohar\nSheopur\nShimla\nShivamogga (Shimoga)\nShivpuri\nShi Yomi\nShopian\nShrawasti\nSiang\nSiddipet\nSidhi\nSikar\nSimdega\nSindhudurg (Sindhudurg)\nSingrauli (Waidhan)\nSirmaur (Sirmour)\nSirohi\nSitamarhi\nSivaganga\nSivasagar\nSiwan\nSolan\nSolapur (Sholapur)\nSonitpur\nSouth Andaman\nSouth Delhi\nSouth East Delhi\nSouth Garo Hills (Cherrapunji)\nSouth Goa\nSouth Salmara-Mankachar\nSouth Sikkim (Namchi)\nSouth Tripura (Belonia)\nSouth Twenty Four Parganas (Diamond Harbour)\nSouth West Delhi\nSouth West Garo Hills (Bishnupur)\nSouth West Khasi Hills (Mairang)\nSrikakulam\nSrinagar\nSubarnapur (Sonepur)\nSultanpur\nSundargarh (Sundergarh)\nSupaul\nSurat\nSurendranagar\nSuryapet\nTamenglong\nTapi (Vyara)\nTawang\nTehri Garhwal (Tehri)\nTengnoupal\nThane\nThanjavur\nTheni\nThiruvananthapuram\nThoothukudi (Tuticorin)\nThoubal\nThrissur (Trichur)\nTikamgarh (Tehri)\nTinsukia\nTirap\nTiruchirappalli\nTirunelveli\nTonk\nTrichy\nTuensang\nTumakuru (Tumkur)\nUdaipur\nUdalguri\nUdhampur\nUdham Singh Nagar (Kichha)\nUdupi\nUjjain\nUmaria\nUna\nUnakoti (Kailashahar)\nUnnao\nUpper Siang\nUpper Subansiri\nUttara Kannada (Karwar)\nUttar Dinajpur (North Dinajpur)\nUttarkashi (Uttar Kashi)\nVadodara\nVaishali\nValsad\nVaranasi\nVellore\nVidisha\nVijayapura (Bijapur)\nVikarabad\nViluppuram\nVirudhunagar\nVisakhapatnam\nVizianagaram\nWanaparthy\nWarangal Rural (Warangal)\nWarangal Urban (Hanamkonda)\nWardha\nWashim\nWayanad\nWest Champaran\nWest Garo Hills (Tura)\nWest Godavari\nWest Jaintia Hills (Nongpoh)\nWest Kameng\nWest Khasi Hills (Mariani)\nWest Siang\nWest Sikkim (Gyalshing)\nWest Tripura (Khowai)\nWokha\nYadgir\nYanam\nYavatmal (Yeotmal)\nYSR Kadapa\nZunheboto\nAurangabad\nTaluka * \nSelect Taluka\nAchalpur\nAgar\nAheri\nAkola\nAkole\nAkot\nAmravati\nAnjangaon Surji\nArmori\nAurangabad\nBalapur\nBarshitakli\nBhadravati\nBhamragad\nBhandara\nBhatkuli\nBuldhana\nChamorshi\nChandrapur\nChandurbazar\nChandur Railway\nChikahli\nChikhaldara\nDaryapur\nDesaiganj (Vadasa)\nDhamangaon Railway\nDhanora\nDharni\nDhule\nEtapalli\nGadchiroli\nJamkhed\nKarjat\nKopargaon\nKorchi\nKurkheda\nMorshi\nMulchera\nMurtijapur\nNagar\nNandgaon Khandeshwar\nNevasa\nParner\nPathardi\nPatur\nRahata\nRahuri\nSakri\nSangamner\nShevgaon\nShrigonda\nShrirampur\nSillod\nSironcha\nTelhara\nTeosa\nTumsar\nWarud\nAurangabad\nVillage * \nSelect Village\nAbanpalli M\nAdange\nAldandi\nAlenga\nAlenga M\nAsawandi\nBande\nBarsewada\nBater\nBesewada\nChandanweli\nChannabodi\nChokhewada\nDeopadi\nHedri\nItalnar\nJajawandi\nKachler\nKandli\nKandoli\nJairampur\nAranda\nAchuki\nAgar\nKadakola\nAranda\nLand Co-ordinates\n*\nLatitude Degree *\nLatitude Minutes *\nLatitude Seconds *\nLatitude Direction \nSelect Direction\nNorth\nSouth\nNorth\nDecimal Latitude\nLongititude Degree *\nLongititude Minutes *\nLongititude Seconds *\nLongitude Direction * \nSelect Direction\nEast\nWest\nEast\nDecimal Longitude *\nSubstation * \nSelect Substation\nKharagpur Substation\nSantaldih Substation\nKolaghat Substation\nHowrah Substation\nHaldia Substation\nDurgapur Substation\nDigha Substation\nDurgapur Substation\nCTU/STU * \nSelect Type\nCTU\nSTU\nCTU\nSub-Station Co-ordinates\nLatitude Degree *\nLatitude Minutes *\nLatitude Seconds *\nLatitude Direction * \nSelect Direction\nNorth\nSouth\nNorth\nDecimal Latitude *\nLongititude Degree *\nLongititude Minutes *\nLongititude Seconds *\nLongititude Direction * \nSelect Direction\nEast\nWest\nEast\nDecimal Longitude *\nAdditional Details\nTL Distance (km) *\nSS Evacuation Capacity (MW) *\nVoltage Level (kV) *\nSS Readiness * \nSelect Readiness\nReady\nNot Ready\nIn Progress\nReady\nLand Quantum Offered (Lease) *\nLand Quantum Offered (Purchase) *\nLand Quantum Offered (Total) *\nConnectivity Status * \nSelect Status\nConnected\nNot Connected\nIn Progress\nConnected\nQuantum of Connectivity *\nRemarks *\nUploaded Documents\nDocument Type\tTitle\tPhysical File Location\tAction\tUploaded On\tUploaded By\nApplication Document\tlabel\tlocation\t\nPreview\nDownload\n\t2026-09-24 22:14:08\tCyber Swift\nUploaded Documents\n\nDocument Type\n\nDocument Variant\n\nPhysical File Location\n\nTitle\n\nDocument\n\nSelect Document Type\nAgreement Document\nAffidavit\nApplication Document\nMutation Certificate\nTax Receipt\nSelect Document Type\nSelect Document Variant\nOriginal\nCertified True Copy\nClick or drop file\n+\nNext Update Land Bank"
+    }
+  ],
+  "invalid": [
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please enter proposal name"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/1964dfc3-8052-4fbe-a0b3-87103201a944/edit"
+}

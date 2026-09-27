@@ -1,0 +1,286 @@
+{
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/9094659b-d0c7-4abd-af6c-1df449e829ff",
+  "title": "LAMS - Land Proposals",
+  "headings": [
+    "View Land Proposal",
+    "Land Bank Details",
+    "Engineering Team Details",
+    "BD Team Details"
+  ],
+  "details": [
+    {
+      "label": "State",
+      "value": "Bihar"
+    },
+    {
+      "label": "District",
+      "value": "Aurangabad"
+    },
+    {
+      "label": "Taluka",
+      "value": "Aurangabad"
+    },
+    {
+      "label": "Village",
+      "value": "Aranda"
+    },
+    {
+      "label": "Land Type",
+      "value": "Commercial"
+    },
+    {
+      "label": "Company",
+      "value": "Heritage Builders pvt.ltd"
+    },
+    {
+      "label": "Project Type",
+      "value": "Wind"
+    },
+    {
+      "label": "Land DMS Lat Degree",
+      "value": "22.0000000000"
+    },
+    {
+      "label": "Land DMS Lat Minutes",
+      "value": "34.0000000000"
+    },
+    {
+      "label": "Land DMS Lat Seconds",
+      "value": "10.0000000000"
+    },
+    {
+      "label": "Land DMS Lat Direction",
+      "value": "North"
+    },
+    {
+      "label": "Land Decimal Latitude",
+      "value": "22.5694440000"
+    },
+    {
+      "label": "Land DMS Long Degree",
+      "value": "88.0000000000"
+    },
+    {
+      "label": "Land DMS Long Minutes",
+      "value": "12.0000000000"
+    },
+    {
+      "label": "Land DMS Long Seconds",
+      "value": "15.0000000000"
+    },
+    {
+      "label": "Land DMS Long Direction",
+      "value": "East"
+    },
+    {
+      "label": "Land Decimal Longitude",
+      "value": "88.2041670000"
+    },
+    {
+      "label": "Substation ID",
+      "value": "Durgapur Substation"
+    },
+    {
+      "label": "CTU/STU",
+      "value": "CTU"
+    },
+    {
+      "label": "Substation DMS Lat Degree",
+      "value": "22.0000000000"
+    },
+    {
+      "label": "Substation DMS Lat Minutes",
+      "value": "34.0000000000"
+    },
+    {
+      "label": "Substation DMS Lat Direction",
+      "value": "North"
+    },
+    {
+      "label": "Substation DMS Lat Direction",
+      "value": "22.5694440000"
+    },
+    {
+      "label": "Substation Decimal Latitude",
+      "value": "22.5694440000"
+    },
+    {
+      "label": "Approved Status",
+      "value": "Pending"
+    },
+    {
+      "label": "Plant Size",
+      "value": "50.0000000000"
+    },
+    {
+      "label": "Land Quantum Usable",
+      "value": "75.0000000000"
+    },
+    {
+      "label": "Shape Index",
+      "value": "1"
+    },
+    {
+      "label": "Fit For Tracker",
+      "value": "1"
+    },
+    {
+      "label": "Site Visit Status",
+      "value": "1"
+    },
+    {
+      "label": "Site Visit Date",
+      "value": "2026-09-20"
+    },
+    {
+      "label": "Ease of Acquisition",
+      "value": "7.0000000000"
+    },
+    {
+      "label": "GHI",
+      "value": "1850.0000000000"
+    },
+    {
+      "label": "Albedo",
+      "value": "0.2500000000"
+    },
+    {
+      "label": "DC Feasible",
+      "value": "40.0000000000"
+    },
+    {
+      "label": "Energy Yield",
+      "value": "12500.0000000000"
+    },
+    {
+      "label": "PLF of Plant",
+      "value": "0.2800000000"
+    },
+    {
+      "label": "Environment Study Status",
+      "value": "1"
+    },
+    {
+      "label": "Go/No-Go from Environment Team",
+      "value": "1"
+    },
+    {
+      "label": "Go/No-Go from Engineering Team",
+      "value": "1"
+    },
+    {
+      "label": "Land Basic Cost Sale",
+      "value": "500000.00"
+    },
+    {
+      "label": "Land Basic Cost Lease",
+      "value": "200000.00"
+    },
+    {
+      "label": "Stamp Duty & Reg Charges Sale",
+      "value": "50000.00"
+    },
+    {
+      "label": "Stamp Duty & Reg Charges Lease",
+      "value": "20000.00"
+    },
+    {
+      "label": "Other Stat Charges",
+      "value": "10000.00"
+    },
+    {
+      "label": "Service Fee Sale",
+      "value": "25000.00"
+    },
+    {
+      "label": "Service Fee Lease",
+      "value": "15000.00"
+    },
+    {
+      "label": "Lease Tenure (Years)",
+      "value": "30"
+    },
+    {
+      "label": "Lease Escalation Rate",
+      "value": "5.00"
+    },
+    {
+      "label": "Lease Escalation Frequency (Years)",
+      "value": "2"
+    },
+    {
+      "label": "Total Land Cost",
+      "value": "760000.00"
+    },
+    {
+      "label": "Service Fee",
+      "value": "40000.00"
+    },
+    {
+      "label": "Commercial Negotiation",
+      "value": "1"
+    },
+    {
+      "label": "Land Cost to be Considered for BD",
+      "value": "760000.00"
+    },
+    {
+      "label": "Land Being Considered For",
+      "value": "Lease"
+    },
+    {
+      "label": "Tariff Due to this Land",
+      "value": "4.0000000000"
+    }
+  ],
+  "controls": [],
+  "buttons": [
+    {
+      "tag": "button",
+      "type": "button",
+      "attrType": "button",
+      "text": "Close",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "button",
+      "type": "submit",
+      "attrType": "",
+      "text": "Delete",
+      "href": "",
+      "visible": false
+    },
+    {
+      "tag": "a",
+      "type": "",
+      "attrType": "",
+      "text": "View all notifications",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/notifications",
+      "visible": false
+    },
+    {
+      "tag": "a",
+      "type": "",
+      "attrType": "",
+      "text": "Back to List",
+      "href": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/not-a-uuid",
+      "visible": true
+    }
+  ],
+  "forms": [
+    {
+      "action": "",
+      "method": "get"
+    }
+  ],
+  "submitControls": 0,
+  "tabs": [
+    "Land Identification / Proposal",
+    "Land Acquisition Management System",
+    "Land Acquisition Management System",
+    "LAMS Assist"
+  ],
+  "tables": [],
+  "bodyText": "Dashboards GIS & Spatial Data Layers Management Land Identification / Proposal Project & Land Management Litigation Management Tax & Compliance Management Encroachment Management Financial Operations R & R Activity Management Document Management Reports & Analytics Master Management Admin Management Land Acquisition Management System LAMS Assist View Land Proposal Back to List Land Bank Details STATE Bihar DISTRICT Aurangabad TALUKA Aurangabad VILLAGE Aranda LAND TYPE Commercial COMPANY Heritage Builders pvt.ltd PROJECT TYPE Wind LAND DMS LAT DEGREE 22.0000000000 LAND DMS LAT MINUTES 34.0000000000 LAND DMS LAT SECONDS 10.0000000000 LAND DMS LAT DIRECTION North LAND DECIMAL LATITUDE 22.5694440000 LAND DMS LONG DEGREE 88.0000000000 LAND DMS LONG MINUTES 12.0000000000 LAND DMS LONG SECONDS 15.0000000000 LAND DMS LONG DIRECTION East LAND DECIMAL LONGITUDE 88.2041670000 SUBSTATION ID Durgapur Substation CTU/STU CTU SUBSTATION DMS LAT DEGREE 22.0000000000 SUBSTATION DMS LAT MINUTES 34.0000000000 SUBSTATION DMS LAT DIRECTION North SUBSTATION DMS LAT DIRECTION 22.5694440000 SUBSTATION DECIMAL LATITUDE 22.5694440000 APPROVED STATUS Pending Engineering Team Details PLANT SIZE 50.0000000000 LAND QUANTUM USABLE 75.0000000000 SHAPE INDEX 1 FIT FOR TRACKER 1 SITE VISIT STATUS 1 SITE VISIT DATE 2026-09-20 EASE OF ACQUISITION 7.0000000000 GHI 1850.0000000000 ALBEDO 0.2500000000 DC FEASIBLE 40.0000000000 ENERGY YIELD 12500.0000000000 PLF OF PLANT 0.2800000000 ENVIRONMENT STUDY STATUS 1 GO/NO-GO FROM ENVIRONMENT TEAM 1 GO/NO-GO FROM ENGINEERING TEAM 1 BD Team Details LAND BASIC COST SALE 500000.00 LAND BASIC COST LEASE 200000.00 STAMP DUTY & REG CHARGES SALE 50000.00 STAMP DUTY & REG CHARGES LEASE 20000.00 OTHER STAT CHARGES 10000.00 SERVICE FEE SALE 25000.00 SERVICE FEE LEASE 15000.00 LEASE TENURE (YEARS) 30 LEASE ESCALATION RATE 5.00 LEASE ESCALATION FREQUENCY (YEARS) 2 TOTAL LAND COST 760000.00 SERVICE FEE 40000.00 COMMERCIAL NEGOTIATION 1 LAND COST TO BE CONSIDERED FOR BD 760000.00 LAND BEING CONSIDERED FOR Lease TARIFF DUE TO THIS LAND 4.0000000000 © 2025, made by CyberSwift LAMS User manual Support"
+}

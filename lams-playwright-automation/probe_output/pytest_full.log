@@ -1,0 +1,131 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.10, pytest-8.3.3, pluggy-1.6.0
+rootdir: C:\Users\User-362-PC\Downloads\lams-playwright-automation\lams-playwright-automation
+configfile: pytest.ini
+testpaths: tests
+plugins: base-url-2.1.0, html-4.2.0, metadata-3.1.1, playwright-0.5.2
+collected 26 items
+
+tests\commercial_financial\test_commercial_financial_negative.py .
+  TC22   PASSED   test_TC22_non_numeric_basic_cost_sale_is_rejected   (34.2s)
+
+tests\commercial_financial\test_commercial_financial_negative.py .
+  TC23   PASSED   test_TC23_non_numeric_tariff_is_rejected   (37.4s)
+
+tests\commercial_financial\test_commercial_financial_positive.py .
+  TC21   PASSED   test_TC21_valid_commercial_financial_details_complete_the_record   (16.5s)
+
+tests\land_bank\test_land_bank_negative.py .
+  TC16   PASSED   test_TC16_cleared_latitude_degree_is_rejected   (14.0s)
+
+tests\land_bank\test_land_bank_negative.py .
+  TC17   PASSED   test_TC17_negative_tl_distance_cannot_be_typed   (9.7s)
+
+tests\land_bank\test_land_bank_positive.py .
+  TC15   PASSED   test_TC15_valid_land_bank_details_are_accepted   (11.7s)
+
+tests\technical_team\test_technical_team_negative.py .
+  TC19   PASSED   test_TC19_negative_plant_size_is_sanitised_by_the_browser   (13.6s)
+
+tests\technical_team\test_technical_team_negative.py .
+  TC20   PASSED   test_TC20_cleared_plant_size_is_blocked_by_the_browser   (21.7s)
+
+tests\technical_team\test_technical_team_positive.py .
+  TC18   PASSED   test_TC18_valid_technical_team_details_are_saved   (16.9s)
+
+tests\test_lams_e2e.py .
+  -      PASSED   test_add_new_land_proposal   (1m 09s)
+
+tests\test_lams_e2e.py .
+  -      PASSED   test_edit_existing_land_proposal   (42.6s)
+
+tests\test_lams_e2e.py .
+  -      PASSED   test_view_existing_land_proposal   (40.2s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_login_wrong_password_is_rejected   (8.9s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_otp_blank_is_rejected   (9.4s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_otp_incorrect_is_rejected   (20.2s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_create_empty_step1_is_rejected   (9.3s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_create_missing_document_variant_and_file   (26.0s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_edit_cleared_proposal_name_is_rejected   (14.5s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_edit_empty_step2_is_blocked_by_the_browser   (21.7s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_edit_non_integer_shape_index_is_rejected   (23.2s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_edit_empty_step3_is_rejected   (30.2s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_edit_non_numeric_money_values_are_rejected   (44.5s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_rejected_submits_create_no_records   (38.7s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_view_unknown_proposal_returns_404   (7.7s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_view_page_cannot_change_data   (12.0s)
+
+tests\test_negative.py .
+  -      PASSED   test_negative_view_requires_a_session   (18.7s)
+                                                                         [100%]
+
+==============================================================================
+ LAMS TEST EXECUTION SUMMARY
+==============================================================================
+ Total Tests    : 26
+ Passed         : 26
+ Failed         : 0
+ Skipped        : 0
+ Execution Time : 15m 09s
+------------------------------------------------------------------------------
+ TC ID  RESULT   TEST CASE
+------------------------------------------------------------------------------
+TC22   PASSED   test_TC22_non_numeric_basic_cost_sale_is_rejected
+TC23   PASSED   test_TC23_non_numeric_tariff_is_rejected
+TC21   PASSED   test_TC21_valid_commercial_financial_details_complete_the_record
+TC16   PASSED   test_TC16_cleared_latitude_degree_is_rejected
+TC17   PASSED   test_TC17_negative_tl_distance_cannot_be_typed
+TC15   PASSED   test_TC15_valid_land_bank_details_are_accepted
+TC19   PASSED   test_TC19_negative_plant_size_is_sanitised_by_the_browser
+TC20   PASSED   test_TC20_cleared_plant_size_is_blocked_by_the_browser
+TC18   PASSED   test_TC18_valid_technical_team_details_are_saved
+-      PASSED   test_add_new_land_proposal
+-      PASSED   test_edit_existing_land_proposal
+-      PASSED   test_view_existing_land_proposal
+-      PASSED   test_negative_login_wrong_password_is_rejected
+-      PASSED   test_negative_otp_blank_is_rejected
+-      PASSED   test_negative_otp_incorrect_is_rejected
+-      PASSED   test_negative_create_empty_step1_is_rejected
+-      PASSED   test_negative_create_missing_document_variant_and_file
+-      PASSED   test_negative_edit_cleared_proposal_name_is_rejected
+-      PASSED   test_negative_edit_empty_step2_is_blocked_by_the_browser
+-      PASSED   test_negative_edit_non_integer_shape_index_is_rejected
+-      PASSED   test_negative_edit_empty_step3_is_rejected
+-      PASSED   test_negative_edit_non_numeric_money_values_are_rejected
+-      PASSED   test_negative_rejected_submits_create_no_records
+-      PASSED   test_negative_view_unknown_proposal_returns_404
+-      PASSED   test_negative_view_page_cannot_change_data
+-      PASSED   test_negative_view_requires_a_session
+------------------------------------------------------------------------------
+ No failures - no screenshots were taken.
+------------------------------------------------------------------------------
+ HTML report   : reports/report.html
+==============================================================================
+- Generated html report: file:///C:/Users/User-362-PC/Downloads/lams-playwright-automation/lams-playwright-automation/reports/report.html -
+======================= 26 passed in 909.18s (0:15:09) ========================

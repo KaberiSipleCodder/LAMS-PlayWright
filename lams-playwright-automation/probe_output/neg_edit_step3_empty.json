@@ -1,0 +1,156 @@
+{
+  "alerts": [],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process",
+      "text": "Edit New Land Proposal Details"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Save"
+    }
+  ],
+  "activeStep": [
+    {
+      "sel": "DIV.tab-pane fade active show",
+      "text": "Basic Cost Sale *\nThe Basic Cost Sale field is required.\nBasic Cost Lease *\nThe Basic Cost Lease field is required.\nStamp Duty & Reg. Charges Sale *\nThe Stamp Duty and Registration Charges Sale field is required.\nStamp Duty & Reg. Charges Lease *\nThe Stamp Duty and Registration Charges Lease field is required.\nOther Statutory Charges *\nThe Other Statutory Charges field is required.\nService Fee Sale *\nThe Service Fee Sale field is required.\nService Fee Lease *\nThe Service Fee Lease field is required.\nLease Tenure (Years) *\nThe Lease Tenure (Years) field is required.\nLease Escalation Rate (%) *\nThe Lease Escalation Rate field is required.\nLease Escalation Frequency (Years) *\nThe Lease Escalation Frequency (Years) field is required.\nTotal Land Cost to be considered for BD *\nThe Total Land Cost to be considered for BD field is required.\nService Fee *\nThe Service Fee field is required.\nCommercial Negotiation * \nSelect\nCompleted\nPending\nSelect\nThe Commercial Negotiation field is required.\nLand Cost to be considered for BD *\nThe Land Cost to be considered for BD field is required.\nLand being considered for *\nThe Land being considered for field is required.\nTariff due to this land *\nThe Tariff due to this land field is required.\nSave"
+    }
+  ],
+  "invalid": [
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Basic Cost Sale field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Basic Cost Lease field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Stamp Duty and Registration Charges Sale field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Stamp Duty and Registration Charges Lease field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Other Statutory Charges field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Service Fee Sale field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Service Fee Lease field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Lease Tenure (Years) field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Lease Escalation Rate field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Lease Escalation Frequency (Years) field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Total Land Cost to be considered for BD field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Service Fee field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-select select2_search is-invalid select2-hidden-accessible",
+      "text": "Select\nCompleted\nPending"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Commercial Negotiation field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Land Cost to be considered for BD field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Land being considered for field is required."
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "DIV.invalid-feedback",
+      "text": "The Tariff due to this land field is required."
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/1964dfc3-8052-4fbe-a0b3-87103201a944/edit-step3"
+}

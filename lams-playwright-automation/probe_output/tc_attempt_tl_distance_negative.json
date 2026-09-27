@@ -1,0 +1,17 @@
+{
+  "note": "negative TL distance (a distance cannot be negative)",
+  "url_on_step1": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/create/1",
+  "overrides": {
+    "tlb_tl_distance": "-5"
+  },
+  "values_after_fill": {
+    "tlb_tl_distance": "5"
+  },
+  "native_validation_before_submit": [],
+  "url_after_submit": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/create/2",
+  "visible_errors": [],
+  "native_validation_after_submit": [],
+  "step1_banner_visible": true,
+  "advanced_to_step2": true,
+  "entries_after": 52
+}

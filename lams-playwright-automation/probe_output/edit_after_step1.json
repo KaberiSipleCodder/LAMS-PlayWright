@@ -1,0 +1,89 @@
+{
+  "alerts": [
+    {
+      "sel": "DIV.alert alert-success",
+      "text": "Step 1 updated. Proceed to Step 2."
+    }
+  ],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process",
+      "text": "Edit New Land Proposal Details"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "A.btn btn-primary",
+      "text": "Next"
+    },
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Save"
+    }
+  ],
+  "activeStep": [
+    {
+      "sel": "A.nav-link active",
+      "text": "2\nTechnical Team Details"
+    }
+  ],
+  "invalid": [
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/1964dfc3-8052-4fbe-a0b3-87103201a944/edit-step2"
+}

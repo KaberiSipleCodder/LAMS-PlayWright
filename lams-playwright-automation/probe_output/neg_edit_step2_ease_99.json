@@ -1,0 +1,93 @@
+{
+  "alerts": [
+    {
+      "sel": "DIV.alert alert-success",
+      "text": "Step 2 updated. Proceed to Step 3."
+    }
+  ],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process",
+      "text": "Edit New Land Proposal Details"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Save"
+    }
+  ],
+  "activeStep": [
+    {
+      "sel": "DIV.tab-pane fade active show",
+      "text": "Basic Cost Sale *\nBasic Cost Lease *\nStamp Duty & Reg. Charges Sale *\nStamp Duty & Reg. Charges Lease *\nOther Statutory Charges *\nService Fee Sale *\nService Fee Lease *\nLease Tenure (Years) *\nLease Escalation Rate (%) *\nLease Escalation Frequency (Years) *\nTotal Land Cost to be considered for BD *\nService Fee *\nCommercial Negotiation * \nSelect\nCompleted\nPending\nCompleted\nLand Cost to be considered for BD *\nLand being considered for *\nTariff due to this land *\nSave"
+    }
+  ],
+  "invalid": [
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/1964dfc3-8052-4fbe-a0b3-87103201a944/edit-step3"
+}

@@ -1,0 +1,216 @@
+{
+  "alerts": [],
+  "headings": [
+    {
+      "sel": "H4.mb-1 approval-process",
+      "text": "Add New Land Proposal Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Land Bank Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Land Co-ordinates"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Sub-Station Co-ordinates"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Additional Details"
+    },
+    {
+      "sel": "H3.icon-text",
+      "text": "Document Section"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.btn green submit new-row btn-danger",
+      "text": "+"
+    },
+    {
+      "sel": "BUTTON.btn btn-primary",
+      "text": "Create Land Bank"
+    }
+  ],
+  "activeStep": [
+    {
+      "sel": "A.nav-link active",
+      "text": "1\nLand Bank Details"
+    },
+    {
+      "sel": "DIV.tab-pane fade show active",
+      "text": "Land Bank Details\nProposal Name *\nCompany * \nSelect Company\nGeoSpatial Surveyors Ltd.\nTerra Mapping Solutions Pvt. Ltd\nEastCoast Land Consultants\nHeritage Builders pvt.ltd\nGreenfield Developers Pvt. Ltd.\nEcoHaven Projects LLP\nBrickWorks Infrastructure\nBluebrick Estates\nHeritage Builders pvt.ltd\nProject Type * \nSelect Project Type\nSolar\nWind\nHybrid\nWind\nLand Type * \nSelect Land Type\nResidential\nCommercial\nPublic Utility\nGreen Belt\nWasteland\nIndustrial\nAgricultural\nInstitutional\nNon Agricultural\nCommercial\nState * \nSelect State\nAndaman & Nicobar Islands\nAndhra Pradesh\nArunachal Pradesh\nAssam\nBihar\nChandigarh\nChhattisgarh\nDadra & Nagar Haveli\nDaman & Diu\nDelhi\nGoa\nGujarat\nHaryana\nHimachal Pradesh\njammu\nJammu & Kashmir\nJharkhand\nKarnataka\nKerala\nLakshadweep\nMadhya Pradesh\nMaharashtra\nManipur\nMeghalaya\nMizoram\nNagaland\nOdisha\nPuducherry\nPunjab\nRajasthan\nSikkim\nTamil Nadu\nTelangana\nTripura\nUttarakhand\nUttar Pradesh\nWest Bengal\nBihar\nDistrict * \n-- Select District --\nAraria\nArwal\nAurangabad\nBanka\nBegusarai\nBhagalpur\nBhojpur\nBuxar\nDarbhanga\nEast Champaran\nGaya\nGopalganj\nJamui\nJehanabad\nKaimur (Bhabua)\nKatihar\nKhagaria\nKishanganj\nLakhisarai\nMadhepura\nMadhubani\nMunger (Monghyr)\nMuzaffarpur\nNalanda\nNawada\nPatna\nPurnea\nRohtas\nSaharsa\nSamastipur\nSaran\nSheikhpura\nSheohar\nSitamarhi\nSiwan\nSupaul\nVaishali\nWest Champaran\nAurangabad\nTaluka * \n-- Select Taluka --\nAurangabad\nSillod\nAurangabad\nVillage * \n-- Select Villege --\nAchuki\nAranda\nAranda\nLand Co-ordinates\nLatitude Degree *\nLatitude Minutes *\nLatitude Seconds *\nLatitude Direction \nSelect Direction\nNorth\nSouth\nNorth\nDecimal Latitude\nLongititude Degree *\nLongititude Minutes *\nLongititude Seconds *\nLongitude Direction \nSelect Direction\nEast\nWest\nEast\nDecimal Longitude\nSubstation * \nSelect Substation\nKharagpur Substation\nSantaldih Substation\nKolaghat Substation\nHowrah Substation\nHaldia Substation\nDurgapur Substation\nDigha Substation\nDurgapur Substation\nCTU/STU * \nSelect Type\nCTU\nSTU\nCTU\nSub-Station Co-ordinates\nLatitude Degree *\nLatitude Minutes *\nLatitude Seconds *\nLatitude Direction \nSelect Direction\nNorth\nSouth\nNorth\nDecimal Latitude\nLongititude Degree *\nLongititude Minutes *\nLongititude Seconds *\nLongititude Direction \nSelect Direction\nEast\nWest\nEast\nDecimal Longitude\nAdditional Details\nTL Distance (km) *\nSS Evacuation Capacity (MW) *\nVoltage Level (kV) *\nSS Readiness * \nSelect Readiness\nReady\nNot Ready\nIn Progress\nReady\nLand Quantum Offered (Lease) *\nLand Quantum Offered (Purchase) *\nLand Quantum Offered (Total) *\nConnectivity Status * \nSelect Status\nConnected\nNot Connected\nIn Progress\nConnected\nQuantum of Connectivity *\nRemarks *\nDocument Section\n\nDocument Type *\n\nDocument Variant *\n\nPhysical File Location *\n\nTitle *\n\nDocument *\n\nSelect Document Type\nAgreement Document\nAffidavit\nApplication Document\nMutation Certificate\nTax Receipt\nApplication Document\nSelect Document Variant\nOriginal\nCertified True Copy\nPlease select document variant\nClick or drop file\nPlease upload document\n+\nCreate Land Bank"
+    }
+  ],
+  "invalid": [
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SMALL.text-danger",
+      "text": "*"
+    },
+    {
+      "sel": "SELECT.form-select required_value is-invalid",
+      "text": "Select Document Variant\nOriginal\nCertified True Copy"
+    },
+    {
+      "sel": "SPAN.text-danger",
+      "text": "Please select document variant"
+    },
+    {
+      "sel": "DIV.m-dropzone dropzone required_value dropzone-plot-document dz-clickable is-invalid",
+      "text": "Click or drop file"
+    },
+    {
+      "sel": "DIV.dz-error-message text-danger",
+      "text": "Please upload document"
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/create/1"
+}

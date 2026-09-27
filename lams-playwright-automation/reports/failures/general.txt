@@ -1,0 +1,112 @@
+LAMS failure details - module 'general' (1 failed test case(s))
+
+==============================================================================
+(no TC id) - test_view_existing_land_proposal   [FAILED]
+==============================================================================
+  Module / page    : general
+  Node id          : tests/test_lams_e2e.py::test_view_existing_land_proposal[chromium]
+  Failed in phase  : call
+  Duration         : 36.3s
+  Page url         : https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652
+  Error type       : AssertionError
+  Error message    : assert '' == '2026-09-20'
+  
+  - 2026-09-20
+  Assertion        : assert '' == '2026-09-20'
+  Screenshot       : screenshots/general/view_existing_land_proposal_FAILED.png
+  Playwright artifacts: none (rerun with --tracing=retain-on-failure to record a trace)
+  Traceback:
+      page = <Page url='https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652'>
+      
+          @pytest.mark.smoke
+          @pytest.mark.e2e
+          def test_view_existing_land_proposal(page):
+              """
+              READ-ONLY "View" flow - the third row action of the Land Proposals
+              list (View / Edit / Convert to Project / Send Approval).
+          
+              Deliberate difference from the two flows above: it must prove NOTHING
+              is written. It never opens the wizard and never submits a form; it
+              asserts both that the record's stored values are what is displayed
+              and that the page offers no way to change them.
+          
+              Steps:
+                1-5. Login -> OTP -> Renewable -> Proceed -> Land Proposals list
+                     (same journey as the create/edit flows); capture total entries.
+                6.   Row action menu -> View. The href the item targets is
+                     remembered.
+                7.   The URL must be that same .../land-banks/<uuid> - NOT /edit.
+                     (The View page does not render the proposal name, so the uuid
+                     is what proves the correct record opened.)
+                8.   Heading "View Land Proposal" plus the three sections: Land Bank
+                     Details (Step 1 data), Engineering Team Details (Step 2) and
+                     BD Team Details (Step 3).
+                9.   The record's stored values are on screen. Numbers are compared
+                     as numbers - the page pads them ("50.0000000000").
+                10.  READ-ONLY: zero input/select/textarea elements, zero
+                     type="submit" controls, no visible write action at all.
+                11.  "Back to List" -> the Land Proposals list with an UNCHANGED
+                     total-entry count (viewing writes nothing).
+              """
+              # 1. Login
+              login_page = LoginPage(page).open(BASE_URL)
+              login_page.login(LOGIN_EMAIL, LOGIN_PASSWORD)
+          
+              # 2. OTP
+              OtpPage(page).enter_otp(OTP)
+          
+              # 3 & 4. Select Renewable, then Proceed
+              industry_page = IndustrySelectionPage(page)
+              industry_page.select_industry(INDUSTRY)
+              industry_page.confirm_proceed()
+          
+              dashboard_page = DashboardPage(page)
+              assert dashboard_page.is_loaded(), "Dashboard did not load after clicking Proceed"
+          
+              # 5. Land Identification / Proposal list + baseline record count
+              dashboard_page.go_to_land_identification()
+              land_proposals_page = LandProposalsPage(page)
+              assert land_proposals_page.is_loaded(), "Land Proposals List page did not load"
+              total_before = land_proposals_page.total_entries()
+              print(f"\n[view] entries before: {total_before}")
+          
+              # 6. Row action menu -> View (never "Add New Land Proposal")
+              view_href = land_proposals_page.click_view_existing(
+                  WIND_PROJECT_DATA["proposal_name"]
+              )
+              print(f"[view] menu item href: {view_href}")
+          
+              # 7. The right record, in READ-ONLY form
+              view_page = ViewLandProposalPage(page)
+              assert view_page.is_loaded(), (
+                  'The View page did not load (no "View Land Proposal" heading)'
+              )
+              assert not re.search(r"/edit", page.url), (
+                  f"View landed on an EDIT url: {page.url}"
+              )
+              assert page.url.rstrip("/") == view_href.rstrip("/"), (
+                  "View opened a different record than its menu item links to: "
+                  f"{page.url} != {view_href}"
+              )
+              print(f"[view] url: {page.url}")
+          
+              # 8. The three sections of stored data
+              for section in ViewLandProposalPage.SECTIONS:
+                  assert view_page.has_section(section), (
+                      f"The View page is missing the {section!r} section"
+                  )
+          
+              # 9. Stored values (the record was created with WIND_PROJECT_DATA)
+              data = WIND_PROJECT_DATA
+              assert view_page.detail(ViewLandProposalPage.STATE) == data["state"]
+              assert view_page.detail(ViewLandProposalPage.LAND_TYPE) == data["land_type"]
+              assert view_page.detail(ViewLandProposalPage.COMPANY) == data["company"]
+              assert view_page.detail(ViewLandProposalPage.PROJECT_TYPE) == data["project_type"]
+      >       assert view_page.detail(ViewLandProposalPage.SITE_VISIT_DATE) == \
+                  data["site_visit_date"]
+      E       AssertionError: assert '' == '2026-09-20'
+      E         
+      E         - 2026-09-20
+      
+      tests\test_lams_e2e.py:283: AssertionError
+

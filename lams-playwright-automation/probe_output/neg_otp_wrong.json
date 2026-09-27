@@ -1,0 +1,27 @@
+{
+  "alerts": [],
+  "headings": [
+    {
+      "sel": "H1.lams-hero-title swiftUpElements",
+      "text": "Empowering Governance,\nEmpowering You"
+    },
+    {
+      "sel": "H3.welcome-title",
+      "text": "Two Step Verification 💬"
+    }
+  ],
+  "buttons": [
+    {
+      "sel": "BUTTON.btn-lams-submit w-100 mb-3",
+      "text": "Verify my account"
+    }
+  ],
+  "activeStep": [],
+  "invalid": [
+    {
+      "sel": "DIV.invalid-feedback error-message d-block mt-1",
+      "text": "The OTP is incorrect."
+    }
+  ],
+  "url": "https://uat.lamsapp.com/php8_4/product/advanced/current/auth/validate-otp?_cred=eyJpdiI6InZ3ZS9jN3F5em9OS3JPa3dKV2JpZXc9PSIsInZhbHVlIjoiSVlXSGQreXZkRmV2WndNRkIvaXliY25scmphb0lRMmFSVWJCMnRBdXFoOD0iLCJtYWMiOiIyYzdjYWM0MDMzN2ExMmU2ZGFhNDgzN2ZlZGE4MTEyYWMyNTZmNjA4YjRkZWRmYTY1ZmM1ZTM1ZTdlOTQzNTcyIiwidGFnIjoiIn0%3D&expires=1790274372&signature=86a2944eee87d710dd7fa466889c2a750a4840874a1678fa10f6c16f99261210"
+}

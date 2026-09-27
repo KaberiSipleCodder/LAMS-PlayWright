@@ -1,0 +1,22 @@
+{
+  "list_url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks",
+  "entries_baseline": 52,
+  "step1_check": {
+    "step1_banner": "Step 1 updated. Proceed to Step 2.",
+    "before": {
+      "site_visit_date": "2026-09-20",
+      "plant_size": "50.0000000000",
+      "basic_cost_sale": "",
+      "state": "Bihar",
+      "view_url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652"
+    },
+    "after": {
+      "site_visit_date": "2026-09-20",
+      "plant_size": "50.0000000000",
+      "basic_cost_sale": "",
+      "state": "Bihar",
+      "view_url": "https://uat.lamsapp.com/php8_4/product/advanced/current/land-banks/0e42f98e-5e9e-4328-809d-a39a90098652"
+    },
+    "steps_2_3_survived": true
+  }
+}

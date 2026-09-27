@@ -1,0 +1,251 @@
+{
+  "controls": [
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_land_basic_cost_sale",
+      "id": "tlbbt_land_basic_cost_sale",
+      "placeholder": "Enter Basic Cost Sale",
+      "label": "Basic Cost Sale *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_land_basic_cost_lease",
+      "id": "tlbbt_land_basic_cost_lease",
+      "placeholder": "Enter Basic Cost Lease",
+      "label": "Basic Cost Lease *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_stamp_duty_and_reg_charges_sale",
+      "id": "tlbbt_stamp_duty_and_reg_charges_sale",
+      "placeholder": "Enter Stamp Duty & Reg. Charges Sale",
+      "label": "Stamp Duty & Reg. Charges Sale *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_stamp_duty_and_reg_charges_lease",
+      "id": "tlbbt_stamp_duty_and_reg_charges_lease",
+      "placeholder": "Enter Stamp Duty & Reg. Charges Lease",
+      "label": "Stamp Duty & Reg. Charges Lease *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_other_stat_charges",
+      "id": "tlbbt_other_stat_charges",
+      "placeholder": "Enter Other Statutory Charges",
+      "label": "Other Statutory Charges *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_service_fee_sale",
+      "id": "tlbbt_service_fee_sale",
+      "placeholder": "Enter Service Fee Sale",
+      "label": "Service Fee Sale *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_service_fee_lease",
+      "id": "tlbbt_service_fee_lease",
+      "placeholder": "Enter Service Fee Lease",
+      "label": "Service Fee Lease *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_lease_tenure_years",
+      "id": "tlbbt_lease_tenure_years",
+      "placeholder": "Enter Lease Tenure (Years)",
+      "label": "Lease Tenure (Years) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_lease_escalation_rate",
+      "id": "tlbbt_lease_escalation_rate",
+      "placeholder": "Enter Lease Escalation Rate (%)",
+      "label": "Lease Escalation Rate (%) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_lease_escalation_frequency_years",
+      "id": "tlbbt_lease_escalation_frequency_years",
+      "placeholder": "Enter Lease Escalation Frequency (Years)",
+      "label": "Lease Escalation Frequency (Years) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_total_land_cost",
+      "id": "tlbbt_total_land_cost",
+      "placeholder": "Enter Total Land Cost",
+      "label": "Total Land Cost to be considered for BD *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_service_fee",
+      "id": "tlbbt_service_fee",
+      "placeholder": "Enter Service Fee",
+      "label": "Service Fee *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlbbt_commercial_negotiation",
+      "id": "tlbbt_commercial_negotiation",
+      "placeholder": "",
+      "label": "Commercial Negotiation *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-select select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select",
+          "value": ""
+        },
+        {
+          "text": "Completed",
+          "value": "1"
+        },
+        {
+          "text": "Pending",
+          "value": "2"
+        }
+      ],
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_land_cost_to_be_considered_for_bd",
+      "id": "tlbbt_land_cost_to_be_considered_for_bd",
+      "placeholder": "Enter Land Cost to be considered for BD",
+      "label": "Land Cost to be considered for BD *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_land_being_considered_for",
+      "id": "tlbbt_land_being_considered_for",
+      "placeholder": "Enter Land being considered for",
+      "label": "Land being considered for *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbbt_tariff_due_to_this_land",
+      "id": "tlbbt_tariff_due_to_this_land",
+      "placeholder": "Enter Tariff due to this land",
+      "label": "Tariff due to this land *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Save",
+      "classes": "btn btn-primary"
+    }
+  ],
+  "headings": [
+    "Add New Land Proposal Details"
+  ],
+  "stepper": []
+}

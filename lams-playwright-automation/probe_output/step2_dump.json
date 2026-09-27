@@ -1,0 +1,289 @@
+{
+  "controls": [
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_plant_size",
+      "id": "tlbet_plant_size",
+      "placeholder": "Enter Plant Size Feasible",
+      "label": "Plant Size Feasible (MW) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_land_quantum_usable",
+      "id": "tlbet_land_quantum_usable",
+      "placeholder": "Enter Land Quantum Usable",
+      "label": "Land Quantum Usable (Acres) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_shape_index",
+      "id": "tlbet_shape_index",
+      "placeholder": "Enter Shape Index",
+      "label": "Shape Index *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlbet_fit_for_tracker",
+      "id": "tlbet_fit_for_tracker",
+      "placeholder": "",
+      "label": "Fit for Tracker *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-select select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select",
+          "value": ""
+        },
+        {
+          "text": "Yes",
+          "value": "1"
+        },
+        {
+          "text": "No",
+          "value": "2"
+        }
+      ],
+      "value": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlbet_site_visit_status",
+      "id": "tlbet_site_visit_status",
+      "placeholder": "",
+      "label": "Site Visit Status *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-select select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select Status",
+          "value": ""
+        },
+        {
+          "text": "Completed",
+          "value": "1"
+        },
+        {
+          "text": "Pending",
+          "value": "2"
+        }
+      ],
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "date",
+      "name": "tlbet_site_visit_date",
+      "id": "tlbet_site_visit_date",
+      "placeholder": "",
+      "label": "Site Visit Date",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_ease_of_acquisition",
+      "id": "tlbet_ease_of_acquisition",
+      "placeholder": "Enter Ease of Acquisition (0-10)",
+      "label": "Ease of Acquisition (0-10) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_ghi",
+      "id": "tlbet_ghi",
+      "placeholder": "Enter GHI",
+      "label": "GHI *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_albedo",
+      "id": "tlbet_albedo",
+      "placeholder": "Enter Albedo (0-1)",
+      "label": "Albedo (0-1) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_dc_feasible",
+      "id": "tlbet_dc_feasible",
+      "placeholder": "Enter DC Feasible",
+      "label": "DC Feasible *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_energy_yield",
+      "id": "tlbet_energy_yield",
+      "placeholder": "Enter Energy Yield",
+      "label": "Energy Yield *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "input",
+      "type": "text",
+      "name": "tlbet_plf_of_plant",
+      "id": "tlbet_plf_of_plant",
+      "placeholder": "Enter PLF of Plant (0-1)",
+      "label": "PLF of Plant (0-1) *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-control ",
+      "options": null,
+      "value": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlbet_environment_study_status",
+      "id": "tlbet_environment_study_status",
+      "placeholder": "",
+      "label": "Environment Study Status *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-select select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select",
+          "value": ""
+        },
+        {
+          "text": "Completed",
+          "value": "1"
+        },
+        {
+          "text": "Pending",
+          "value": "2"
+        }
+      ],
+      "value": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlbet_go_no_go_from_environment_team",
+      "id": "tlbet_go_no_go_from_environment_team",
+      "placeholder": "",
+      "label": "Go/No-Go from Environment Team *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-select select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select",
+          "value": ""
+        },
+        {
+          "text": "Yes",
+          "value": "1"
+        },
+        {
+          "text": "No",
+          "value": "2"
+        }
+      ],
+      "value": ""
+    },
+    {
+      "tag": "select",
+      "type": "select-one",
+      "name": "tlbet_go_no_go_from_engineering_team",
+      "id": "tlbet_go_no_go_from_engineering_team",
+      "placeholder": "",
+      "label": "Go/No-Go from Engineering Team *",
+      "required": false,
+      "disabled": false,
+      "readonly": false,
+      "classes": "form-select select2_search select2-hidden-accessible",
+      "options": [
+        {
+          "text": "Select",
+          "value": ""
+        },
+        {
+          "text": "Yes",
+          "value": "1"
+        },
+        {
+          "text": "No",
+          "value": "2"
+        }
+      ],
+      "value": ""
+    }
+  ],
+  "buttons": [
+    {
+      "text": "Save",
+      "classes": "btn btn-primary"
+    }
+  ],
+  "headings": [
+    "Add New Land Proposal Details"
+  ],
+  "stepper": []
+}
